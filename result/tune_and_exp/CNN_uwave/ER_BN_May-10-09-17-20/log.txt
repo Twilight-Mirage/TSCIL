@@ -1,0 +1,3261 @@
+
+ ######## Run 0, cls_order :[2, 1, 6, 0, 4, 5, 3, 7] ########
+== Status ==
+Current time: 2024-05-10 09:17:25 (running for 00:00:00.13)
+Memory usage on this node: 6.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | PENDING  |                        | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+[2m[36m(func pid=1354277)[0m buffer has 40 slots
+[2m[36m(func pid=1354277)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1354277)[0m Create val stream : 4 tasks,  classes order [2, 1, 6, 0, 4, 5, 3, 7] 
+[2m[36m(func pid=1354277)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1354277)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:17:34 (running for 00:00:09.69)
+Memory usage on this node: 9.5/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | RUNNING  | 114.212.87.168:1354787 | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+[2m[36m(func pid=1354787)[0m buffer has 40 slots
+[2m[36m(func pid=1354787)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1354787)[0m Create val stream : 4 tasks,  classes order [2, 1, 6, 0, 4, 5, 3, 7] 
+[2m[36m(func pid=1354787)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1354787)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:17:39 (running for 00:00:14.70)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | RUNNING  | 114.212.87.168:1354787 | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:17:44 (running for 00:00:19.71)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | RUNNING  | 114.212.87.168:1354787 | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:17:49 (running for 00:00:24.71)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | RUNNING  | 114.212.87.168:1354787 | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+[2m[36m(func pid=1354787)[0m -- Run_val 0 | 20.70198631286621 sec -- Test Acc: [ 72.73  76.    56.   100.  ] -- 
+[2m[36m(func pid=1354787)[0m buffer has 40 slots
+[2m[36m(func pid=1354787)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1354787)[0m Create val stream : 4 tasks,  classes order [2, 1, 6, 0, 4, 5, 3, 7] 
+[2m[36m(func pid=1354787)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1354787)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:17:54 (running for 00:00:29.71)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | RUNNING  | 114.212.87.168:1354787 | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+[2m[36m(func pid=1354277)[0m -- Run_val 0 | 25.805970191955566 sec -- Test Acc: [ 81.82  60.    52.   100.  ] -- 
+[2m[36m(func pid=1354277)[0m buffer has 40 slots
+[2m[36m(func pid=1354277)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1354277)[0m Create val stream : 4 tasks,  classes order [2, 1, 6, 0, 4, 5, 3, 7] 
+[2m[36m(func pid=1354277)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1354277)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:17:59 (running for 00:00:34.72)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | RUNNING  | 114.212.87.168:1354787 | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:18:04 (running for 00:00:39.72)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | RUNNING  | 114.212.87.168:1354787 | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:18:09 (running for 00:00:44.73)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | RUNNING  | 114.212.87.168:1354787 | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:18:14 (running for 00:00:49.73)
+Memory usage on this node: 11.0/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | RUNNING  | 114.212.87.168:1354787 | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:18:19 (running for 00:00:54.73)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | RUNNING  | 114.212.87.168:1354787 | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+[2m[36m(func pid=1354277)[0m -- Run_val 1 | 25.17259669303894 sec -- Test Acc: [ 81.82  68.    60.   100.  ] -- 
+[2m[36m(func pid=1354277)[0m buffer has 40 slots
+[2m[36m(func pid=1354277)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1354277)[0m Create val stream : 4 tasks,  classes order [2, 1, 6, 0, 4, 5, 3, 7] 
+[2m[36m(func pid=1354277)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1354277)[0m Training set size: 722; Val set size: 84; Test set size: 90
+[2m[36m(func pid=1354787)[0m -- Run_val 1 | 28.020365238189697 sec -- Test Acc: [ 77.27  60.    64.   100.  ] -- 
+[2m[36m(func pid=1354787)[0m buffer has 40 slots
+[2m[36m(func pid=1354787)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1354787)[0m Create val stream : 4 tasks,  classes order [2, 1, 6, 0, 4, 5, 3, 7] 
+[2m[36m(func pid=1354787)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1354787)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:18:24 (running for 00:00:59.74)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | RUNNING  | 114.212.87.168:1354787 | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:18:29 (running for 00:01:04.75)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | RUNNING  | 114.212.87.168:1354787 | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:18:34 (running for 00:01:09.75)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | RUNNING  | 114.212.87.168:1354787 | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:18:39 (running for 00:01:14.75)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 0f2db_00000  | RUNNING  | 114.212.87.168:1354277 | TST             |
+| 0f2db_00001  | RUNNING  | 114.212.87.168:1354787 | step10          |
+| 0f2db_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+[2m[36m(func pid=1354787)[0m -- Run_val 2 | 18.466063261032104 sec -- Test Acc: [ 68.18  88.    44.   100.  ] -- 
+[2m[36m(func pid=1354787)[0m buffer has 40 slots
+[2m[36m(func pid=1354787)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1354787)[0m Create val stream : 4 tasks,  classes order [2, 1, 6, 0, 4, 5, 3, 7] 
+[2m[36m(func pid=1354787)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1354787)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:18:46 (running for 00:01:21.00)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (2 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 0f2db_00000  | RUNNING    | 114.212.87.168:1354277 | TST             |               |               |
+| 0f2db_00002  | RUNNING    | 114.212.87.168:1354787 | step15          |               |               |
+| 0f2db_00001  | TERMINATED | 114.212.87.168:1354787 | step10          |        75.515 |       26.4244 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+[2m[36m(func pid=1354277)[0m -- Run_val 2 | 26.29516291618347 sec -- Test Acc: [ 63.64  44.    52.   100.  ] -- 
+== Status ==
+Current time: 2024-05-10 09:18:52 (running for 00:01:27.01)
+Memory usage on this node: 8.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 0f2db_00002  | RUNNING    | 114.212.87.168:1354787 | step15          |               |               |
+| 0f2db_00000  | TERMINATED | 114.212.87.168:1354277 | TST             |        71.94  |       35.1911 |
+| 0f2db_00001  | TERMINATED | 114.212.87.168:1354787 | step10          |        75.515 |       26.4244 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:18:57 (running for 00:01:32.02)
+Memory usage on this node: 8.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 0f2db_00002  | RUNNING    | 114.212.87.168:1354787 | step15          |               |               |
+| 0f2db_00000  | TERMINATED | 114.212.87.168:1354277 | TST             |        71.94  |       35.1911 |
+| 0f2db_00001  | TERMINATED | 114.212.87.168:1354787 | step10          |        75.515 |       26.4244 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:19:02 (running for 00:01:37.02)
+Memory usage on this node: 8.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 0f2db_00002  | RUNNING    | 114.212.87.168:1354787 | step15          |               |               |
+| 0f2db_00000  | TERMINATED | 114.212.87.168:1354277 | TST             |        71.94  |       35.1911 |
+| 0f2db_00001  | TERMINATED | 114.212.87.168:1354787 | step10          |        75.515 |       26.4244 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:19:07 (running for 00:01:42.03)
+Memory usage on this node: 8.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 0f2db_00002  | RUNNING    | 114.212.87.168:1354787 | step15          |               |               |
+| 0f2db_00000  | TERMINATED | 114.212.87.168:1354277 | TST             |        71.94  |       35.1911 |
+| 0f2db_00001  | TERMINATED | 114.212.87.168:1354787 | step10          |        75.515 |       26.4244 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+[2m[36m(func pid=1354787)[0m -- Run_val 0 | 27.081758737564087 sec -- Test Acc: [ 63.64  64.    68.   100.  ] -- 
+[2m[36m(func pid=1354787)[0m buffer has 40 slots
+[2m[36m(func pid=1354787)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1354787)[0m Create val stream : 4 tasks,  classes order [2, 1, 6, 0, 4, 5, 3, 7] 
+[2m[36m(func pid=1354787)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1354787)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:19:12 (running for 00:01:47.03)
+Memory usage on this node: 8.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 0f2db_00002  | RUNNING    | 114.212.87.168:1354787 | step15          |               |               |
+| 0f2db_00000  | TERMINATED | 114.212.87.168:1354277 | TST             |        71.94  |       35.1911 |
+| 0f2db_00001  | TERMINATED | 114.212.87.168:1354787 | step10          |        75.515 |       26.4244 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:19:17 (running for 00:01:52.03)
+Memory usage on this node: 8.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 0f2db_00002  | RUNNING    | 114.212.87.168:1354787 | step15          |               |               |
+| 0f2db_00000  | TERMINATED | 114.212.87.168:1354277 | TST             |        71.94  |       35.1911 |
+| 0f2db_00001  | TERMINATED | 114.212.87.168:1354787 | step10          |        75.515 |       26.4244 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:19:22 (running for 00:01:57.04)
+Memory usage on this node: 8.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 0f2db_00002  | RUNNING    | 114.212.87.168:1354787 | step15          |               |               |
+| 0f2db_00000  | TERMINATED | 114.212.87.168:1354277 | TST             |        71.94  |       35.1911 |
+| 0f2db_00001  | TERMINATED | 114.212.87.168:1354787 | step10          |        75.515 |       26.4244 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:19:27 (running for 00:02:02.04)
+Memory usage on this node: 8.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 0f2db_00002  | RUNNING    | 114.212.87.168:1354787 | step15          |               |               |
+| 0f2db_00000  | TERMINATED | 114.212.87.168:1354277 | TST             |        71.94  |       35.1911 |
+| 0f2db_00001  | TERMINATED | 114.212.87.168:1354787 | step10          |        75.515 |       26.4244 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+[2m[36m(func pid=1354787)[0m -- Run_val 1 | 20.91380763053894 sec -- Test Acc: [ 77.27  56.    36.   100.  ] -- 
+[2m[36m(func pid=1354787)[0m buffer has 40 slots
+[2m[36m(func pid=1354787)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1354787)[0m Create val stream : 4 tasks,  classes order [2, 1, 6, 0, 4, 5, 3, 7] 
+[2m[36m(func pid=1354787)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1354787)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:19:32 (running for 00:02:07.05)
+Memory usage on this node: 8.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 0f2db_00002  | RUNNING    | 114.212.87.168:1354787 | step15          |               |               |
+| 0f2db_00000  | TERMINATED | 114.212.87.168:1354277 | TST             |        71.94  |       35.1911 |
+| 0f2db_00001  | TERMINATED | 114.212.87.168:1354787 | step10          |        75.515 |       26.4244 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:19:37 (running for 00:02:12.05)
+Memory usage on this node: 8.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 0f2db_00002  | RUNNING    | 114.212.87.168:1354787 | step15          |               |               |
+| 0f2db_00000  | TERMINATED | 114.212.87.168:1354277 | TST             |        71.94  |       35.1911 |
+| 0f2db_00001  | TERMINATED | 114.212.87.168:1354787 | step10          |        75.515 |       26.4244 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-10 09:19:42 (running for 00:02:17.06)
+Memory usage on this node: 8.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 0f2db_00002  | RUNNING    | 114.212.87.168:1354787 | step15          |               |               |
+| 0f2db_00000  | TERMINATED | 114.212.87.168:1354277 | TST             |        71.94  |       35.1911 |
+| 0f2db_00001  | TERMINATED | 114.212.87.168:1354787 | step10          |        75.515 |       26.4244 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+[2m[36m(func pid=1354787)[0m -- Run_val 2 | 16.71461319923401 sec -- Test Acc: [ 68.18  56.    68.   100.  ] -- 
+== Status ==
+Current time: 2024-05-10 09:19:45 (running for 00:02:20.76)
+Memory usage on this node: 8.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 0/32 CPUs, 0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (3 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 0f2db_00000  | TERMINATED | 114.212.87.168:1354277 | TST             |       71.94   |       35.1911 |
+| 0f2db_00001  | TERMINATED | 114.212.87.168:1354787 | step10          |       75.515  |       26.4244 |
+| 0f2db_00002  | TERMINATED | 114.212.87.168:1354787 | step15          |       71.4242 |       32.7678 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+Best trial config: {'generic': {'lr': 0.001, 'lradj': 'step10', 'batch_size': 32, 'weight_decay': 0}, 'model': {'feature_dim': 128, 'n_layers': 4, 'dropout': 0}, 'agent': {}}
+Best trial metrics: {'end_avg_acc': 75.515, 'end_avg_fgt': 26.424444444444447, 'avg_cur_acc': 95.33333333333333, 'Acc_across_runs': array([[[100.  ,   0.  ,   0.  ,   0.  ],
+        [100.  ,  96.  ,   0.  ,   0.  ],
+        [ 81.82,  92.  ,  84.  ,   0.  ],
+        [ 72.73,  76.  ,  56.  , 100.  ]],
+
+       [[100.  ,   0.  ,   0.  ,   0.  ],
+        [ 95.45,  92.  ,   0.  ,   0.  ],
+        [ 90.91,  80.  ,  92.  ,   0.  ],
+        [ 77.27,  60.  ,  64.  , 100.  ]],
+
+       [[100.  ,   0.  ,   0.  ,   0.  ],
+        [ 95.45,  96.  ,   0.  ,   0.  ],
+        [ 90.91,  96.  ,  84.  ,   0.  ],
+        [ 68.18,  88.  ,  44.  , 100.  ]]]), 'time_this_iter_s': 67.20993328094482, 'done': True, 'timesteps_total': None, 'episodes_total': None, 'training_iteration': 1, 'trial_id': '0f2db_00001', 'experiment_id': '3fe68a93ad194ef9acaecf754903f241', 'date': '2024-05-10_09-18-41', 'timestamp': 1715303921, 'time_total_s': 67.20993328094482, 'pid': 1354787, 'hostname': 'rinc1080ti-PR4764GW', 'node_ip': '114.212.87.168', 'config': {'generic': {'lr': 0.001, 'lradj': 'step10', 'batch_size': 32, 'weight_decay': 0}, 'model': {'feature_dim': 128, 'n_layers': 4, 'dropout': 0}, 'agent': {}}, 'time_since_restore': 67.20993328094482, 'timesteps_since_restore': 0, 'iterations_since_restore': 1, 'warmup_time': 0.004509925842285156, 'experiment_tag': '1_lradj=step10'}
+namespace(data='uwave', encoder='CNN', agent='ER', norm='BN', scenario='class', runs=5, runs_val=3, seed=1234, verbose=True, path_prefix='/disk2/lihuajian/TSCIL/result/tune_and_exp', fix_order=False, reuse_best=False, tsne=True, tsne_g=False, cf_matrix=True, epochs=100, tune=False, ablation=False, teacher_eval=False, er_mode='task', buffer_tracker=False, early_stop=True, patience=20, input_norm='IN', mem_budget=0.05, head='Linear', criterion='CE', ncm_classifier=True, er_sub_type='balanced', device='cuda', exp_path='/disk2/lihuajian/TSCIL/result/tune_and_exp/CNN_uwave/ER_BN_May-10-09-17-20', run_id=0, stream_split='exp', feature_dim=128, n_layers=4, dropout=0, lr=0.001, lradj='step10', batch_size=32, weight_decay=0)
+Create exp stream : 4 tasks,  classes order [2, 1, 6, 0, 4, 5, 3, 7] 
+Input shape (L, D): (315, 3)
+Training set size: 722; Val set size: 84; Test set size: 3582
+buffer has 40 slots
+ER mode: task, NCM classifier: True
+
+--> Task 0: 2 classes in total
+Epoch 1/100: Accuracy = 64.53488372093024, Loss = 0.5727010369300842
+Epoch 2/100: Accuracy = 95.93023255813954, Loss = 0.08582105487585068
+Epoch 3/100: Accuracy = 99.4186046511628, Loss = 0.01603255607187748
+Epoch 4/100: Accuracy = 100.0, Loss = 0.0059866104274988174
+Epoch 5/100: Accuracy = 100.0, Loss = 0.0035309423692524433
+Epoch 6/100: Accuracy = 100.0, Loss = 0.0013501853682100773
+Epoch 7/100: Accuracy = 100.0, Loss = 0.0018890006467700005
+Epoch 8/100: Accuracy = 100.0, Loss = 0.0009076702408492565
+Epoch 9/100: Accuracy = 100.0, Loss = 0.0004419863107614219
+Epoch 10/100: Accuracy = 100.0, Loss = 0.00015854038065299392
+Epoch 11/100: Accuracy = 100.0, Loss = 8.676588186062872e-05
+Epoch 12/100: Accuracy = 100.0, Loss = 0.00019028453971259296
+Epoch 13/100: Accuracy = 100.0, Loss = 0.001015960704535246
+Epoch 14/100: Accuracy = 100.0, Loss = 0.0048730503767728806
+Epoch 15/100: Accuracy = 100.0, Loss = 0.0018903850577771664
+Epoch 16/100: Accuracy = 100.0, Loss = 0.0007706772885285318
+Epoch 17/100: Accuracy = 100.0, Loss = 7.44016797398217e-05
+Epoch 18/100: Accuracy = 100.0, Loss = 0.0008356684120371938
+Epoch 19/100: Accuracy = 100.0, Loss = 0.001627967692911625
+Epoch 20/100: Accuracy = 100.0, Loss = 0.0002888551098294556
+Epoch 21/100: Accuracy = 100.0, Loss = 0.00017177104018628597
+Epoch 22/100: Accuracy = 100.0, Loss = 0.00032041786471381783
+Epoch 23/100: Accuracy = 100.0, Loss = 9.687343117548153e-05
+Epoch 24/100: Accuracy = 100.0, Loss = 0.0001790713722584769
+Epoch 25/100: Accuracy = 100.0, Loss = 0.0001458711631130427
+Epoch 26/100: Accuracy = 100.0, Loss = 7.685662421863526e-05
+Epoch 27/100: Accuracy = 100.0, Loss = 0.0010249303886666894
+Epoch 28/100: Accuracy = 100.0, Loss = 6.074506381992251e-05
+Epoch 29/100: Accuracy = 100.0, Loss = 0.00017136064707301557
+Epoch 30/100: Accuracy = 100.0, Loss = 0.004633728414773941
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 100.0, Test CE Loss == 6.502802534669172e-06 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 99.77924944812362, Test CE Loss == 0.006545184645801783 ;
+
+--> Task 1: 4 classes in total
+Epoch 1/100: Accuracy = 1.6042780748663104, Loss = 2.5047526359558105
+Epoch 2/100: Accuracy = 45.98930481283423, Loss = 1.2739012241363525
+Epoch 3/100: Accuracy = 90.9090909090909, Loss = 0.6497855186462402
+Epoch 4/100: Accuracy = 97.32620320855615, Loss = 0.3004118502140045
+Epoch 5/100: Accuracy = 96.79144385026738, Loss = 0.1954609602689743
+Epoch 6/100: Accuracy = 98.93048128342245, Loss = 0.12896180152893066
+Epoch 7/100: Accuracy = 100.0, Loss = 0.08100461959838867
+Epoch 8/100: Accuracy = 100.0, Loss = 0.04897836595773697
+Epoch 9/100: Accuracy = 100.0, Loss = 0.02842731401324272
+Epoch 10/100: Accuracy = 100.0, Loss = 0.02894405834376812
+Epoch 11/100: Accuracy = 100.0, Loss = 0.028267793357372284
+Epoch 12/100: Accuracy = 100.0, Loss = 0.019346831366419792
+Epoch 13/100: Accuracy = 100.0, Loss = 0.026420680806040764
+Epoch 14/100: Accuracy = 100.0, Loss = 0.01425289548933506
+Epoch 15/100: Accuracy = 100.0, Loss = 0.013453235849738121
+Epoch 16/100: Accuracy = 100.0, Loss = 0.02174663543701172
+Epoch 17/100: Accuracy = 100.0, Loss = 0.012035105377435684
+Epoch 18/100: Accuracy = 100.0, Loss = 0.014102145098149776
+Epoch 19/100: Accuracy = 100.0, Loss = 0.014558783732354641
+Epoch 20/100: Accuracy = 99.46524064171123, Loss = 0.021699775010347366
+Epoch 21/100: Accuracy = 100.0, Loss = 0.014749482274055481
+Epoch 22/100: Accuracy = 100.0, Loss = 0.013773217797279358
+Epoch 23/100: Accuracy = 100.0, Loss = 0.012374966405332088
+Epoch 24/100: Accuracy = 100.0, Loss = 0.010267270728945732
+Epoch 25/100: Accuracy = 100.0, Loss = 0.011702085845172405
+Epoch 26/100: Accuracy = 100.0, Loss = 0.008915405720472336
+Epoch 27/100: Accuracy = 100.0, Loss = 0.010973896831274033
+Epoch 28/100: Accuracy = 100.0, Loss = 0.009323029778897762
+Epoch 29/100: Accuracy = 100.0, Loss = 0.008732413873076439
+Epoch 30/100: Accuracy = 100.0, Loss = 0.009299925528466702
+Epoch 31/100: Accuracy = 100.0, Loss = 0.009043348021805286
+Epoch 32/100: Accuracy = 100.0, Loss = 0.01529571320861578
+Epoch 33/100: Accuracy = 100.0, Loss = 0.009025683626532555
+Epoch 34/100: Accuracy = 100.0, Loss = 0.006817721761763096
+Epoch 35/100: Accuracy = 100.0, Loss = 0.00799580104649067
+Epoch 36/100: Accuracy = 100.0, Loss = 0.008349738083779812
+Epoch 37/100: Accuracy = 100.0, Loss = 0.01052629854530096
+Epoch 38/100: Accuracy = 100.0, Loss = 0.008504485711455345
+Epoch 39/100: Accuracy = 100.0, Loss = 0.006849692203104496
+Epoch 40/100: Accuracy = 100.0, Loss = 0.007067234721034765
+Epoch 41/100: Accuracy = 100.0, Loss = 0.012179553508758545
+Epoch 42/100: Accuracy = 100.0, Loss = 0.0073620956391096115
+Epoch 43/100: Accuracy = 100.0, Loss = 0.005748612340539694
+Epoch 44/100: Accuracy = 100.0, Loss = 0.006623826455324888
+Epoch 45/100: Accuracy = 100.0, Loss = 0.006841988768428564
+Epoch 46/100: Accuracy = 100.0, Loss = 0.011673676781356335
+Epoch 47/100: Accuracy = 100.0, Loss = 0.006686203181743622
+Epoch 48/100: Accuracy = 100.0, Loss = 0.006145838648080826
+Epoch 49/100: Accuracy = 100.0, Loss = 0.0072203269228339195
+Epoch 50/100: Accuracy = 100.0, Loss = 0.007005129009485245
+Epoch 51/100: Accuracy = 100.0, Loss = 0.006647263653576374
+Epoch 52/100: Accuracy = 100.0, Loss = 0.006962364073842764
+Epoch 53/100: Accuracy = 100.0, Loss = 0.005261655896902084
+Epoch 54/100: Accuracy = 100.0, Loss = 0.00483219837769866
+Epoch 55/100: Accuracy = 100.0, Loss = 0.00493259122595191
+Epoch 56/100: Accuracy = 100.0, Loss = 0.005533149000257254
+Epoch 57/100: Accuracy = 100.0, Loss = 0.004244748502969742
+Epoch 58/100: Accuracy = 100.0, Loss = 0.0053596701472997665
+Epoch 59/100: Accuracy = 100.0, Loss = 0.004336221609264612
+Epoch 60/100: Accuracy = 100.0, Loss = 0.0043110898695886135
+Epoch 61/100: Accuracy = 100.0, Loss = 0.00584332924336195
+Epoch 62/100: Accuracy = 100.0, Loss = 0.0053084846585989
+Epoch 63/100: Accuracy = 100.0, Loss = 0.004906284622848034
+Epoch 64/100: Accuracy = 100.0, Loss = 0.005707837175577879
+Epoch 65/100: Accuracy = 100.0, Loss = 0.005317792296409607
+Epoch 66/100: Accuracy = 100.0, Loss = 0.006599936634302139
+Epoch 67/100: Accuracy = 100.0, Loss = 0.004552800208330154
+Epoch 68/100: Accuracy = 100.0, Loss = 0.004511089064180851
+Epoch 69/100: Accuracy = 100.0, Loss = 0.005241760518401861
+Epoch 70/100: Accuracy = 100.0, Loss = 0.003253527916967869
+Epoch 71/100: Accuracy = 100.0, Loss = 0.0057556661777198315
+Epoch 72/100: Accuracy = 100.0, Loss = 0.00398588553071022
+Epoch 73/100: Accuracy = 100.0, Loss = 0.004101206548511982
+Epoch 74/100: Accuracy = 100.0, Loss = 0.0068108439445495605
+Epoch 75/100: Accuracy = 100.0, Loss = 0.00529022840783
+Epoch 76/100: Accuracy = 100.0, Loss = 0.003053090302273631
+Epoch 77/100: Accuracy = 100.0, Loss = 0.003853454254567623
+Epoch 78/100: Accuracy = 100.0, Loss = 0.006556371226906776
+Epoch 79/100: Accuracy = 100.0, Loss = 0.0037295781075954437
+Epoch 80/100: Accuracy = 100.0, Loss = 0.0032003584783524275
+Epoch 81/100: Accuracy = 100.0, Loss = 0.004559815861284733
+Epoch 82/100: Accuracy = 100.0, Loss = 0.002830537734553218
+Epoch 83/100: Accuracy = 100.0, Loss = 0.003924759104847908
+Epoch 84/100: Accuracy = 100.0, Loss = 0.00290333922021091
+Epoch 85/100: Accuracy = 100.0, Loss = 0.0036690530832856894
+Epoch 86/100: Accuracy = 100.0, Loss = 0.003075273474678397
+Epoch 87/100: Accuracy = 100.0, Loss = 0.005030989646911621
+Epoch 88/100: Accuracy = 100.0, Loss = 0.00389927439391613
+Epoch 89/100: Accuracy = 100.0, Loss = 0.0028522610664367676
+Epoch 90/100: Accuracy = 100.0, Loss = 0.002472034189850092
+Epoch 91/100: Accuracy = 100.0, Loss = 0.003081477712839842
+Epoch 92/100: Accuracy = 100.0, Loss = 0.0028758791740983725
+Epoch 93/100: Accuracy = 100.0, Loss = 0.0035467520356178284
+Epoch 94/100: Accuracy = 100.0, Loss = 0.0025500524789094925
+Epoch 95/100: Accuracy = 100.0, Loss = 0.0033245207741856575
+Epoch 96/100: Accuracy = 100.0, Loss = 0.002621363615617156
+Epoch 97/100: Accuracy = 100.0, Loss = 0.0021786147262901068
+Epoch 98/100: Accuracy = 100.0, Loss = 0.003290886990725994
+Epoch 99/100: Accuracy = 100.0, Loss = 0.002467261627316475
+Epoch 100/100: Accuracy = 100.0, Loss = 0.0023590060882270336
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 100.0, Test CE Loss == 0.10752002894878387 ;
+Task 1: Accuracy == 95.45454545454545, Test CE Loss == 0.018115371465682983 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 94.70198675496688, Test CE Loss == 0.22444836795330048 ;
+Task 1: Accuracy == 93.77828054298642, Test CE Loss == 0.07342106103897095 ;
+
+--> Task 2: 6 classes in total
+Epoch 1/100: Accuracy = 0.0, Loss = 4.134819984436035
+Epoch 2/100: Accuracy = 14.659685863874344, Loss = 2.565934658050537
+Epoch 3/100: Accuracy = 58.63874345549738, Loss = 1.6897896528244019
+Epoch 4/100: Accuracy = 69.63350785340315, Loss = 1.1321375370025635
+Epoch 5/100: Accuracy = 82.72251308900523, Loss = 0.7714709043502808
+Epoch 6/100: Accuracy = 92.67015706806284, Loss = 0.5172296166419983
+Epoch 7/100: Accuracy = 96.8586387434555, Loss = 0.33097043633461
+Epoch 8/100: Accuracy = 98.95287958115183, Loss = 0.22648435831069946
+Epoch 9/100: Accuracy = 100.0, Loss = 0.14187687635421753
+Epoch 10/100: Accuracy = 100.0, Loss = 0.1028752475976944
+Epoch 11/100: Accuracy = 100.0, Loss = 0.07556172460317612
+Epoch 12/100: Accuracy = 100.0, Loss = 0.07323559373617172
+Epoch 13/100: Accuracy = 100.0, Loss = 0.07401346415281296
+Epoch 14/100: Accuracy = 100.0, Loss = 0.06364957243204117
+Epoch 15/100: Accuracy = 100.0, Loss = 0.05379822105169296
+Epoch 16/100: Accuracy = 99.47643979057592, Loss = 0.08357449620962143
+Epoch 17/100: Accuracy = 100.0, Loss = 0.0591118298470974
+Epoch 18/100: Accuracy = 100.0, Loss = 0.05484342202544212
+Epoch 19/100: Accuracy = 100.0, Loss = 0.04635166376829147
+Epoch 20/100: Accuracy = 100.0, Loss = 0.049778711050748825
+Epoch 21/100: Accuracy = 100.0, Loss = 0.04885813221335411
+Epoch 22/100: Accuracy = 100.0, Loss = 0.04812714457511902
+Epoch 23/100: Accuracy = 100.0, Loss = 0.047333985567092896
+Epoch 24/100: Accuracy = 100.0, Loss = 0.041831742972135544
+Epoch 25/100: Accuracy = 100.0, Loss = 0.0400400385260582
+Epoch 26/100: Accuracy = 100.0, Loss = 0.03372775763273239
+Epoch 27/100: Accuracy = 100.0, Loss = 0.04248631000518799
+Epoch 28/100: Accuracy = 100.0, Loss = 0.04045042395591736
+Epoch 29/100: Accuracy = 100.0, Loss = 0.039219923317432404
+Epoch 30/100: Accuracy = 100.0, Loss = 0.03381368890404701
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 100.0, Test CE Loss == 0.29089194536209106 ;
+Task 1: Accuracy == 86.36363636363636, Test CE Loss == 0.7336698770523071 ;
+Task 2: Accuracy == 77.27272727272727, Test CE Loss == 0.44808894395828247 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 97.01986754966887, Test CE Loss == 0.38837453722953796 ;
+Task 1: Accuracy == 86.31221719457014, Test CE Loss == 0.6954812407493591 ;
+Task 2: Accuracy == 77.55102040816327, Test CE Loss == 0.28079816699028015 ;
+
+--> Task 3: 8 classes in total
+Epoch 1/100: Accuracy = 0.0, Loss = 3.657179594039917
+Epoch 2/100: Accuracy = 25.581395348837212, Loss = 2.2558956146240234
+Epoch 3/100: Accuracy = 83.72093023255815, Loss = 1.196967363357544
+Epoch 4/100: Accuracy = 94.18604651162791, Loss = 0.6706193685531616
+Epoch 5/100: Accuracy = 96.51162790697676, Loss = 0.41758179664611816
+Epoch 6/100: Accuracy = 94.76744186046511, Loss = 0.2950551211833954
+Epoch 7/100: Accuracy = 98.83720930232558, Loss = 0.18361881375312805
+Epoch 8/100: Accuracy = 99.4186046511628, Loss = 0.12559805810451508
+Epoch 9/100: Accuracy = 100.0, Loss = 0.09066271781921387
+Epoch 10/100: Accuracy = 99.4186046511628, Loss = 0.07284951955080032
+Epoch 11/100: Accuracy = 99.4186046511628, Loss = 0.049756430089473724
+Epoch 12/100: Accuracy = 100.0, Loss = 0.04030158370733261
+Epoch 13/100: Accuracy = 99.4186046511628, Loss = 0.0496983602643013
+Epoch 14/100: Accuracy = 99.4186046511628, Loss = 0.04466556757688522
+Epoch 15/100: Accuracy = 100.0, Loss = 0.03539256379008293
+Epoch 16/100: Accuracy = 100.0, Loss = 0.030434763059020042
+Epoch 17/100: Accuracy = 100.0, Loss = 0.0314144566655159
+Epoch 18/100: Accuracy = 100.0, Loss = 0.02773270756006241
+Epoch 19/100: Accuracy = 100.0, Loss = 0.037237487733364105
+Epoch 20/100: Accuracy = 100.0, Loss = 0.03367989510297775
+Epoch 21/100: Accuracy = 100.0, Loss = 0.027986962348222733
+Epoch 22/100: Accuracy = 100.0, Loss = 0.033450543880462646
+Epoch 23/100: Accuracy = 100.0, Loss = 0.02509772591292858
+Epoch 24/100: Accuracy = 100.0, Loss = 0.02362285554409027
+Epoch 25/100: Accuracy = 100.0, Loss = 0.026481062173843384
+Epoch 26/100: Accuracy = 99.4186046511628, Loss = 0.03566412255167961
+Epoch 27/100: Accuracy = 99.4186046511628, Loss = 0.0898594781756401
+Epoch 28/100: Accuracy = 100.0, Loss = 0.027871347963809967
+Epoch 29/100: Accuracy = 100.0, Loss = 0.02582443319261074
+Epoch 30/100: Accuracy = 100.0, Loss = 0.021229248493909836
+Epoch 31/100: Accuracy = 100.0, Loss = 0.023066772148013115
+Epoch 32/100: Accuracy = 100.0, Loss = 0.022324059158563614
+Epoch 33/100: Accuracy = 100.0, Loss = 0.0220855250954628
+Epoch 34/100: Accuracy = 100.0, Loss = 0.0216548889875412
+Epoch 35/100: Accuracy = 100.0, Loss = 0.026300480589270592
+Epoch 36/100: Accuracy = 100.0, Loss = 0.01799100451171398
+Epoch 37/100: Accuracy = 100.0, Loss = 0.017026351764798164
+Epoch 38/100: Accuracy = 100.0, Loss = 0.020916931331157684
+Epoch 39/100: Accuracy = 100.0, Loss = 0.022556057199835777
+Epoch 40/100: Accuracy = 100.0, Loss = 0.035432007163763046
+Epoch 41/100: Accuracy = 100.0, Loss = 0.023493221029639244
+Epoch 42/100: Accuracy = 100.0, Loss = 0.013834073208272457
+Epoch 43/100: Accuracy = 100.0, Loss = 0.01205953024327755
+Epoch 44/100: Accuracy = 100.0, Loss = 0.015272668562829494
+Epoch 45/100: Accuracy = 100.0, Loss = 0.02618924155831337
+Epoch 46/100: Accuracy = 100.0, Loss = 0.010988801717758179
+Epoch 47/100: Accuracy = 100.0, Loss = 0.014994308352470398
+Epoch 48/100: Accuracy = 100.0, Loss = 0.024674704298377037
+Epoch 49/100: Accuracy = 100.0, Loss = 0.01991381123661995
+Epoch 50/100: Accuracy = 100.0, Loss = 0.03389596566557884
+Epoch 51/100: Accuracy = 100.0, Loss = 0.011258596554398537
+Epoch 52/100: Accuracy = 100.0, Loss = 0.014705154113471508
+Epoch 53/100: Accuracy = 100.0, Loss = 0.01263799425214529
+Epoch 54/100: Accuracy = 100.0, Loss = 0.011995527893304825
+Epoch 55/100: Accuracy = 100.0, Loss = 0.01210038736462593
+Epoch 56/100: Accuracy = 100.0, Loss = 0.016282694414258003
+Epoch 57/100: Accuracy = 100.0, Loss = 0.009007110260426998
+Epoch 58/100: Accuracy = 100.0, Loss = 0.010089736431837082
+Epoch 59/100: Accuracy = 100.0, Loss = 0.00990532711148262
+Epoch 60/100: Accuracy = 100.0, Loss = 0.0090705631300807
+Epoch 61/100: Accuracy = 100.0, Loss = 0.02352716587483883
+Epoch 62/100: Accuracy = 100.0, Loss = 0.011706069111824036
+Epoch 63/100: Accuracy = 100.0, Loss = 0.011129366233944893
+Epoch 64/100: Accuracy = 100.0, Loss = 0.042550139129161835
+Epoch 65/100: Accuracy = 100.0, Loss = 0.00715390732511878
+Epoch 66/100: Accuracy = 100.0, Loss = 0.00642401073127985
+Epoch 67/100: Accuracy = 100.0, Loss = 0.007892045192420483
+Epoch 68/100: Accuracy = 100.0, Loss = 0.008009416982531548
+Epoch 69/100: Accuracy = 100.0, Loss = 0.007848572917282581
+Epoch 70/100: Accuracy = 100.0, Loss = 0.00635099783539772
+Epoch 71/100: Accuracy = 100.0, Loss = 0.0067366790026426315
+Epoch 72/100: Accuracy = 100.0, Loss = 0.005729495547711849
+Epoch 73/100: Accuracy = 100.0, Loss = 0.0108340410515666
+Epoch 74/100: Accuracy = 100.0, Loss = 0.008215202018618584
+Epoch 75/100: Accuracy = 100.0, Loss = 0.006987981032580137
+Epoch 76/100: Accuracy = 100.0, Loss = 0.008590285666286945
+Epoch 77/100: Accuracy = 100.0, Loss = 0.008708990179002285
+Epoch 78/100: Accuracy = 100.0, Loss = 0.015047535300254822
+Epoch 79/100: Accuracy = 100.0, Loss = 0.005624046083539724
+Epoch 80/100: Accuracy = 100.0, Loss = 0.00652675237506628
+Epoch 81/100: Accuracy = 100.0, Loss = 0.011592907831072807
+Epoch 82/100: Accuracy = 100.0, Loss = 0.006388641893863678
+Epoch 83/100: Accuracy = 100.0, Loss = 0.004888186231255531
+Epoch 84/100: Accuracy = 100.0, Loss = 0.009731323458254337
+Epoch 85/100: Accuracy = 100.0, Loss = 0.004739430733025074
+Epoch 86/100: Accuracy = 100.0, Loss = 0.00917835533618927
+Epoch 87/100: Accuracy = 100.0, Loss = 0.008276048116385937
+Epoch 88/100: Accuracy = 100.0, Loss = 0.008287151344120502
+Epoch 89/100: Accuracy = 100.0, Loss = 0.005240689031779766
+Epoch 90/100: Accuracy = 100.0, Loss = 0.005610968451946974
+Epoch 91/100: Accuracy = 100.0, Loss = 0.010304251685738564
+Epoch 92/100: Accuracy = 100.0, Loss = 0.006110782735049725
+Epoch 93/100: Accuracy = 100.0, Loss = 0.004456591792404652
+Epoch 94/100: Accuracy = 100.0, Loss = 0.006556191947311163
+Epoch 95/100: Accuracy = 100.0, Loss = 0.017535662278532982
+Epoch 96/100: Accuracy = 100.0, Loss = 0.008785311132669449
+Epoch 97/100: Accuracy = 100.0, Loss = 0.004516595043241978
+Epoch 98/100: Accuracy = 100.0, Loss = 0.004171454347670078
+Epoch 99/100: Accuracy = 100.0, Loss = 0.010061363689601421
+Epoch 100/100: Accuracy = 100.0, Loss = 0.004134313203394413
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 95.0, Test CE Loss == 0.2386588752269745 ;
+Task 1: Accuracy == 90.9090909090909, Test CE Loss == 1.244187355041504 ;
+Task 2: Accuracy == 54.54545454545454, Test CE Loss == 1.9688254594802856 ;
+Task 3: Accuracy == 100.0, Test CE Loss == 0.006615045014768839 ;
+Accuracy matrix of all tasks:
+[[100.     0.     0.     0.  ]
+ [100.    95.45   0.     0.  ]
+ [100.    86.36  77.27   0.  ]
+ [ 95.    90.91  54.55 100.  ]]
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 81.67770419426049, Test CE Loss == 0.5082724094390869 ;
+Task 1: Accuracy == 62.33031674208145, Test CE Loss == 1.0989367961883545 ;
+Task 2: Accuracy == 38.208616780045354, Test CE Loss == 2.157515287399292 ;
+Task 3: Accuracy == 99.78021978021978, Test CE Loss == 0.030021630227565765 ;
+Accuracy matrix of all tasks:
+[[99.78  0.    0.    0.  ]
+ [94.7  93.78  0.    0.  ]
+ [97.02 86.31 77.55  0.  ]
+ [81.68 62.33 38.21 99.78]]
+
+ Finish Run 0: total 200.08729791641235 sec
+
+ ######## Run 1, cls_order :[0, 1, 5, 4, 7, 6, 2, 3] ########
+== Status ==
+Current time: 2024-05-10 09:20:40 (running for 00:00:00.06)
+Memory usage on this node: 8.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:20:45 (running for 00:00:05.07)
+Memory usage on this node: 9.6/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1360430)[0m buffer has 40 slots
+[2m[36m(func pid=1360430)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1360430)[0m Create val stream : 4 tasks,  classes order [0, 1, 5, 4, 7, 6, 2, 3] 
+[2m[36m(func pid=1360430)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1360431)[0m buffer has 40 slots
+[2m[36m(func pid=1360431)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1360431)[0m Create val stream : 4 tasks,  classes order [0, 1, 5, 4, 7, 6, 2, 3] 
+[2m[36m(func pid=1360431)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1360431)[0m Training set size: 722; Val set size: 84; Test set size: 90
+[2m[36m(func pid=1360430)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:20:50 (running for 00:00:10.07)
+Memory usage on this node: 12.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:20:55 (running for 00:00:15.08)
+Memory usage on this node: 12.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:21:00 (running for 00:00:20.08)
+Memory usage on this node: 12.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:21:05 (running for 00:00:25.08)
+Memory usage on this node: 12.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1360431)[0m -- Run_val 0 | 24.822641372680664 sec -- Test Acc: [73.08 44.   66.67 95.24] -- 
+[2m[36m(func pid=1360431)[0m buffer has 40 slots
+[2m[36m(func pid=1360431)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1360431)[0m Create val stream : 4 tasks,  classes order [0, 1, 5, 4, 7, 6, 2, 3] 
+[2m[36m(func pid=1360431)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1360431)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:21:10 (running for 00:00:30.09)
+Memory usage on this node: 12.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1360430)[0m -- Run_val 0 | 27.960208415985107 sec -- Test Acc: [65.38 40.   44.44 90.48] -- 
+[2m[36m(func pid=1360430)[0m buffer has 40 slots
+[2m[36m(func pid=1360430)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1360430)[0m Create val stream : 4 tasks,  classes order [0, 1, 5, 4, 7, 6, 2, 3] 
+[2m[36m(func pid=1360430)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1360430)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:21:15 (running for 00:00:35.09)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:21:20 (running for 00:00:40.09)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:21:25 (running for 00:00:45.10)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:21:30 (running for 00:00:50.10)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1360430)[0m -- Run_val 1 | 19.875175714492798 sec -- Test Acc: [50.   60.   77.78 90.48] -- 
+[2m[36m(func pid=1360430)[0m buffer has 40 slots
+[2m[36m(func pid=1360430)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1360430)[0m Create val stream : 4 tasks,  classes order [0, 1, 5, 4, 7, 6, 2, 3] 
+[2m[36m(func pid=1360430)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1360430)[0m Training set size: 722; Val set size: 84; Test set size: 90
+[2m[36m(func pid=1360431)[0m -- Run_val 1 | 25.57011914253235 sec -- Test Acc: [57.69 52.   83.33 90.48] -- 
+[2m[36m(func pid=1360431)[0m buffer has 40 slots
+[2m[36m(func pid=1360431)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1360431)[0m Create val stream : 4 tasks,  classes order [0, 1, 5, 4, 7, 6, 2, 3] 
+[2m[36m(func pid=1360431)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1360431)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:21:35 (running for 00:00:55.10)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:21:40 (running for 00:01:00.11)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:21:45 (running for 00:01:05.11)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:21:50 (running for 00:01:10.11)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1360431)[0m -- Run_val 2 | 20.075690746307373 sec -- Test Acc: [ 57.69  68.    72.22 100.  ] -- 
+[2m[36m(func pid=1360431)[0m buffer has 40 slots
+[2m[36m(func pid=1360431)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1360431)[0m Create val stream : 4 tasks,  classes order [0, 1, 5, 4, 7, 6, 2, 3] 
+[2m[36m(func pid=1360431)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1360431)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:21:56 (running for 00:01:15.66)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (2 RUNNING, 1 TERMINATED)
+
+
+[2m[36m(func pid=1360430)[0m -- Run_val 2 | 23.293235063552856 sec -- Test Acc: [46.15 60.   72.22 90.48] -- 
+== Status ==
+Current time: 2024-05-10 09:22:01 (running for 00:01:20.68)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:22:06 (running for 00:01:25.68)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:22:11 (running for 00:01:30.68)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:22:16 (running for 00:01:35.69)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+[2m[36m(func pid=1360431)[0m -- Run_val 0 | 21.32330012321472 sec -- Test Acc: [76.92 76.   88.89 90.48] -- 
+[2m[36m(func pid=1360431)[0m buffer has 40 slots
+[2m[36m(func pid=1360431)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1360431)[0m Create val stream : 4 tasks,  classes order [0, 1, 5, 4, 7, 6, 2, 3] 
+[2m[36m(func pid=1360431)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1360431)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:22:21 (running for 00:01:40.69)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:22:26 (running for 00:01:45.69)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:22:31 (running for 00:01:50.70)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:22:36 (running for 00:01:55.70)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+[2m[36m(func pid=1360431)[0m -- Run_val 1 | 20.362346649169922 sec -- Test Acc: [69.23 60.   88.89 90.48] -- 
+[2m[36m(func pid=1360431)[0m buffer has 40 slots
+[2m[36m(func pid=1360431)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1360431)[0m Create val stream : 4 tasks,  classes order [0, 1, 5, 4, 7, 6, 2, 3] 
+[2m[36m(func pid=1360431)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1360431)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:22:41 (running for 00:02:00.70)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:22:46 (running for 00:02:05.71)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:22:51 (running for 00:02:10.71)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:22:56 (running for 00:02:15.71)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+[2m[36m(func pid=1360431)[0m -- Run_val 2 | 23.12596297264099 sec -- Test Acc: [61.54 64.   83.33 95.24] -- 
+== Status ==
+Current time: 2024-05-10 09:23:00 (running for 00:02:19.87)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 0/32 CPUs, 0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (3 TERMINATED)
+
+
+Best trial config: {'generic': {'lr': 0.001, 'lradj': 'step15', 'batch_size': 32, 'weight_decay': 0}, 'model': {'feature_dim': 128, 'n_layers': 4, 'dropout': 0}, 'agent': {}}
+Best trial metrics: {'end_avg_acc': 78.75000000000001, 'end_avg_fgt': 21.688888888888886, 'avg_cur_acc': 95.01666666666667, 'Acc_across_runs': array([[[100.  ,   0.  ,   0.  ,   0.  ],
+        [ 96.15,  84.  ,   0.  ,   0.  ],
+        [ 96.15,  64.  , 100.  ,   0.  ],
+        [ 76.92,  76.  ,  88.89,  90.48]],
+
+       [[100.  ,   0.  ,   0.  ,   0.  ],
+        [ 84.62,  84.  ,   0.  ,   0.  ],
+        [ 88.46,  80.  , 100.  ,   0.  ],
+        [ 69.23,  60.  ,  88.89,  90.48]],
+
+       [[100.  ,   0.  ,   0.  ,   0.  ],
+        [ 76.92,  96.  ,   0.  ,   0.  ],
+        [ 80.77,  80.  , 100.  ,   0.  ],
+        [ 61.54,  64.  ,  83.33,  95.24]]]), 'time_this_iter_s': 64.83127045631409, 'done': True, 'timesteps_total': None, 'episodes_total': None, 'training_iteration': 1, 'trial_id': '83aef_00002', 'experiment_id': 'ea0d3ced6855417cbc5a6e49d54bf5ec', 'date': '2024-05-10_09-23-00', 'timestamp': 1715304180, 'time_total_s': 64.83127045631409, 'pid': 1360431, 'hostname': 'rinc1080ti-PR4764GW', 'node_ip': '114.212.87.168', 'config': {'generic': {'lr': 0.001, 'lradj': 'step15', 'batch_size': 32, 'weight_decay': 0}, 'model': {'feature_dim': 128, 'n_layers': 4, 'dropout': 0}, 'agent': {}}, 'time_since_restore': 64.83127045631409, 'timesteps_since_restore': 0, 'iterations_since_restore': 1, 'warmup_time': 0.004145622253417969, 'experiment_tag': '2_lradj=step15'}
+namespace(data='uwave', encoder='CNN', agent='ER', norm='BN', scenario='class', runs=5, runs_val=3, seed=1234, verbose=True, path_prefix='/disk2/lihuajian/TSCIL/result/tune_and_exp', fix_order=False, reuse_best=False, tsne=True, tsne_g=False, cf_matrix=True, epochs=100, tune=False, ablation=False, teacher_eval=False, er_mode='task', buffer_tracker=False, early_stop=True, patience=20, input_norm='IN', mem_budget=0.05, head='Linear', criterion='CE', ncm_classifier=True, er_sub_type='balanced', device='cuda', exp_path='/disk2/lihuajian/TSCIL/result/tune_and_exp/CNN_uwave/ER_BN_May-10-09-17-20', run_id=1, stream_split='exp', feature_dim=128, n_layers=4, dropout=0, lr=0.001, lradj='step15', batch_size=32, weight_decay=0)
+Create exp stream : 4 tasks,  classes order [0, 1, 5, 4, 7, 6, 2, 3] 
+Input shape (L, D): (315, 3)
+Training set size: 722; Val set size: 84; Test set size: 3582
+buffer has 40 slots
+ER mode: task, NCM classifier: True
+
+--> Task 0: 2 classes in total
+Epoch 1/100: Accuracy = 84.69945355191257, Loss = 0.4666692614555359
+Epoch 2/100: Accuracy = 96.72131147540983, Loss = 0.10566097497940063
+Epoch 3/100: Accuracy = 100.0, Loss = 0.02594013139605522
+Epoch 4/100: Accuracy = 97.81420765027322, Loss = 0.04720781743526459
+Epoch 5/100: Accuracy = 100.0, Loss = 0.004992933943867683
+Epoch 6/100: Accuracy = 100.0, Loss = 0.006378681864589453
+Epoch 7/100: Accuracy = 100.0, Loss = 0.004051518626511097
+Epoch 8/100: Accuracy = 100.0, Loss = 0.0019299748819321394
+Epoch 9/100: Accuracy = 100.0, Loss = 0.0007437157910317183
+Epoch 10/100: Accuracy = 100.0, Loss = 0.00039805960841476917
+Epoch 11/100: Accuracy = 100.0, Loss = 0.0007352034444920719
+Epoch 12/100: Accuracy = 100.0, Loss = 0.00015824234287720174
+Epoch 13/100: Accuracy = 100.0, Loss = 0.00035498043871484697
+Epoch 14/100: Accuracy = 100.0, Loss = 0.0007103718817234039
+Epoch 15/100: Accuracy = 100.0, Loss = 0.00010350270895287395
+Epoch 16/100: Accuracy = 100.0, Loss = 0.00032793061109259725
+Epoch 17/100: Accuracy = 100.0, Loss = 6.554055289598182e-05
+Epoch 18/100: Accuracy = 100.0, Loss = 0.0007950239814817905
+Epoch 19/100: Accuracy = 100.0, Loss = 8.213728870032355e-05
+Epoch 20/100: Accuracy = 100.0, Loss = 7.1538524935022e-05
+Epoch 21/100: Accuracy = 100.0, Loss = 0.0002975320094265044
+Epoch 22/100: Accuracy = 100.0, Loss = 0.00016915082233026624
+Epoch 23/100: Accuracy = 100.0, Loss = 0.00042589125223457813
+Epoch 24/100: Accuracy = 100.0, Loss = 8.525760495103896e-05
+Epoch 25/100: Accuracy = 100.0, Loss = 0.000646957487333566
+Epoch 26/100: Accuracy = 100.0, Loss = 7.243629079312086e-05
+Epoch 27/100: Accuracy = 100.0, Loss = 0.00019913711003027856
+Epoch 28/100: Accuracy = 100.0, Loss = 0.00010280292190145701
+Epoch 29/100: Accuracy = 100.0, Loss = 0.00010250705236103386
+Epoch 30/100: Accuracy = 100.0, Loss = 0.0017293280689045787
+Epoch 31/100: Accuracy = 100.0, Loss = 0.00016945324023254216
+Epoch 32/100: Accuracy = 100.0, Loss = 4.719589924206957e-05
+Epoch 33/100: Accuracy = 100.0, Loss = 0.00045522936852648854
+Epoch 34/100: Accuracy = 100.0, Loss = 6.222003139555454e-05
+Epoch 35/100: Accuracy = 100.0, Loss = 0.00012028007040498778
+Epoch 36/100: Accuracy = 100.0, Loss = 0.00016287306789308786
+Epoch 37/100: Accuracy = 100.0, Loss = 0.00040296331280842423
+Epoch 38/100: Accuracy = 100.0, Loss = 4.218996036797762e-05
+Epoch 39/100: Accuracy = 100.0, Loss = 4.233147774357349e-05
+Epoch 40/100: Accuracy = 100.0, Loss = 7.680646376684308e-05
+Epoch 41/100: Accuracy = 100.0, Loss = 0.00021003751317039132
+Epoch 42/100: Accuracy = 100.0, Loss = 6.676790508208796e-05
+Epoch 43/100: Accuracy = 100.0, Loss = 0.0003105391515418887
+Epoch 44/100: Accuracy = 100.0, Loss = 0.00025378266582265496
+Epoch 45/100: Accuracy = 100.0, Loss = 0.00013266538735479116
+Epoch 46/100: Accuracy = 100.0, Loss = 0.0005518501857295632
+Epoch 47/100: Accuracy = 100.0, Loss = 0.00043406637269072235
+Epoch 48/100: Accuracy = 100.0, Loss = 4.877405444858596e-05
+Epoch 49/100: Accuracy = 100.0, Loss = 0.0002078611869364977
+Epoch 50/100: Accuracy = 100.0, Loss = 0.00014574086526408792
+Epoch 51/100: Accuracy = 100.0, Loss = 5.637249705614522e-05
+Epoch 52/100: Accuracy = 100.0, Loss = 0.0001788231747923419
+Epoch 53/100: Accuracy = 100.0, Loss = 0.00018269223801326007
+Epoch 54/100: Accuracy = 100.0, Loss = 4.007418465334922e-05
+Epoch 55/100: Accuracy = 100.0, Loss = 0.00031048146774992347
+Epoch 56/100: Accuracy = 100.0, Loss = 0.0002445784630253911
+Epoch 57/100: Accuracy = 100.0, Loss = 0.00013459703768603504
+Epoch 58/100: Accuracy = 100.0, Loss = 8.037003863137215e-05
+Epoch 59/100: Accuracy = 100.0, Loss = 0.00013362533354666084
+Epoch 60/100: Accuracy = 100.0, Loss = 4.5312350266613066e-05
+Epoch 61/100: Accuracy = 100.0, Loss = 3.825758903985843e-05
+Epoch 62/100: Accuracy = 100.0, Loss = 0.0002042182895820588
+Epoch 63/100: Accuracy = 100.0, Loss = 3.020360236405395e-05
+Epoch 64/100: Accuracy = 100.0, Loss = 8.713536954019219e-05
+Epoch 65/100: Accuracy = 100.0, Loss = 0.00013844161003362387
+Epoch 66/100: Accuracy = 100.0, Loss = 2.7806023354060017e-05
+Epoch 67/100: Accuracy = 100.0, Loss = 6.521921750390902e-05
+Epoch 68/100: Accuracy = 100.0, Loss = 0.0001123638212447986
+Epoch 69/100: Accuracy = 100.0, Loss = 8.066663576755673e-05
+Epoch 70/100: Accuracy = 100.0, Loss = 4.232770879752934e-05
+Epoch 71/100: Accuracy = 100.0, Loss = 0.0003496060089673847
+Epoch 72/100: Accuracy = 100.0, Loss = 0.000125185091746971
+Epoch 73/100: Accuracy = 100.0, Loss = 0.00010189057502429932
+Epoch 74/100: Accuracy = 100.0, Loss = 2.355081778659951e-05
+Epoch 75/100: Accuracy = 100.0, Loss = 6.147948442958295e-05
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 100.0, Test CE Loss == 5.220936145633459e-05 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 99.77502812148481, Test CE Loss == 0.016215527430176735 ;
+
+--> Task 1: 4 classes in total
+Epoch 1/100: Accuracy = 4.18848167539267, Loss = 3.4225692749023438
+Epoch 2/100: Accuracy = 38.7434554973822, Loss = 2.1073694229125977
+Epoch 3/100: Accuracy = 72.77486910994764, Loss = 1.1914315223693848
+Epoch 4/100: Accuracy = 84.81675392670157, Loss = 0.8425887823104858
+Epoch 5/100: Accuracy = 89.00523560209425, Loss = 0.5540267825126648
+Epoch 6/100: Accuracy = 95.28795811518324, Loss = 0.3599492013454437
+Epoch 7/100: Accuracy = 99.47643979057592, Loss = 0.2186397761106491
+Epoch 8/100: Accuracy = 99.47643979057592, Loss = 0.1451326608657837
+Epoch 9/100: Accuracy = 99.47643979057592, Loss = 0.11135992407798767
+Epoch 10/100: Accuracy = 100.0, Loss = 0.09377044439315796
+Epoch 11/100: Accuracy = 98.42931937172776, Loss = 0.0828847885131836
+Epoch 12/100: Accuracy = 98.95287958115183, Loss = 0.05612165853381157
+Epoch 13/100: Accuracy = 100.0, Loss = 0.03404825180768967
+Epoch 14/100: Accuracy = 100.0, Loss = 0.023360978811979294
+Epoch 15/100: Accuracy = 100.0, Loss = 0.02181156724691391
+Epoch 16/100: Accuracy = 100.0, Loss = 0.015298940241336823
+Epoch 17/100: Accuracy = 100.0, Loss = 0.01687386818230152
+Epoch 18/100: Accuracy = 100.0, Loss = 0.017840947955846786
+Epoch 19/100: Accuracy = 100.0, Loss = 0.011977648362517357
+Epoch 20/100: Accuracy = 100.0, Loss = 0.015567027032375336
+Epoch 21/100: Accuracy = 100.0, Loss = 0.013397801667451859
+Epoch 22/100: Accuracy = 100.0, Loss = 0.01473463885486126
+Epoch 23/100: Accuracy = 100.0, Loss = 0.015510860830545425
+Epoch 24/100: Accuracy = 100.0, Loss = 0.011233625933527946
+Epoch 25/100: Accuracy = 100.0, Loss = 0.014067964628338814
+Epoch 26/100: Accuracy = 100.0, Loss = 0.009320549666881561
+Epoch 27/100: Accuracy = 100.0, Loss = 0.015169607475399971
+Epoch 28/100: Accuracy = 100.0, Loss = 0.00860932469367981
+Epoch 29/100: Accuracy = 100.0, Loss = 0.015569886192679405
+Epoch 30/100: Accuracy = 100.0, Loss = 0.009388917125761509
+Epoch 31/100: Accuracy = 100.0, Loss = 0.009574076160788536
+Epoch 32/100: Accuracy = 100.0, Loss = 0.010884387418627739
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 76.19047619047619, Test CE Loss == 1.7660982608795166 ;
+Task 1: Accuracy == 90.9090909090909, Test CE Loss == 0.061172857880592346 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 84.81439820022497, Test CE Loss == 1.2111217975616455 ;
+Task 1: Accuracy == 89.22902494331065, Test CE Loss == 0.1435680240392685 ;
+
+--> Task 2: 6 classes in total
+Epoch 1/100: Accuracy = 0.5780346820809248, Loss = 2.994006633758545
+Epoch 2/100: Accuracy = 47.398843930635834, Loss = 1.3930038213729858
+Epoch 3/100: Accuracy = 97.6878612716763, Loss = 0.46566784381866455
+Epoch 4/100: Accuracy = 99.42196531791907, Loss = 0.21606892347335815
+Epoch 5/100: Accuracy = 100.0, Loss = 0.10360443592071533
+Epoch 6/100: Accuracy = 100.0, Loss = 0.06402835249900818
+Epoch 7/100: Accuracy = 100.0, Loss = 0.047984883189201355
+Epoch 8/100: Accuracy = 100.0, Loss = 0.03178759664297104
+Epoch 9/100: Accuracy = 100.0, Loss = 0.03088388964533806
+Epoch 10/100: Accuracy = 100.0, Loss = 0.012166714295744896
+Epoch 11/100: Accuracy = 100.0, Loss = 0.011906358413398266
+Epoch 12/100: Accuracy = 100.0, Loss = 0.009541339240968227
+Epoch 13/100: Accuracy = 100.0, Loss = 0.006825549062341452
+Epoch 14/100: Accuracy = 100.0, Loss = 0.009088220074772835
+Epoch 15/100: Accuracy = 100.0, Loss = 0.005322525277733803
+Epoch 16/100: Accuracy = 100.0, Loss = 0.004019347485154867
+Epoch 17/100: Accuracy = 100.0, Loss = 0.00530288927257061
+Epoch 18/100: Accuracy = 100.0, Loss = 0.011362683027982712
+Epoch 19/100: Accuracy = 100.0, Loss = 0.0047802007757127285
+Epoch 20/100: Accuracy = 100.0, Loss = 0.028669318184256554
+Epoch 21/100: Accuracy = 100.0, Loss = 0.005272067151963711
+Epoch 22/100: Accuracy = 100.0, Loss = 0.0034618410281836987
+Epoch 23/100: Accuracy = 100.0, Loss = 0.0035363526549190283
+Epoch 24/100: Accuracy = 100.0, Loss = 0.003410652279853821
+Epoch 25/100: Accuracy = 100.0, Loss = 0.0035542405676096678
+Epoch 26/100: Accuracy = 100.0, Loss = 0.003019599011167884
+Epoch 27/100: Accuracy = 100.0, Loss = 0.0031169168651103973
+Epoch 28/100: Accuracy = 100.0, Loss = 0.004473074804991484
+Epoch 29/100: Accuracy = 100.0, Loss = 0.006349845789372921
+Epoch 30/100: Accuracy = 100.0, Loss = 0.004055039957165718
+Epoch 31/100: Accuracy = 100.0, Loss = 0.010185414925217628
+Epoch 32/100: Accuracy = 100.0, Loss = 0.004454882349818945
+Epoch 33/100: Accuracy = 100.0, Loss = 0.0024226163513958454
+Epoch 34/100: Accuracy = 100.0, Loss = 0.004536986351013184
+Epoch 35/100: Accuracy = 100.0, Loss = 0.0030883688014000654
+Epoch 36/100: Accuracy = 100.0, Loss = 0.0019731177017092705
+Epoch 37/100: Accuracy = 100.0, Loss = 0.0028222305700182915
+Epoch 38/100: Accuracy = 100.0, Loss = 0.0022817710414528847
+Epoch 39/100: Accuracy = 100.0, Loss = 0.005320064723491669
+Epoch 40/100: Accuracy = 100.0, Loss = 0.0026450520381331444
+Epoch 41/100: Accuracy = 100.0, Loss = 0.00233156094327569
+Epoch 42/100: Accuracy = 100.0, Loss = 0.0223378948867321
+Epoch 43/100: Accuracy = 100.0, Loss = 0.0025945776142179966
+Epoch 44/100: Accuracy = 100.0, Loss = 0.002141776727512479
+Epoch 45/100: Accuracy = 100.0, Loss = 0.0034484360367059708
+Epoch 46/100: Accuracy = 100.0, Loss = 0.001957288943231106
+Epoch 47/100: Accuracy = 100.0, Loss = 0.0020299958996474743
+Epoch 48/100: Accuracy = 100.0, Loss = 0.0037976771127432585
+Epoch 49/100: Accuracy = 100.0, Loss = 0.0028854364063590765
+Epoch 50/100: Accuracy = 100.0, Loss = 0.0036988724023103714
+Epoch 51/100: Accuracy = 100.0, Loss = 0.002955123782157898
+Epoch 52/100: Accuracy = 100.0, Loss = 0.002298156265169382
+Epoch 53/100: Accuracy = 100.0, Loss = 0.0024432200007140636
+Epoch 54/100: Accuracy = 100.0, Loss = 0.0019103180384263396
+Epoch 55/100: Accuracy = 100.0, Loss = 0.00153536896687001
+Epoch 56/100: Accuracy = 100.0, Loss = 0.002356130164116621
+Epoch 57/100: Accuracy = 100.0, Loss = 0.0024783588014543056
+Epoch 58/100: Accuracy = 100.0, Loss = 0.001739265164360404
+Epoch 59/100: Accuracy = 100.0, Loss = 0.001734066056087613
+Epoch 60/100: Accuracy = 100.0, Loss = 0.002219074172899127
+Epoch 61/100: Accuracy = 100.0, Loss = 0.002030446194112301
+Epoch 62/100: Accuracy = 100.0, Loss = 0.0018761390820145607
+Epoch 63/100: Accuracy = 100.0, Loss = 0.002313292119652033
+Epoch 64/100: Accuracy = 100.0, Loss = 0.004658538848161697
+Epoch 65/100: Accuracy = 100.0, Loss = 0.0016129006398841739
+Epoch 66/100: Accuracy = 100.0, Loss = 0.0019558542408049107
+Epoch 67/100: Accuracy = 100.0, Loss = 0.0013464372605085373
+Epoch 68/100: Accuracy = 100.0, Loss = 0.0013984194956719875
+Epoch 69/100: Accuracy = 100.0, Loss = 0.021101396530866623
+Epoch 70/100: Accuracy = 100.0, Loss = 0.0022708759643137455
+Epoch 71/100: Accuracy = 100.0, Loss = 0.002642720937728882
+Epoch 72/100: Accuracy = 100.0, Loss = 0.0015360699035227299
+Epoch 73/100: Accuracy = 100.0, Loss = 0.001900197472423315
+Epoch 74/100: Accuracy = 100.0, Loss = 0.0015185944503173232
+Epoch 75/100: Accuracy = 100.0, Loss = 0.0014915999490767717
+Epoch 76/100: Accuracy = 100.0, Loss = 0.001323280157521367
+Epoch 77/100: Accuracy = 100.0, Loss = 0.002346533816307783
+Epoch 78/100: Accuracy = 100.0, Loss = 0.0035942241083830595
+Epoch 79/100: Accuracy = 100.0, Loss = 0.0012190125416964293
+Epoch 80/100: Accuracy = 100.0, Loss = 0.001708383671939373
+Epoch 81/100: Accuracy = 100.0, Loss = 0.0014132576761767268
+Epoch 82/100: Accuracy = 100.0, Loss = 0.001956408377736807
+Epoch 83/100: Accuracy = 100.0, Loss = 0.0028615351766347885
+Epoch 84/100: Accuracy = 100.0, Loss = 0.0013242277782410383
+Epoch 85/100: Accuracy = 100.0, Loss = 0.0037459717132151127
+Epoch 86/100: Accuracy = 100.0, Loss = 0.0012904946925118566
+Epoch 87/100: Accuracy = 100.0, Loss = 0.001712718280032277
+Epoch 88/100: Accuracy = 100.0, Loss = 0.0012290257727727294
+Epoch 89/100: Accuracy = 100.0, Loss = 0.001564060803502798
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 85.71428571428571, Test CE Loss == 0.8555102348327637 ;
+Task 1: Accuracy == 86.36363636363636, Test CE Loss == 0.4360852539539337 ;
+Task 2: Accuracy == 100.0, Test CE Loss == 0.0005940233240835369 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 87.4015748031496, Test CE Loss == 0.7174332141876221 ;
+Task 1: Accuracy == 73.24263038548753, Test CE Loss == 1.038681149482727 ;
+Task 2: Accuracy == 99.88974641675854, Test CE Loss == 0.008846747688949108 ;
+
+--> Task 3: 8 classes in total
+Epoch 1/100: Accuracy = 0.0, Loss = 5.045614719390869
+Epoch 2/100: Accuracy = 3.428571428571429, Loss = 3.3888449668884277
+Epoch 3/100: Accuracy = 34.85714285714286, Loss = 1.8593257665634155
+Epoch 4/100: Accuracy = 70.28571428571428, Loss = 1.182417869567871
+Epoch 5/100: Accuracy = 93.14285714285714, Loss = 0.6455790400505066
+Epoch 6/100: Accuracy = 98.85714285714286, Loss = 0.37109583616256714
+Epoch 7/100: Accuracy = 98.28571428571429, Loss = 0.24777434766292572
+Epoch 8/100: Accuracy = 98.28571428571429, Loss = 0.22210793197155
+Epoch 9/100: Accuracy = 98.85714285714286, Loss = 0.12495987862348557
+Epoch 10/100: Accuracy = 100.0, Loss = 0.09245558828115463
+Epoch 11/100: Accuracy = 100.0, Loss = 0.057526856660842896
+Epoch 12/100: Accuracy = 100.0, Loss = 0.05232517048716545
+Epoch 13/100: Accuracy = 100.0, Loss = 0.043267905712127686
+Epoch 14/100: Accuracy = 100.0, Loss = 0.021218545734882355
+Epoch 15/100: Accuracy = 100.0, Loss = 0.016265083104372025
+Epoch 16/100: Accuracy = 100.0, Loss = 0.015256622806191444
+Epoch 17/100: Accuracy = 100.0, Loss = 0.016135480254888535
+Epoch 18/100: Accuracy = 100.0, Loss = 0.01700849086046219
+Epoch 19/100: Accuracy = 100.0, Loss = 0.01121419295668602
+Epoch 20/100: Accuracy = 99.42857142857143, Loss = 0.03221774101257324
+Epoch 21/100: Accuracy = 100.0, Loss = 0.012583944015204906
+Epoch 22/100: Accuracy = 100.0, Loss = 0.02934219315648079
+Epoch 23/100: Accuracy = 100.0, Loss = 0.009346481412649155
+Epoch 24/100: Accuracy = 100.0, Loss = 0.01250283233821392
+Epoch 25/100: Accuracy = 100.0, Loss = 0.01140508335083723
+Epoch 26/100: Accuracy = 100.0, Loss = 0.01427278108894825
+Epoch 27/100: Accuracy = 100.0, Loss = 0.016269635409116745
+Epoch 28/100: Accuracy = 100.0, Loss = 0.01661653071641922
+Epoch 29/100: Accuracy = 100.0, Loss = 0.012053772807121277
+Epoch 30/100: Accuracy = 100.0, Loss = 0.010688139125704765
+Epoch 31/100: Accuracy = 100.0, Loss = 0.011282140389084816
+Epoch 32/100: Accuracy = 100.0, Loss = 0.010219322517514229
+Epoch 33/100: Accuracy = 100.0, Loss = 0.007910579442977905
+Epoch 34/100: Accuracy = 100.0, Loss = 0.009671339765191078
+Epoch 35/100: Accuracy = 100.0, Loss = 0.011720399372279644
+Epoch 36/100: Accuracy = 100.0, Loss = 0.009174181148409843
+Epoch 37/100: Accuracy = 100.0, Loss = 0.010574518702924252
+Epoch 38/100: Accuracy = 100.0, Loss = 0.0100242979824543
+Epoch 39/100: Accuracy = 100.0, Loss = 0.009404027834534645
+Epoch 40/100: Accuracy = 100.0, Loss = 0.00846734456717968
+Epoch 41/100: Accuracy = 100.0, Loss = 0.009947085753083229
+Epoch 42/100: Accuracy = 100.0, Loss = 0.006583108566701412
+Epoch 43/100: Accuracy = 100.0, Loss = 0.013286127708852291
+Epoch 44/100: Accuracy = 100.0, Loss = 0.008443079888820648
+Epoch 45/100: Accuracy = 100.0, Loss = 0.008760591968894005
+Epoch 46/100: Accuracy = 100.0, Loss = 0.006907504051923752
+Epoch 47/100: Accuracy = 100.0, Loss = 0.007949963212013245
+Epoch 48/100: Accuracy = 100.0, Loss = 0.006112717092037201
+Epoch 49/100: Accuracy = 100.0, Loss = 0.006871634628623724
+Epoch 50/100: Accuracy = 100.0, Loss = 0.006313088349997997
+Epoch 51/100: Accuracy = 100.0, Loss = 0.006373541429638863
+Epoch 52/100: Accuracy = 100.0, Loss = 0.0070568895898759365
+Epoch 53/100: Accuracy = 100.0, Loss = 0.006981923244893551
+Epoch 54/100: Accuracy = 100.0, Loss = 0.008011246100068092
+Epoch 55/100: Accuracy = 100.0, Loss = 0.0056256456300616264
+Epoch 56/100: Accuracy = 100.0, Loss = 0.005937650799751282
+Epoch 57/100: Accuracy = 100.0, Loss = 0.006578470580279827
+Epoch 58/100: Accuracy = 100.0, Loss = 0.011097725480794907
+Epoch 59/100: Accuracy = 100.0, Loss = 0.0055998279713094234
+Epoch 60/100: Accuracy = 100.0, Loss = 0.008940584026277065
+Epoch 61/100: Accuracy = 100.0, Loss = 0.005262230522930622
+Epoch 62/100: Accuracy = 100.0, Loss = 0.005906844511628151
+Epoch 63/100: Accuracy = 100.0, Loss = 0.012708554044365883
+Epoch 64/100: Accuracy = 100.0, Loss = 0.006466667167842388
+Epoch 65/100: Accuracy = 100.0, Loss = 0.004641488194465637
+Epoch 66/100: Accuracy = 100.0, Loss = 0.009607268497347832
+Epoch 67/100: Accuracy = 100.0, Loss = 0.005172422155737877
+Epoch 68/100: Accuracy = 100.0, Loss = 0.004378274083137512
+Epoch 69/100: Accuracy = 100.0, Loss = 0.010829026810824871
+Epoch 70/100: Accuracy = 100.0, Loss = 0.0051111625507473946
+Epoch 71/100: Accuracy = 100.0, Loss = 0.00515478802844882
+Epoch 72/100: Accuracy = 100.0, Loss = 0.007726545445621014
+Epoch 73/100: Accuracy = 100.0, Loss = 0.010188234969973564
+Epoch 74/100: Accuracy = 100.0, Loss = 0.006379902362823486
+Epoch 75/100: Accuracy = 100.0, Loss = 0.005580154713243246
+Epoch 76/100: Accuracy = 100.0, Loss = 0.008243570104241371
+Epoch 77/100: Accuracy = 100.0, Loss = 0.005004102364182472
+Epoch 78/100: Accuracy = 100.0, Loss = 0.004231895320117474
+Epoch 79/100: Accuracy = 100.0, Loss = 0.0039622001349925995
+Epoch 80/100: Accuracy = 100.0, Loss = 0.003534815739840269
+Epoch 81/100: Accuracy = 100.0, Loss = 0.00572318397462368
+Epoch 82/100: Accuracy = 100.0, Loss = 0.004445687867701054
+Epoch 83/100: Accuracy = 100.0, Loss = 0.004933141637593508
+Epoch 84/100: Accuracy = 100.0, Loss = 0.0055528972297906876
+Epoch 85/100: Accuracy = 100.0, Loss = 0.0065263742581009865
+Epoch 86/100: Accuracy = 100.0, Loss = 0.003559843171387911
+Epoch 87/100: Accuracy = 100.0, Loss = 0.008230142295360565
+Epoch 88/100: Accuracy = 100.0, Loss = 0.003235772019252181
+Epoch 89/100: Accuracy = 100.0, Loss = 0.003074140753597021
+Epoch 90/100: Accuracy = 100.0, Loss = 0.009621023200452328
+Epoch 91/100: Accuracy = 100.0, Loss = 0.0033238264732062817
+Epoch 92/100: Accuracy = 100.0, Loss = 0.0034533950965851545
+Epoch 93/100: Accuracy = 100.0, Loss = 0.004471408203244209
+Epoch 94/100: Accuracy = 100.0, Loss = 0.009181035682559013
+Epoch 95/100: Accuracy = 100.0, Loss = 0.003516272408887744
+Epoch 96/100: Accuracy = 100.0, Loss = 0.002922061365097761
+Epoch 97/100: Accuracy = 100.0, Loss = 0.003961688838899136
+Epoch 98/100: Accuracy = 100.0, Loss = 0.005049256142228842
+Epoch 99/100: Accuracy = 100.0, Loss = 0.003951236605644226
+Epoch 100/100: Accuracy = 100.0, Loss = 0.0045047663152217865
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 85.71428571428571, Test CE Loss == 0.9337559938430786 ;
+Task 1: Accuracy == 63.63636363636363, Test CE Loss == 1.2181247472763062 ;
+Task 2: Accuracy == 85.71428571428571, Test CE Loss == 0.9575183391571045 ;
+Task 3: Accuracy == 100.0, Test CE Loss == 0.01890208199620247 ;
+Accuracy matrix of all tasks:
+[[100.     0.     0.     0.  ]
+ [ 76.19  90.91   0.     0.  ]
+ [ 85.71  86.36 100.     0.  ]
+ [ 85.71  63.64  85.71 100.  ]]
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 70.3037120359955, Test CE Loss == 0.8692160844802856 ;
+Task 1: Accuracy == 53.96825396825397, Test CE Loss == 1.7020237445831299 ;
+Task 2: Accuracy == 63.50606394707828, Test CE Loss == 1.0707157850265503 ;
+Task 3: Accuracy == 98.11946902654867, Test CE Loss == 0.06853564083576202 ;
+Accuracy matrix of all tasks:
+[[99.78  0.    0.    0.  ]
+ [84.81 89.23  0.    0.  ]
+ [87.4  73.24 99.89  0.  ]
+ [70.3  53.97 63.51 98.12]]
+
+ Finish Run 1: total 191.8674190044403 sec
+
+ ######## Run 2, cls_order :[2, 6, 0, 5, 4, 1, 7, 3] ########
+== Status ==
+Current time: 2024-05-10 09:23:52 (running for 00:00:00.07)
+Memory usage on this node: 8.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:23:57 (running for 00:00:05.07)
+Memory usage on this node: 9.5/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1362907)[0m buffer has 40 slots
+[2m[36m(func pid=1362907)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1362907)[0m Create val stream : 4 tasks,  classes order [2, 6, 0, 5, 4, 1, 7, 3] 
+[2m[36m(func pid=1362907)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1362907)[0m Training set size: 722; Val set size: 84; Test set size: 90
+[2m[36m(func pid=1362908)[0m buffer has 40 slots
+[2m[36m(func pid=1362908)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1362908)[0m Create val stream : 4 tasks,  classes order [2, 6, 0, 5, 4, 1, 7, 3] 
+[2m[36m(func pid=1362908)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1362908)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:24:02 (running for 00:00:10.08)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:24:07 (running for 00:00:15.08)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:24:12 (running for 00:00:20.08)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:24:17 (running for 00:00:25.09)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:24:22 (running for 00:00:30.09)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1362908)[0m -- Run_val 0 | 26.99479365348816 sec -- Test Acc: [ 66.67  62.96  75.   100.  ] -- 
+[2m[36m(func pid=1362908)[0m buffer has 40 slots
+[2m[36m(func pid=1362908)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1362908)[0m Create val stream : 4 tasks,  classes order [2, 6, 0, 5, 4, 1, 7, 3] 
+[2m[36m(func pid=1362908)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1362908)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:24:27 (running for 00:00:35.09)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1362907)[0m -- Run_val 0 | 33.60910391807556 sec -- Test Acc: [ 42.86  70.37  79.17 100.  ] -- 
+[2m[36m(func pid=1362907)[0m buffer has 40 slots
+[2m[36m(func pid=1362907)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1362907)[0m Create val stream : 4 tasks,  classes order [2, 6, 0, 5, 4, 1, 7, 3] 
+[2m[36m(func pid=1362907)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1362907)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:24:32 (running for 00:00:40.10)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:24:37 (running for 00:00:45.10)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1362908)[0m -- Run_val 1 | 15.829400539398193 sec -- Test Acc: [ 52.38  55.56  91.67 100.  ] -- 
+[2m[36m(func pid=1362908)[0m buffer has 40 slots
+[2m[36m(func pid=1362908)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1362908)[0m Create val stream : 4 tasks,  classes order [2, 6, 0, 5, 4, 1, 7, 3] 
+[2m[36m(func pid=1362908)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1362908)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:24:42 (running for 00:00:50.11)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:24:47 (running for 00:00:55.11)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:24:52 (running for 00:01:00.11)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:24:57 (running for 00:01:05.12)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1362907)[0m -- Run_val 1 | 27.711522340774536 sec -- Test Acc: [ 57.14  66.67  75.   100.  ] -- 
+[2m[36m(func pid=1362907)[0m buffer has 40 slots
+[2m[36m(func pid=1362907)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1362907)[0m Create val stream : 4 tasks,  classes order [2, 6, 0, 5, 4, 1, 7, 3] 
+[2m[36m(func pid=1362907)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1362907)[0m Training set size: 722; Val set size: 84; Test set size: 90
+[2m[36m(func pid=1362908)[0m -- Run_val 2 | 20.54215359687805 sec -- Test Acc: [ 61.9   51.85  75.   100.  ] -- 
+[2m[36m(func pid=1362908)[0m buffer has 40 slots
+[2m[36m(func pid=1362908)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1362908)[0m Create val stream : 4 tasks,  classes order [2, 6, 0, 5, 4, 1, 7, 3] 
+[2m[36m(func pid=1362908)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1362908)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:25:05 (running for 00:01:13.03)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (2 RUNNING, 1 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:25:10 (running for 00:01:18.04)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (2 RUNNING, 1 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:25:15 (running for 00:01:23.04)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (2 RUNNING, 1 TERMINATED)
+
+
+[2m[36m(func pid=1362908)[0m -- Run_val 0 | 15.070703268051147 sec -- Test Acc: [ 38.1   44.44  87.5  100.  ] -- 
+[2m[36m(func pid=1362908)[0m buffer has 40 slots
+[2m[36m(func pid=1362908)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1362908)[0m Create val stream : 4 tasks,  classes order [2, 6, 0, 5, 4, 1, 7, 3] 
+[2m[36m(func pid=1362908)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1362908)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:25:20 (running for 00:01:28.04)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (2 RUNNING, 1 TERMINATED)
+
+
+[2m[36m(func pid=1362907)[0m -- Run_val 2 | 26.58868908882141 sec -- Test Acc: [ 38.1   55.56  66.67 100.  ] -- 
+== Status ==
+Current time: 2024-05-10 09:25:30 (running for 00:01:37.55)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:25:35 (running for 00:01:42.55)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:25:40 (running for 00:01:47.56)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+[2m[36m(func pid=1362908)[0m -- Run_val 1 | 25.408596754074097 sec -- Test Acc: [ 33.33  66.67  70.83 100.  ] -- 
+[2m[36m(func pid=1362908)[0m buffer has 40 slots
+[2m[36m(func pid=1362908)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1362908)[0m Create val stream : 4 tasks,  classes order [2, 6, 0, 5, 4, 1, 7, 3] 
+[2m[36m(func pid=1362908)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1362908)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:25:45 (running for 00:01:52.56)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:25:50 (running for 00:01:57.56)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:25:55 (running for 00:02:02.56)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:25:59 (running for 00:02:07.31)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 0/32 CPUs, 0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (3 TERMINATED)
+
+
+Best trial config: {'generic': {'lr': 0.001, 'lradj': 'step10', 'batch_size': 32, 'weight_decay': 0}, 'model': {'feature_dim': 128, 'n_layers': 4, 'dropout': 0}, 'agent': {}}
+Best trial metrics: {'end_avg_acc': 74.41583333333334, 'end_avg_fgt': 30.715555555555557, 'avg_cur_acc': 97.4525, 'Acc_across_runs': array([[[100.  ,   0.  ,   0.  ,   0.  ],
+        [ 90.48,  92.59,   0.  ,   0.  ],
+        [ 90.48,  59.26, 100.  ,   0.  ],
+        [ 66.67,  62.96,  75.  , 100.  ]],
+
+       [[100.  ,   0.  ,   0.  ,   0.  ],
+        [ 80.95,  92.59,   0.  ,   0.  ],
+        [ 90.48,  55.56,  95.83,   0.  ],
+        [ 52.38,  55.56,  91.67, 100.  ]],
+
+       [[100.  ,   0.  ,   0.  ,   0.  ],
+        [ 85.71,  92.59,   0.  ,   0.  ],
+        [ 85.71,  51.85,  95.83,   0.  ],
+        [ 61.9 ,  51.85,  75.  , 100.  ]]]), 'time_this_iter_s': 63.38828897476196, 'done': True, 'timesteps_total': None, 'episodes_total': None, 'training_iteration': 1, 'trial_id': 'f6124_00001', 'experiment_id': 'c553c341de7544ef875f4b90a138ac07', 'date': '2024-05-10_09-25-00', 'timestamp': 1715304300, 'time_total_s': 63.38828897476196, 'pid': 1362908, 'hostname': 'rinc1080ti-PR4764GW', 'node_ip': '114.212.87.168', 'config': {'generic': {'lr': 0.001, 'lradj': 'step10', 'batch_size': 32, 'weight_decay': 0}, 'model': {'feature_dim': 128, 'n_layers': 4, 'dropout': 0}, 'agent': {}}, 'time_since_restore': 63.38828897476196, 'timesteps_since_restore': 0, 'iterations_since_restore': 1, 'warmup_time': 0.004180908203125, 'experiment_tag': '1_lradj=step10'}
+namespace(data='uwave', encoder='CNN', agent='ER', norm='BN', scenario='class', runs=5, runs_val=3, seed=1234, verbose=True, path_prefix='/disk2/lihuajian/TSCIL/result/tune_and_exp', fix_order=False, reuse_best=False, tsne=True, tsne_g=False, cf_matrix=True, epochs=100, tune=False, ablation=False, teacher_eval=False, er_mode='task', buffer_tracker=False, early_stop=True, patience=20, input_norm='IN', mem_budget=0.05, head='Linear', criterion='CE', ncm_classifier=True, er_sub_type='balanced', device='cuda', exp_path='/disk2/lihuajian/TSCIL/result/tune_and_exp/CNN_uwave/ER_BN_May-10-09-17-20', run_id=2, stream_split='exp', feature_dim=128, n_layers=4, dropout=0, lr=0.001, lradj='step10', batch_size=32, weight_decay=0)
+Create exp stream : 4 tasks,  classes order [2, 6, 0, 5, 4, 1, 7, 3] 
+Input shape (L, D): (315, 3)
+Training set size: 722; Val set size: 84; Test set size: 3582
+[2m[36m(func pid=1362908)[0m -- Run_val 2 | 18.76316261291504 sec -- Test Acc: [ 38.1   66.67  79.17 100.  ] -- 
+buffer has 40 slots
+ER mode: task, NCM classifier: True
+
+--> Task 0: 2 classes in total
+Epoch 1/100: Accuracy = 78.97727272727273, Loss = 0.44877123832702637
+Epoch 2/100: Accuracy = 94.88636363636364, Loss = 0.14470705389976501
+Epoch 3/100: Accuracy = 100.0, Loss = 0.013178377412259579
+Epoch 4/100: Accuracy = 99.43181818181817, Loss = 0.011789778247475624
+Epoch 5/100: Accuracy = 99.43181818181817, Loss = 0.014644071459770203
+Epoch 6/100: Accuracy = 99.43181818181817, Loss = 0.02031647227704525
+Epoch 7/100: Accuracy = 98.29545454545455, Loss = 0.024271830916404724
+Epoch 8/100: Accuracy = 100.0, Loss = 0.00567679014056921
+Epoch 9/100: Accuracy = 100.0, Loss = 0.0007025156519375741
+Epoch 10/100: Accuracy = 100.0, Loss = 0.006374219432473183
+Epoch 11/100: Accuracy = 100.0, Loss = 0.016593165695667267
+Epoch 12/100: Accuracy = 100.0, Loss = 0.0017721145413815975
+Epoch 13/100: Accuracy = 100.0, Loss = 0.001133384765125811
+Epoch 14/100: Accuracy = 100.0, Loss = 0.0006145007791928947
+Epoch 15/100: Accuracy = 100.0, Loss = 0.0030852393247187138
+Epoch 16/100: Accuracy = 100.0, Loss = 0.005036721937358379
+Epoch 17/100: Accuracy = 100.0, Loss = 0.0013236224185675383
+Epoch 18/100: Accuracy = 100.0, Loss = 0.0009571344126015902
+Epoch 19/100: Accuracy = 100.0, Loss = 0.00012940245505888015
+Epoch 20/100: Accuracy = 100.0, Loss = 0.0012218120973557234
+Epoch 21/100: Accuracy = 99.43181818181817, Loss = 0.013172570616006851
+Epoch 22/100: Accuracy = 100.0, Loss = 9.14639385882765e-05
+Epoch 23/100: Accuracy = 100.0, Loss = 0.0005743500660173595
+Epoch 24/100: Accuracy = 100.0, Loss = 0.0001493110612500459
+Epoch 25/100: Accuracy = 100.0, Loss = 0.0002054250508081168
+Epoch 26/100: Accuracy = 100.0, Loss = 0.0002133210946340114
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 100.0, Test CE Loss == 0.0006669086287729442 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 99.33407325194229, Test CE Loss == 0.027888551354408264 ;
+
+--> Task 1: 4 classes in total
+Epoch 1/100: Accuracy = 2.1621621621621623, Loss = 2.6901252269744873
+Epoch 2/100: Accuracy = 52.43243243243243, Loss = 1.5614674091339111
+Epoch 3/100: Accuracy = 84.86486486486487, Loss = 0.8216025829315186
+Epoch 4/100: Accuracy = 91.35135135135135, Loss = 0.5257889628410339
+Epoch 5/100: Accuracy = 93.51351351351352, Loss = 0.35616859793663025
+Epoch 6/100: Accuracy = 97.2972972972973, Loss = 0.2783534824848175
+Epoch 7/100: Accuracy = 96.21621621621622, Loss = 0.2206774204969406
+Epoch 8/100: Accuracy = 97.83783783783784, Loss = 0.167774498462677
+Epoch 9/100: Accuracy = 99.45945945945947, Loss = 0.09108491241931915
+Epoch 10/100: Accuracy = 99.45945945945947, Loss = 0.09969483315944672
+Epoch 11/100: Accuracy = 99.45945945945947, Loss = 0.05747168883681297
+Epoch 12/100: Accuracy = 99.45945945945947, Loss = 0.058672405779361725
+Epoch 13/100: Accuracy = 98.91891891891892, Loss = 0.07068907469511032
+Epoch 14/100: Accuracy = 100.0, Loss = 0.04064261168241501
+Epoch 15/100: Accuracy = 99.45945945945947, Loss = 0.044905178248882294
+Epoch 16/100: Accuracy = 100.0, Loss = 0.03872325271368027
+Epoch 17/100: Accuracy = 100.0, Loss = 0.03689589351415634
+Epoch 18/100: Accuracy = 99.45945945945947, Loss = 0.04279957711696625
+Epoch 19/100: Accuracy = 100.0, Loss = 0.0267183780670166
+Epoch 20/100: Accuracy = 100.0, Loss = 0.02254355512559414
+Epoch 21/100: Accuracy = 100.0, Loss = 0.030710434541106224
+Epoch 22/100: Accuracy = 100.0, Loss = 0.02838100492954254
+Epoch 23/100: Accuracy = 100.0, Loss = 0.0407455749809742
+Epoch 24/100: Accuracy = 100.0, Loss = 0.01855897158384323
+Epoch 25/100: Accuracy = 100.0, Loss = 0.018817000091075897
+Epoch 26/100: Accuracy = 100.0, Loss = 0.02034277282655239
+Epoch 27/100: Accuracy = 100.0, Loss = 0.021650604903697968
+Epoch 28/100: Accuracy = 100.0, Loss = 0.015957901254296303
+Epoch 29/100: Accuracy = 100.0, Loss = 0.02143119089305401
+Epoch 30/100: Accuracy = 100.0, Loss = 0.017247892916202545
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 90.47619047619048, Test CE Loss == 0.4034504294395447 ;
+Task 1: Accuracy == 95.23809523809523, Test CE Loss == 0.11189645528793335 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 91.89789123196448, Test CE Loss == 0.36865147948265076 ;
+Task 1: Accuracy == 90.06772009029346, Test CE Loss == 0.22918155789375305 ;
+
+--> Task 2: 6 classes in total
+Epoch 1/100: Accuracy = 0.0, Loss = 4.046215534210205
+Epoch 2/100: Accuracy = 23.28042328042328, Loss = 2.366774320602417
+Epoch 3/100: Accuracy = 82.01058201058201, Loss = 1.095975399017334
+Epoch 4/100: Accuracy = 91.53439153439153, Loss = 0.6319924592971802
+Epoch 5/100: Accuracy = 96.82539682539682, Loss = 0.38027626276016235
+Epoch 6/100: Accuracy = 100.0, Loss = 0.21653388440608978
+Epoch 7/100: Accuracy = 100.0, Loss = 0.12608318030834198
+Epoch 8/100: Accuracy = 100.0, Loss = 0.08517397940158844
+Epoch 9/100: Accuracy = 100.0, Loss = 0.047918982803821564
+Epoch 10/100: Accuracy = 100.0, Loss = 0.046755723655223846
+Epoch 11/100: Accuracy = 100.0, Loss = 0.023906897753477097
+Epoch 12/100: Accuracy = 100.0, Loss = 0.02063979208469391
+Epoch 13/100: Accuracy = 100.0, Loss = 0.030522016808390617
+Epoch 14/100: Accuracy = 100.0, Loss = 0.016410693526268005
+Epoch 15/100: Accuracy = 100.0, Loss = 0.018975138664245605
+Epoch 16/100: Accuracy = 100.0, Loss = 0.016284199431538582
+Epoch 17/100: Accuracy = 100.0, Loss = 0.015145659446716309
+Epoch 18/100: Accuracy = 100.0, Loss = 0.0162065289914608
+Epoch 19/100: Accuracy = 100.0, Loss = 0.01744120940566063
+Epoch 20/100: Accuracy = 100.0, Loss = 0.019246529787778854
+Epoch 21/100: Accuracy = 100.0, Loss = 0.015879612416028976
+Epoch 22/100: Accuracy = 100.0, Loss = 0.013341820798814297
+Epoch 23/100: Accuracy = 100.0, Loss = 0.011676669120788574
+Epoch 24/100: Accuracy = 100.0, Loss = 0.012172218412160873
+Epoch 25/100: Accuracy = 100.0, Loss = 0.023701518774032593
+Epoch 26/100: Accuracy = 100.0, Loss = 0.010414223186671734
+Epoch 27/100: Accuracy = 100.0, Loss = 0.012039664201438427
+Epoch 28/100: Accuracy = 100.0, Loss = 0.012376325204968452
+Epoch 29/100: Accuracy = 100.0, Loss = 0.02497059479355812
+Epoch 30/100: Accuracy = 100.0, Loss = 0.009113778360188007
+Epoch 31/100: Accuracy = 100.0, Loss = 0.00956656038761139
+Epoch 32/100: Accuracy = 100.0, Loss = 0.010497457347810268
+Epoch 33/100: Accuracy = 100.0, Loss = 0.01381127443164587
+Epoch 34/100: Accuracy = 100.0, Loss = 0.01914362423121929
+Epoch 35/100: Accuracy = 100.0, Loss = 0.00963754951953888
+Epoch 36/100: Accuracy = 100.0, Loss = 0.009977862238883972
+Epoch 37/100: Accuracy = 100.0, Loss = 0.010728539898991585
+Epoch 38/100: Accuracy = 100.0, Loss = 0.008351221680641174
+Epoch 39/100: Accuracy = 100.0, Loss = 0.00931897945702076
+Epoch 40/100: Accuracy = 100.0, Loss = 0.011842737905681133
+Epoch 41/100: Accuracy = 100.0, Loss = 0.011493268422782421
+Epoch 42/100: Accuracy = 100.0, Loss = 0.007242879830300808
+Epoch 43/100: Accuracy = 100.0, Loss = 0.0063648102805018425
+Epoch 44/100: Accuracy = 100.0, Loss = 0.0056313700042665005
+Epoch 45/100: Accuracy = 100.0, Loss = 0.007733419071882963
+Epoch 46/100: Accuracy = 100.0, Loss = 0.009901237674057484
+Epoch 47/100: Accuracy = 100.0, Loss = 0.013250230811536312
+Epoch 48/100: Accuracy = 100.0, Loss = 0.007159772329032421
+Epoch 49/100: Accuracy = 100.0, Loss = 0.012674815021455288
+Epoch 50/100: Accuracy = 100.0, Loss = 0.005563610233366489
+Epoch 51/100: Accuracy = 100.0, Loss = 0.005677953362464905
+Epoch 52/100: Accuracy = 100.0, Loss = 0.005754310637712479
+Epoch 53/100: Accuracy = 100.0, Loss = 0.007526047062128782
+Epoch 54/100: Accuracy = 100.0, Loss = 0.006306210067123175
+Epoch 55/100: Accuracy = 100.0, Loss = 0.011837868019938469
+Epoch 56/100: Accuracy = 100.0, Loss = 0.010340608656406403
+Epoch 57/100: Accuracy = 100.0, Loss = 0.004834229592233896
+Epoch 58/100: Accuracy = 100.0, Loss = 0.004393026698380709
+Epoch 59/100: Accuracy = 100.0, Loss = 0.005915310233831406
+Epoch 60/100: Accuracy = 100.0, Loss = 0.004859586711972952
+Epoch 61/100: Accuracy = 100.0, Loss = 0.0061014569364488125
+Epoch 62/100: Accuracy = 100.0, Loss = 0.005283601116389036
+Epoch 63/100: Accuracy = 100.0, Loss = 0.005847198888659477
+Epoch 64/100: Accuracy = 100.0, Loss = 0.004377990961074829
+Epoch 65/100: Accuracy = 100.0, Loss = 0.006750645115971565
+Epoch 66/100: Accuracy = 100.0, Loss = 0.0058537498116493225
+Epoch 67/100: Accuracy = 100.0, Loss = 0.004622825421392918
+Epoch 68/100: Accuracy = 100.0, Loss = 0.003867942839860916
+Epoch 69/100: Accuracy = 100.0, Loss = 0.004565452691167593
+Epoch 70/100: Accuracy = 100.0, Loss = 0.005014351103454828
+Epoch 71/100: Accuracy = 100.0, Loss = 0.00402635196223855
+Epoch 72/100: Accuracy = 100.0, Loss = 0.003855657298117876
+Epoch 73/100: Accuracy = 100.0, Loss = 0.0037268768064677715
+Epoch 74/100: Accuracy = 100.0, Loss = 0.0032550774049013853
+Epoch 75/100: Accuracy = 100.0, Loss = 0.004442645236849785
+Epoch 76/100: Accuracy = 100.0, Loss = 0.0025501062627881765
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 71.42857142857143, Test CE Loss == 1.1740156412124634 ;
+Task 1: Accuracy == 42.857142857142854, Test CE Loss == 1.6897649765014648 ;
+Task 2: Accuracy == 95.45454545454545, Test CE Loss == 0.17703822255134583 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 80.6881243063263, Test CE Loss == 1.0574201345443726 ;
+Task 1: Accuracy == 51.354401805869074, Test CE Loss == 2.0385541915893555 ;
+Task 2: Accuracy == 95.14124293785311, Test CE Loss == 0.048187486827373505 ;
+
+--> Task 3: 8 classes in total
+Epoch 1/100: Accuracy = 0.0, Loss = 4.112813949584961
+Epoch 2/100: Accuracy = 21.511627906976745, Loss = 2.418205738067627
+Epoch 3/100: Accuracy = 84.88372093023256, Loss = 0.9779767990112305
+Epoch 4/100: Accuracy = 96.51162790697676, Loss = 0.5839990377426147
+Epoch 5/100: Accuracy = 98.25581395348837, Loss = 0.34696170687675476
+Epoch 6/100: Accuracy = 98.25581395348837, Loss = 0.20704379677772522
+Epoch 7/100: Accuracy = 100.0, Loss = 0.14478705823421478
+Epoch 8/100: Accuracy = 99.4186046511628, Loss = 0.11912071704864502
+Epoch 9/100: Accuracy = 100.0, Loss = 0.055332835763692856
+Epoch 10/100: Accuracy = 100.0, Loss = 0.03747904300689697
+Epoch 11/100: Accuracy = 99.4186046511628, Loss = 0.052663832902908325
+Epoch 12/100: Accuracy = 100.0, Loss = 0.026460988447070122
+Epoch 13/100: Accuracy = 100.0, Loss = 0.026882639154791832
+Epoch 14/100: Accuracy = 100.0, Loss = 0.038514237850904465
+Epoch 15/100: Accuracy = 100.0, Loss = 0.02564028464257717
+Epoch 16/100: Accuracy = 99.4186046511628, Loss = 0.07042215764522552
+Epoch 17/100: Accuracy = 100.0, Loss = 0.03176907077431679
+Epoch 18/100: Accuracy = 100.0, Loss = 0.03602645918726921
+Epoch 19/100: Accuracy = 100.0, Loss = 0.033607129007577896
+Epoch 20/100: Accuracy = 100.0, Loss = 0.01853262074291706
+Epoch 21/100: Accuracy = 100.0, Loss = 0.025841757655143738
+Epoch 22/100: Accuracy = 100.0, Loss = 0.025870561599731445
+Epoch 23/100: Accuracy = 100.0, Loss = 0.01385597512125969
+Epoch 24/100: Accuracy = 100.0, Loss = 0.0202567670494318
+Epoch 25/100: Accuracy = 100.0, Loss = 0.01717768982052803
+Epoch 26/100: Accuracy = 100.0, Loss = 0.015350732021033764
+Epoch 27/100: Accuracy = 100.0, Loss = 0.02271820604801178
+Epoch 28/100: Accuracy = 100.0, Loss = 0.026185542345046997
+Epoch 29/100: Accuracy = 100.0, Loss = 0.019486192613840103
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 76.19047619047619, Test CE Loss == 1.5316957235336304 ;
+Task 1: Accuracy == 57.14285714285714, Test CE Loss == 1.4335459470748901 ;
+Task 2: Accuracy == 81.81818181818183, Test CE Loss == 0.5726760029792786 ;
+Task 3: Accuracy == 95.0, Test CE Loss == 0.24106469750404358 ;
+Accuracy matrix of all tasks:
+[[100.     0.     0.     0.  ]
+ [ 90.48  95.24   0.     0.  ]
+ [ 71.43  42.86  95.45   0.  ]
+ [ 76.19  57.14  81.82  95.  ]]
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 51.6093229744728, Test CE Loss == 1.6139639616012573 ;
+Task 1: Accuracy == 57.44920993227991, Test CE Loss == 1.4664098024368286 ;
+Task 2: Accuracy == 81.58192090395481, Test CE Loss == 0.50257408618927 ;
+Task 3: Accuracy == 98.24175824175823, Test CE Loss == 0.09468698501586914 ;
+Accuracy matrix of all tasks:
+[[99.33  0.    0.    0.  ]
+ [91.9  90.07  0.    0.  ]
+ [80.69 51.35 95.14  0.  ]
+ [51.61 57.45 81.58 98.24]]
+
+ Finish Run 2: total 168.26469254493713 sec
+
+ ######## Run 3, cls_order :[5, 0, 6, 7, 2, 4, 1, 3] ########
+== Status ==
+Current time: 2024-05-10 09:26:40 (running for 00:00:00.05)
+Memory usage on this node: 8.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:26:45 (running for 00:00:05.06)
+Memory usage on this node: 10.0/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1364483)[0m buffer has 40 slots
+[2m[36m(func pid=1364483)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1364483)[0m Create val stream : 4 tasks,  classes order [5, 0, 6, 7, 2, 4, 1, 3] 
+[2m[36m(func pid=1364483)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1364483)[0m Training set size: 722; Val set size: 84; Test set size: 90
+[2m[36m(func pid=1364485)[0m buffer has 40 slots
+[2m[36m(func pid=1364485)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1364485)[0m Create val stream : 4 tasks,  classes order [5, 0, 6, 7, 2, 4, 1, 3] 
+[2m[36m(func pid=1364485)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1364485)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:26:50 (running for 00:00:10.07)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:26:55 (running for 00:00:15.07)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:27:00 (running for 00:00:20.07)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:27:05 (running for 00:00:25.08)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:27:10 (running for 00:00:30.08)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1364483)[0m -- Run_val 0 | 27.543064832687378 sec -- Test Acc: [ 22.22  94.44  68.18 100.  ] -- 
+[2m[36m(func pid=1364483)[0m buffer has 40 slots
+[2m[36m(func pid=1364483)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1364483)[0m Create val stream : 4 tasks,  classes order [5, 0, 6, 7, 2, 4, 1, 3] 
+[2m[36m(func pid=1364483)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1364483)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:27:15 (running for 00:00:35.08)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1364485)[0m -- Run_val 0 | 32.022125482559204 sec -- Test Acc: [ 51.85  88.89  31.82 100.  ] -- 
+[2m[36m(func pid=1364485)[0m buffer has 40 slots
+[2m[36m(func pid=1364485)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1364485)[0m Create val stream : 4 tasks,  classes order [5, 0, 6, 7, 2, 4, 1, 3] 
+[2m[36m(func pid=1364485)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1364485)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:27:20 (running for 00:00:40.09)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:27:25 (running for 00:00:45.09)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:27:30 (running for 00:00:50.10)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1364483)[0m -- Run_val 1 | 20.48203468322754 sec -- Test Acc: [ 59.26  77.78  68.18 100.  ] -- 
+[2m[36m(func pid=1364483)[0m buffer has 40 slots
+[2m[36m(func pid=1364483)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1364483)[0m Create val stream : 4 tasks,  classes order [5, 0, 6, 7, 2, 4, 1, 3] 
+[2m[36m(func pid=1364483)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1364483)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:27:35 (running for 00:00:55.10)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:27:40 (running for 00:01:00.10)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1364485)[0m -- Run_val 1 | 24.308226346969604 sec -- Test Acc: [ 37.04  61.11  63.64 100.  ] -- 
+[2m[36m(func pid=1364485)[0m buffer has 40 slots
+[2m[36m(func pid=1364485)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1364485)[0m Create val stream : 4 tasks,  classes order [5, 0, 6, 7, 2, 4, 1, 3] 
+[2m[36m(func pid=1364485)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1364485)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:27:45 (running for 00:01:05.10)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:27:50 (running for 00:01:10.11)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1364483)[0m -- Run_val 2 | 22.387601613998413 sec -- Test Acc: [ 37.04  94.44  54.55 100.  ] -- 
+[2m[36m(func pid=1364483)[0m buffer has 40 slots
+[2m[36m(func pid=1364483)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1364483)[0m Create val stream : 4 tasks,  classes order [5, 0, 6, 7, 2, 4, 1, 3] 
+[2m[36m(func pid=1364483)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1364483)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:28:00 (running for 00:01:19.62)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (2 RUNNING, 1 TERMINATED)
+
+
+[2m[36m(func pid=1364485)[0m -- Run_val 2 | 23.628072023391724 sec -- Test Acc: [ 37.04  88.89  59.09 100.  ] -- 
+== Status ==
+Current time: 2024-05-10 09:28:09 (running for 00:01:29.19)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:28:14 (running for 00:01:34.20)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:28:19 (running for 00:01:39.21)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+[2m[36m(func pid=1364483)[0m -- Run_val 0 | 25.779458045959473 sec -- Test Acc: [ 37.04  94.44  68.18 100.  ] -- 
+[2m[36m(func pid=1364483)[0m buffer has 40 slots
+[2m[36m(func pid=1364483)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1364483)[0m Create val stream : 4 tasks,  classes order [5, 0, 6, 7, 2, 4, 1, 3] 
+[2m[36m(func pid=1364483)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1364483)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:28:24 (running for 00:01:44.21)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:28:29 (running for 00:01:49.21)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:28:34 (running for 00:01:54.22)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+[2m[36m(func pid=1364483)[0m -- Run_val 1 | 16.08957815170288 sec -- Test Acc: [48.15 88.89 59.09 95.65] -- 
+[2m[36m(func pid=1364483)[0m buffer has 40 slots
+[2m[36m(func pid=1364483)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1364483)[0m Create val stream : 4 tasks,  classes order [5, 0, 6, 7, 2, 4, 1, 3] 
+[2m[36m(func pid=1364483)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1364483)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:28:39 (running for 00:01:59.22)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:28:44 (running for 00:02:04.22)
+Memory usage on this node: 10.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:28:49 (running for 00:02:09.23)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:28:54 (running for 00:02:14.11)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 0/32 CPUs, 0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (3 TERMINATED)
+
+
+Best trial config: {'generic': {'lr': 0.001, 'lradj': 'TST', 'batch_size': 32, 'weight_decay': 0}, 'model': {'feature_dim': 128, 'n_layers': 4, 'dropout': 0}, 'agent': {}}
+Best trial metrics: {'end_avg_acc': 73.00750000000001, 'end_avg_fgt': 32.827777777777776, 'avg_cur_acc': 97.62833333333333, 'Acc_across_runs': array([[[ 92.59,   0.  ,   0.  ,   0.  ],
+        [ 92.59, 100.  ,   0.  ,   0.  ],
+        [ 62.96, 100.  ,  95.45,   0.  ],
+        [ 22.22,  94.44,  68.18, 100.  ]],
+
+       [[ 96.3 ,   0.  ,   0.  ,   0.  ],
+        [ 92.59, 100.  ,   0.  ,   0.  ],
+        [ 70.37,  88.89,  95.45,   0.  ],
+        [ 59.26,  77.78,  68.18, 100.  ]],
+
+       [[ 96.3 ,   0.  ,   0.  ,   0.  ],
+        [ 92.59, 100.  ,   0.  ,   0.  ],
+        [ 85.19, 100.  ,  95.45,   0.  ],
+        [ 37.04,  94.44,  54.55, 100.  ]]]), 'time_this_iter_s': 70.4331603050232, 'done': True, 'timesteps_total': None, 'episodes_total': None, 'training_iteration': 1, 'trial_id': '5a64b_00000', 'experiment_id': '23fb085a9abc4c809f1eea5472514340', 'date': '2024-05-10_09-27-55', 'timestamp': 1715304475, 'time_total_s': 70.4331603050232, 'pid': 1364483, 'hostname': 'rinc1080ti-PR4764GW', 'node_ip': '114.212.87.168', 'config': {'generic': {'lr': 0.001, 'lradj': 'TST', 'batch_size': 32, 'weight_decay': 0}, 'model': {'feature_dim': 128, 'n_layers': 4, 'dropout': 0}, 'agent': {}}, 'time_since_restore': 70.4331603050232, 'timesteps_since_restore': 0, 'iterations_since_restore': 1, 'warmup_time': 0.005242824554443359, 'experiment_tag': '0_lradj=TST'}
+namespace(data='uwave', encoder='CNN', agent='ER', norm='BN', scenario='class', runs=5, runs_val=3, seed=1234, verbose=True, path_prefix='/disk2/lihuajian/TSCIL/result/tune_and_exp', fix_order=False, reuse_best=False, tsne=True, tsne_g=False, cf_matrix=True, epochs=100, tune=False, ablation=False, teacher_eval=False, er_mode='task', buffer_tracker=False, early_stop=True, patience=20, input_norm='IN', mem_budget=0.05, head='Linear', criterion='CE', ncm_classifier=True, er_sub_type='balanced', device='cuda', exp_path='/disk2/lihuajian/TSCIL/result/tune_and_exp/CNN_uwave/ER_BN_May-10-09-17-20', run_id=3, stream_split='exp', feature_dim=128, n_layers=4, dropout=0, lr=0.001, lradj='TST', batch_size=32, weight_decay=0)
+Create exp stream : 4 tasks,  classes order [5, 0, 6, 7, 2, 4, 1, 3] 
+Input shape (L, D): (315, 3)
+Training set size: 722; Val set size: 84; Test set size: 3582
+[2m[36m(func pid=1364483)[0m -- Run_val 2 | 17.571671962738037 sec -- Test Acc: [ 66.67  66.67  50.   100.  ] -- 
+buffer has 40 slots
+ER mode: task, NCM classifier: True
+
+--> Task 0: 2 classes in total
+Epoch 1/100: Accuracy = 72.97297297297297, Loss = 0.5394061803817749
+Epoch 2/100: Accuracy = 87.56756756756758, Loss = 0.3549492359161377
+Epoch 3/100: Accuracy = 90.27027027027027, Loss = 0.2277931571006775
+Epoch 4/100: Accuracy = 95.67567567567568, Loss = 0.14959542453289032
+Epoch 5/100: Accuracy = 98.37837837837839, Loss = 0.09187708795070648
+Epoch 6/100: Accuracy = 97.83783783783784, Loss = 0.08306445181369781
+Epoch 7/100: Accuracy = 100.0, Loss = 0.03813071921467781
+Epoch 8/100: Accuracy = 98.91891891891892, Loss = 0.03879157453775406
+Epoch 9/100: Accuracy = 100.0, Loss = 0.012995511293411255
+Epoch 10/100: Accuracy = 100.0, Loss = 0.01071198657155037
+Epoch 11/100: Accuracy = 100.0, Loss = 0.0041831135749816895
+Epoch 12/100: Accuracy = 100.0, Loss = 0.003670729696750641
+Epoch 13/100: Accuracy = 100.0, Loss = 0.0028018192388117313
+Epoch 14/100: Accuracy = 100.0, Loss = 0.0017918775556609035
+Epoch 15/100: Accuracy = 100.0, Loss = 0.0022262651473283768
+Epoch 16/100: Accuracy = 100.0, Loss = 0.0022913238499313593
+Epoch 17/100: Accuracy = 98.91891891891892, Loss = 0.03784298151731491
+Epoch 18/100: Accuracy = 100.0, Loss = 0.016526099294424057
+Epoch 19/100: Accuracy = 100.0, Loss = 0.009513452649116516
+Epoch 20/100: Accuracy = 98.91891891891892, Loss = 0.0267105083912611
+Epoch 21/100: Accuracy = 97.83783783783784, Loss = 0.05263311415910721
+Epoch 22/100: Accuracy = 97.83783783783784, Loss = 0.06510836631059647
+Epoch 23/100: Accuracy = 98.37837837837839, Loss = 0.027729123830795288
+Epoch 24/100: Accuracy = 98.37837837837839, Loss = 0.045102111995220184
+Epoch 25/100: Accuracy = 98.37837837837839, Loss = 0.06439940631389618
+Epoch 26/100: Accuracy = 98.91891891891892, Loss = 0.03215402737259865
+Epoch 27/100: Accuracy = 98.37837837837839, Loss = 0.03164605051279068
+Epoch 28/100: Accuracy = 98.91891891891892, Loss = 0.020909707993268967
+Epoch 29/100: Accuracy = 100.0, Loss = 0.0077815609984099865
+Epoch 30/100: Accuracy = 100.0, Loss = 0.0009703097748570144
+Epoch 31/100: Accuracy = 100.0, Loss = 0.0024585919454693794
+Epoch 32/100: Accuracy = 100.0, Loss = 0.0010344157926738262
+Epoch 33/100: Accuracy = 100.0, Loss = 0.0016134571051225066
+Epoch 34/100: Accuracy = 99.45945945945947, Loss = 0.009628983214497566
+Epoch 35/100: Accuracy = 100.0, Loss = 0.002952480223029852
+Epoch 36/100: Accuracy = 99.45945945945947, Loss = 0.012198228389024734
+Epoch 37/100: Accuracy = 100.0, Loss = 0.001879481365904212
+Epoch 38/100: Accuracy = 100.0, Loss = 0.003202912863343954
+Epoch 39/100: Accuracy = 100.0, Loss = 0.0007795977871865034
+Epoch 40/100: Accuracy = 100.0, Loss = 0.002070594811812043
+Epoch 41/100: Accuracy = 100.0, Loss = 0.001625434379093349
+Epoch 42/100: Accuracy = 100.0, Loss = 0.00038878899067640305
+Epoch 43/100: Accuracy = 100.0, Loss = 0.0006348208407871425
+Epoch 44/100: Accuracy = 100.0, Loss = 0.0007515157340094447
+Epoch 45/100: Accuracy = 100.0, Loss = 0.0002190548402722925
+Epoch 46/100: Accuracy = 100.0, Loss = 0.00014955137157812715
+Epoch 47/100: Accuracy = 100.0, Loss = 0.00010907332762144506
+Epoch 48/100: Accuracy = 100.0, Loss = 0.002401065779849887
+Epoch 49/100: Accuracy = 100.0, Loss = 0.002119925571605563
+Epoch 50/100: Accuracy = 100.0, Loss = 0.000123784935567528
+Epoch 51/100: Accuracy = 100.0, Loss = 0.0012519435258582234
+Epoch 52/100: Accuracy = 100.0, Loss = 0.0002481874544173479
+Epoch 53/100: Accuracy = 100.0, Loss = 0.0001323471951764077
+Epoch 54/100: Accuracy = 100.0, Loss = 0.00039029738400131464
+Epoch 55/100: Accuracy = 100.0, Loss = 0.0004345488268882036
+Epoch 56/100: Accuracy = 100.0, Loss = 6.477456190623343e-05
+Epoch 57/100: Accuracy = 100.0, Loss = 7.060707139316946e-05
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 100.0, Test CE Loss == 0.022938506677746773 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 96.72686230248307, Test CE Loss == 0.11238684505224228 ;
+
+--> Task 1: 4 classes in total
+Epoch 1/100: Accuracy = 2.312138728323699, Loss = 3.088062047958374
+Epoch 2/100: Accuracy = 6.358381502890173, Loss = 2.5963809490203857
+Epoch 3/100: Accuracy = 16.184971098265898, Loss = 1.9358878135681152
+Epoch 4/100: Accuracy = 37.57225433526011, Loss = 1.4420855045318604
+Epoch 5/100: Accuracy = 64.73988439306359, Loss = 0.9282625913619995
+Epoch 6/100: Accuracy = 85.54913294797689, Loss = 0.5369088053703308
+Epoch 7/100: Accuracy = 97.10982658959537, Loss = 0.2795041799545288
+Epoch 8/100: Accuracy = 98.26589595375722, Loss = 0.2090965211391449
+Epoch 9/100: Accuracy = 100.0, Loss = 0.1056041568517685
+Epoch 10/100: Accuracy = 100.0, Loss = 0.05890452116727829
+Epoch 11/100: Accuracy = 100.0, Loss = 0.053079165518283844
+Epoch 12/100: Accuracy = 100.0, Loss = 0.02768661081790924
+Epoch 13/100: Accuracy = 100.0, Loss = 0.022452495992183685
+Epoch 14/100: Accuracy = 100.0, Loss = 0.017537642270326614
+Epoch 15/100: Accuracy = 100.0, Loss = 0.011342990212142467
+Epoch 16/100: Accuracy = 100.0, Loss = 0.008570553734898567
+Epoch 17/100: Accuracy = 100.0, Loss = 0.006435567047446966
+Epoch 18/100: Accuracy = 100.0, Loss = 0.00895269587635994
+Epoch 19/100: Accuracy = 100.0, Loss = 0.003496661316603422
+Epoch 20/100: Accuracy = 100.0, Loss = 0.007054232060909271
+Epoch 21/100: Accuracy = 100.0, Loss = 0.003696929197758436
+Epoch 22/100: Accuracy = 100.0, Loss = 0.004615722224116325
+Epoch 23/100: Accuracy = 100.0, Loss = 0.004874540492892265
+Epoch 24/100: Accuracy = 100.0, Loss = 0.0035212410148233175
+Epoch 25/100: Accuracy = 100.0, Loss = 0.002831496996805072
+Epoch 26/100: Accuracy = 100.0, Loss = 0.0024334655608981848
+Epoch 27/100: Accuracy = 100.0, Loss = 0.001564364181831479
+Epoch 28/100: Accuracy = 100.0, Loss = 0.0010857190936803818
+Epoch 29/100: Accuracy = 100.0, Loss = 0.0016236042138189077
+Epoch 30/100: Accuracy = 100.0, Loss = 0.0009955435525625944
+Epoch 31/100: Accuracy = 100.0, Loss = 0.0009369517210870981
+Epoch 32/100: Accuracy = 100.0, Loss = 0.0008296146988868713
+Epoch 33/100: Accuracy = 100.0, Loss = 0.0017054196214303374
+Epoch 34/100: Accuracy = 100.0, Loss = 0.0009392263600602746
+Epoch 35/100: Accuracy = 100.0, Loss = 0.0017996327951550484
+Epoch 36/100: Accuracy = 100.0, Loss = 0.002222491428256035
+Epoch 37/100: Accuracy = 100.0, Loss = 0.0014649895019829273
+Epoch 38/100: Accuracy = 100.0, Loss = 0.0017125345766544342
+Epoch 39/100: Accuracy = 100.0, Loss = 0.0014094732468947768
+Epoch 40/100: Accuracy = 100.0, Loss = 0.001185236731544137
+Epoch 41/100: Accuracy = 100.0, Loss = 0.00135642453096807
+Epoch 42/100: Accuracy = 100.0, Loss = 0.0006892544915899634
+Epoch 43/100: Accuracy = 100.0, Loss = 0.0008818997303023934
+Epoch 44/100: Accuracy = 100.0, Loss = 0.0003430780488997698
+Epoch 45/100: Accuracy = 100.0, Loss = 0.0004725923063233495
+Epoch 46/100: Accuracy = 100.0, Loss = 0.0004048701957799494
+Epoch 47/100: Accuracy = 100.0, Loss = 0.0003129629767499864
+Epoch 48/100: Accuracy = 100.0, Loss = 0.0004696500254794955
+Epoch 49/100: Accuracy = 100.0, Loss = 0.0003531387774273753
+Epoch 50/100: Accuracy = 100.0, Loss = 0.0003280158853158355
+Epoch 51/100: Accuracy = 100.0, Loss = 0.0003293388872407377
+Epoch 52/100: Accuracy = 100.0, Loss = 0.00037828367203474045
+Epoch 53/100: Accuracy = 100.0, Loss = 0.0002798126661218703
+Epoch 54/100: Accuracy = 100.0, Loss = 0.0009037012932822108
+Epoch 55/100: Accuracy = 100.0, Loss = 0.00030900270212441683
+Epoch 56/100: Accuracy = 100.0, Loss = 0.0003525834181345999
+Epoch 57/100: Accuracy = 100.0, Loss = 0.00031355893588624895
+Epoch 58/100: Accuracy = 100.0, Loss = 0.0003247067506890744
+Epoch 59/100: Accuracy = 100.0, Loss = 0.00023742990742903203
+Epoch 60/100: Accuracy = 100.0, Loss = 0.00029350197291933
+Epoch 61/100: Accuracy = 100.0, Loss = 0.00029231898952275515
+Epoch 62/100: Accuracy = 100.0, Loss = 0.0004006198141723871
+Epoch 63/100: Accuracy = 100.0, Loss = 0.00029266817728057504
+Epoch 64/100: Accuracy = 100.0, Loss = 0.001174780074506998
+Epoch 65/100: Accuracy = 100.0, Loss = 0.0010273130610585213
+Epoch 66/100: Accuracy = 100.0, Loss = 0.00043038532021455467
+Epoch 67/100: Accuracy = 100.0, Loss = 0.0002702247293200344
+Epoch 68/100: Accuracy = 100.0, Loss = 0.00023808469995856285
+Epoch 69/100: Accuracy = 100.0, Loss = 0.0008002768154256046
+Epoch 70/100: Accuracy = 100.0, Loss = 0.0004073989694006741
+Epoch 71/100: Accuracy = 100.0, Loss = 0.0002674973802641034
+Epoch 72/100: Accuracy = 100.0, Loss = 0.0002459624665789306
+Epoch 73/100: Accuracy = 100.0, Loss = 0.0002562881854828447
+Epoch 74/100: Accuracy = 100.0, Loss = 0.0002749659470282495
+Epoch 75/100: Accuracy = 100.0, Loss = 0.00016256902017630637
+Epoch 76/100: Accuracy = 100.0, Loss = 0.00018906038894783705
+Epoch 77/100: Accuracy = 100.0, Loss = 0.0004070005379617214
+Epoch 78/100: Accuracy = 100.0, Loss = 0.003464806592091918
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 80.95238095238095, Test CE Loss == 1.203584909439087 ;
+Task 1: Accuracy == 100.0, Test CE Loss == 0.0020336355082690716 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 87.58465011286681, Test CE Loss == 0.6713753938674927 ;
+Task 1: Accuracy == 99.88974641675854, Test CE Loss == 0.010583856143057346 ;
+
+--> Task 2: 6 classes in total
+Epoch 1/100: Accuracy = 2.1164021164021163, Loss = 4.350422382354736
+Epoch 2/100: Accuracy = 4.761904761904762, Loss = 3.1375672817230225
+Epoch 3/100: Accuracy = 23.28042328042328, Loss = 2.147076368331909
+Epoch 4/100: Accuracy = 50.264550264550266, Loss = 1.3673229217529297
+Epoch 5/100: Accuracy = 71.42857142857143, Loss = 0.8731623888015747
+Epoch 6/100: Accuracy = 88.35978835978835, Loss = 0.5631772875785828
+Epoch 7/100: Accuracy = 94.70899470899471, Loss = 0.38473328948020935
+Epoch 8/100: Accuracy = 95.76719576719577, Loss = 0.2525043487548828
+Epoch 9/100: Accuracy = 98.4126984126984, Loss = 0.15794098377227783
+Epoch 10/100: Accuracy = 100.0, Loss = 0.09905754029750824
+Epoch 11/100: Accuracy = 98.94179894179894, Loss = 0.09197109192609787
+Epoch 12/100: Accuracy = 99.47089947089947, Loss = 0.05181574821472168
+Epoch 13/100: Accuracy = 100.0, Loss = 0.03179693967103958
+Epoch 14/100: Accuracy = 100.0, Loss = 0.021818606182932854
+Epoch 15/100: Accuracy = 100.0, Loss = 0.02072741836309433
+Epoch 16/100: Accuracy = 100.0, Loss = 0.014907344244420528
+Epoch 17/100: Accuracy = 100.0, Loss = 0.00942603126168251
+Epoch 18/100: Accuracy = 98.4126984126984, Loss = 0.07045718282461166
+Epoch 19/100: Accuracy = 99.47089947089947, Loss = 0.015053316950798035
+Epoch 20/100: Accuracy = 100.0, Loss = 0.006538437679409981
+Epoch 21/100: Accuracy = 100.0, Loss = 0.0070421891286969185
+Epoch 22/100: Accuracy = 100.0, Loss = 0.004793298896402121
+Epoch 23/100: Accuracy = 100.0, Loss = 0.007002735044807196
+Epoch 24/100: Accuracy = 100.0, Loss = 0.007123407907783985
+Epoch 25/100: Accuracy = 98.94179894179894, Loss = 0.04070036858320236
+Epoch 26/100: Accuracy = 100.0, Loss = 0.004919543396681547
+Epoch 27/100: Accuracy = 100.0, Loss = 0.0036185148637741804
+Epoch 28/100: Accuracy = 100.0, Loss = 0.009266011416912079
+Epoch 29/100: Accuracy = 100.0, Loss = 0.0025854387786239386
+Epoch 30/100: Accuracy = 100.0, Loss = 0.01034667156636715
+Epoch 31/100: Accuracy = 100.0, Loss = 0.010583220981061459
+Epoch 32/100: Accuracy = 100.0, Loss = 0.011302847415208817
+Epoch 33/100: Accuracy = 100.0, Loss = 0.011629859916865826
+Epoch 34/100: Accuracy = 100.0, Loss = 0.005543207749724388
+Epoch 35/100: Accuracy = 100.0, Loss = 0.004687506705522537
+Epoch 36/100: Accuracy = 100.0, Loss = 0.0026482862886041403
+Epoch 37/100: Accuracy = 100.0, Loss = 0.001860129414126277
+Epoch 38/100: Accuracy = 100.0, Loss = 0.0011553685180842876
+Epoch 39/100: Accuracy = 100.0, Loss = 0.005010500084608793
+Epoch 40/100: Accuracy = 99.47089947089947, Loss = 0.023341216146945953
+Epoch 41/100: Accuracy = 99.47089947089947, Loss = 0.018354149535298347
+Epoch 42/100: Accuracy = 99.47089947089947, Loss = 0.014920021407306194
+Epoch 43/100: Accuracy = 100.0, Loss = 0.009081261232495308
+Epoch 44/100: Accuracy = 100.0, Loss = 0.008895095437765121
+Epoch 45/100: Accuracy = 100.0, Loss = 0.0063864546827971935
+Epoch 46/100: Accuracy = 100.0, Loss = 0.0017407978884875774
+Epoch 47/100: Accuracy = 100.0, Loss = 0.00209184642881155
+Epoch 48/100: Accuracy = 100.0, Loss = 0.0006857904372736812
+Epoch 49/100: Accuracy = 100.0, Loss = 0.0009819429833441973
+Epoch 50/100: Accuracy = 100.0, Loss = 0.00123292813077569
+Epoch 51/100: Accuracy = 100.0, Loss = 0.00046704511623829603
+Epoch 52/100: Accuracy = 100.0, Loss = 0.0008034065249375999
+Epoch 53/100: Accuracy = 100.0, Loss = 0.0003910998348146677
+Epoch 54/100: Accuracy = 100.0, Loss = 0.0006620412459596992
+Epoch 55/100: Accuracy = 100.0, Loss = 0.0002374315372435376
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 47.61904761904761, Test CE Loss == 1.9436280727386475 ;
+Task 1: Accuracy == 100.0, Test CE Loss == 0.13668131828308105 ;
+Task 2: Accuracy == 100.0, Test CE Loss == 0.0019950014539062977 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 55.30474040632054, Test CE Loss == 2.118297576904297 ;
+Task 1: Accuracy == 98.0154355016538, Test CE Loss == 0.11046164482831955 ;
+Task 2: Accuracy == 95.49041713641489, Test CE Loss == 0.08935192972421646 ;
+
+--> Task 3: 8 classes in total
+Epoch 1/100: Accuracy = 0.0, Loss = 5.069674491882324
+Epoch 2/100: Accuracy = 0.0, Loss = 3.988166332244873
+Epoch 3/100: Accuracy = 1.7142857142857144, Loss = 3.2119555473327637
+Epoch 4/100: Accuracy = 12.0, Loss = 2.4999914169311523
+Epoch 5/100: Accuracy = 32.0, Loss = 1.7412424087524414
+Epoch 6/100: Accuracy = 60.57142857142858, Loss = 1.1358416080474854
+Epoch 7/100: Accuracy = 80.57142857142857, Loss = 0.6971461772918701
+Epoch 8/100: Accuracy = 93.71428571428572, Loss = 0.5290510058403015
+Epoch 9/100: Accuracy = 98.85714285714286, Loss = 0.22937968373298645
+Epoch 10/100: Accuracy = 98.28571428571429, Loss = 0.1590110957622528
+Epoch 11/100: Accuracy = 99.42857142857143, Loss = 0.07863772660493851
+Epoch 12/100: Accuracy = 100.0, Loss = 0.04920167475938797
+Epoch 13/100: Accuracy = 100.0, Loss = 0.02710237167775631
+Epoch 14/100: Accuracy = 100.0, Loss = 0.017226949334144592
+Epoch 15/100: Accuracy = 100.0, Loss = 0.012872524559497833
+Epoch 16/100: Accuracy = 100.0, Loss = 0.011375216767191887
+Epoch 17/100: Accuracy = 100.0, Loss = 0.009866523556411266
+Epoch 18/100: Accuracy = 100.0, Loss = 0.00906703807413578
+Epoch 19/100: Accuracy = 100.0, Loss = 0.0038772316183894873
+Epoch 20/100: Accuracy = 100.0, Loss = 0.0042143939062952995
+Epoch 21/100: Accuracy = 100.0, Loss = 0.0030000905971974134
+Epoch 22/100: Accuracy = 100.0, Loss = 0.007296465337276459
+Epoch 23/100: Accuracy = 100.0, Loss = 0.0061551108956336975
+Epoch 24/100: Accuracy = 100.0, Loss = 0.0034129414707422256
+Epoch 25/100: Accuracy = 100.0, Loss = 0.0026993858627974987
+Epoch 26/100: Accuracy = 100.0, Loss = 0.0019894917495548725
+Epoch 27/100: Accuracy = 100.0, Loss = 0.002111956477165222
+Epoch 28/100: Accuracy = 100.0, Loss = 0.0014432973694056273
+Epoch 29/100: Accuracy = 100.0, Loss = 0.0033868427854031324
+Epoch 30/100: Accuracy = 100.0, Loss = 0.0013429699465632439
+Epoch 31/100: Accuracy = 100.0, Loss = 0.002057685749605298
+Epoch 32/100: Accuracy = 100.0, Loss = 0.0010840077884495258
+Epoch 33/100: Accuracy = 100.0, Loss = 0.0010444861836731434
+Epoch 34/100: Accuracy = 100.0, Loss = 0.0007464258815161884
+Epoch 35/100: Accuracy = 100.0, Loss = 0.0005397889763116837
+Epoch 36/100: Accuracy = 100.0, Loss = 0.0009920733282342553
+Epoch 37/100: Accuracy = 100.0, Loss = 0.0006518115988001227
+Epoch 38/100: Accuracy = 100.0, Loss = 0.0007514035096392035
+Epoch 39/100: Accuracy = 100.0, Loss = 0.0005258192541077733
+Epoch 40/100: Accuracy = 100.0, Loss = 0.000467115081846714
+Epoch 41/100: Accuracy = 100.0, Loss = 0.0004962829989381135
+Epoch 42/100: Accuracy = 100.0, Loss = 0.0008372914744541049
+Epoch 43/100: Accuracy = 100.0, Loss = 0.0013412239495664835
+Epoch 44/100: Accuracy = 100.0, Loss = 0.0008273492567241192
+Epoch 45/100: Accuracy = 100.0, Loss = 0.0013516013277694583
+Epoch 46/100: Accuracy = 100.0, Loss = 0.0007488684495911002
+Epoch 47/100: Accuracy = 100.0, Loss = 0.0005597069975920022
+Epoch 48/100: Accuracy = 100.0, Loss = 0.0004594603960867971
+Epoch 49/100: Accuracy = 100.0, Loss = 0.0003701504319906235
+Epoch 50/100: Accuracy = 100.0, Loss = 0.00040082214400172234
+Epoch 51/100: Accuracy = 100.0, Loss = 0.0003141943598166108
+Epoch 52/100: Accuracy = 100.0, Loss = 0.0007145602139644325
+Epoch 53/100: Accuracy = 100.0, Loss = 0.00026244111359119415
+Epoch 54/100: Accuracy = 100.0, Loss = 0.0002846802235580981
+Epoch 55/100: Accuracy = 100.0, Loss = 0.00024911947548389435
+Epoch 56/100: Accuracy = 100.0, Loss = 0.0003675762563943863
+Epoch 57/100: Accuracy = 100.0, Loss = 0.0005086944438517094
+Epoch 58/100: Accuracy = 100.0, Loss = 0.0003970448742620647
+Epoch 59/100: Accuracy = 100.0, Loss = 0.00031863959156908095
+Epoch 60/100: Accuracy = 100.0, Loss = 0.0002496063243597746
+Epoch 61/100: Accuracy = 100.0, Loss = 0.0007184941787272692
+Epoch 62/100: Accuracy = 100.0, Loss = 0.00042767211562022567
+Epoch 63/100: Accuracy = 100.0, Loss = 0.00038854015292599797
+Epoch 64/100: Accuracy = 100.0, Loss = 0.0003621470823418349
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 42.857142857142854, Test CE Loss == 1.9841864109039307 ;
+Task 1: Accuracy == 100.0, Test CE Loss == 0.17813295125961304 ;
+Task 2: Accuracy == 63.63636363636363, Test CE Loss == 0.8928060531616211 ;
+Task 3: Accuracy == 95.0, Test CE Loss == 0.011078931391239166 ;
+Accuracy matrix of all tasks:
+[[100.     0.     0.     0.  ]
+ [ 80.95 100.     0.     0.  ]
+ [ 47.62 100.   100.     0.  ]
+ [ 42.86 100.    63.64  95.  ]]
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 48.98419864559819, Test CE Loss == 1.9012060165405273 ;
+Task 1: Accuracy == 94.70782800441015, Test CE Loss == 0.16718119382858276 ;
+Task 2: Accuracy == 59.41375422773394, Test CE Loss == 1.268823266029358 ;
+Task 3: Accuracy == 99.55654101995566, Test CE Loss == 0.021573305130004883 ;
+Accuracy matrix of all tasks:
+[[96.73  0.    0.    0.  ]
+ [87.58 99.89  0.    0.  ]
+ [55.3  98.02 95.49  0.  ]
+ [48.98 94.71 59.41 99.56]]
+
+ Finish Run 3: total 182.50824999809265 sec
+
+ ######## Run 4, cls_order :[1, 0, 3, 7, 2, 5, 6, 4] ########
+== Status ==
+Current time: 2024-05-10 09:29:43 (running for 00:00:00.05)
+Memory usage on this node: 8.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:29:48 (running for 00:00:05.06)
+Memory usage on this node: 10.0/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1365802)[0m buffer has 40 slots
+[2m[36m(func pid=1365802)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1365802)[0m Create val stream : 4 tasks,  classes order [1, 0, 3, 7, 2, 5, 6, 4] 
+[2m[36m(func pid=1365802)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1365802)[0m Training set size: 722; Val set size: 84; Test set size: 90
+[2m[36m(func pid=1365800)[0m buffer has 40 slots
+[2m[36m(func pid=1365800)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1365800)[0m Create val stream : 4 tasks,  classes order [1, 0, 3, 7, 2, 5, 6, 4] 
+[2m[36m(func pid=1365800)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1365800)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:29:53 (running for 00:00:10.07)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:29:58 (running for 00:00:15.07)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:30:03 (running for 00:00:20.07)
+Memory usage on this node: 12.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:30:08 (running for 00:00:25.08)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1365800)[0m -- Run_val 0 | 24.21899652481079 sec -- Test Acc: [ 53.85  72.22  13.04 100.  ] -- 
+[2m[36m(func pid=1365800)[0m buffer has 40 slots
+[2m[36m(func pid=1365800)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1365800)[0m Create val stream : 4 tasks,  classes order [1, 0, 3, 7, 2, 5, 6, 4] 
+[2m[36m(func pid=1365800)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1365800)[0m Training set size: 722; Val set size: 84; Test set size: 90
+[2m[36m(func pid=1365802)[0m -- Run_val 0 | 25.153746128082275 sec -- Test Acc: [ 80.77  66.67  52.17 100.  ] -- 
+[2m[36m(func pid=1365802)[0m buffer has 40 slots
+[2m[36m(func pid=1365802)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1365802)[0m Create val stream : 4 tasks,  classes order [1, 0, 3, 7, 2, 5, 6, 4] 
+[2m[36m(func pid=1365802)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1365802)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:30:13 (running for 00:00:30.08)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:30:18 (running for 00:00:35.08)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:30:23 (running for 00:00:40.09)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:30:28 (running for 00:00:45.09)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1365802)[0m -- Run_val 1 | 18.73368811607361 sec -- Test Acc: [ 73.08  72.22  56.52 100.  ] -- 
+[2m[36m(func pid=1365802)[0m buffer has 40 slots
+[2m[36m(func pid=1365802)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1365802)[0m Create val stream : 4 tasks,  classes order [1, 0, 3, 7, 2, 5, 6, 4] 
+[2m[36m(func pid=1365802)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1365802)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:30:33 (running for 00:00:50.09)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:30:38 (running for 00:00:55.10)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1365800)[0m -- Run_val 1 | 26.69883155822754 sec -- Test Acc: [ 76.92  55.56  47.83 100.  ] -- 
+[2m[36m(func pid=1365800)[0m buffer has 40 slots
+[2m[36m(func pid=1365800)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1365800)[0m Create val stream : 4 tasks,  classes order [1, 0, 3, 7, 2, 5, 6, 4] 
+[2m[36m(func pid=1365800)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1365800)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:30:43 (running for 00:01:00.10)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:30:48 (running for 00:01:05.10)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:30:53 (running for 00:01:10.11)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+== Status ==
+Current time: 2024-05-10 09:30:58 (running for 00:01:15.11)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 2 RUNNING)
+
+
+[2m[36m(func pid=1365800)[0m -- Run_val 2 | 20.754934072494507 sec -- Test Acc: [ 65.38  66.67  43.48 100.  ] -- 
+[2m[36m(func pid=1365800)[0m buffer has 40 slots
+[2m[36m(func pid=1365800)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1365800)[0m Create val stream : 4 tasks,  classes order [1, 0, 3, 7, 2, 5, 6, 4] 
+[2m[36m(func pid=1365800)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1365800)[0m Training set size: 722; Val set size: 84; Test set size: 90
+[2m[36m(func pid=1365802)[0m -- Run_val 2 | 32.603835582733154 sec -- Test Acc: [ 88.46  66.67  21.74 100.  ] -- 
+== Status ==
+Current time: 2024-05-10 09:31:04 (running for 00:01:20.70)
+Memory usage on this node: 12.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 8.0/32 CPUs, 2.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (2 RUNNING, 1 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:31:09 (running for 00:01:25.71)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+[2m[36m(func pid=1365800)[0m -- Run_val 0 | 10.954922676086426 sec -- Test Acc: [ 73.08  66.67  43.48 100.  ] -- 
+[2m[36m(func pid=1365800)[0m buffer has 40 slots
+[2m[36m(func pid=1365800)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1365800)[0m Create val stream : 4 tasks,  classes order [1, 0, 3, 7, 2, 5, 6, 4] 
+[2m[36m(func pid=1365800)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1365800)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:31:14 (running for 00:01:30.72)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:31:19 (running for 00:01:35.72)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:31:24 (running for 00:01:40.72)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:31:29 (running for 00:01:45.72)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+[2m[36m(func pid=1365800)[0m -- Run_val 1 | 23.090681076049805 sec -- Test Acc: [ 80.77  77.78  56.52 100.  ] -- 
+[2m[36m(func pid=1365800)[0m buffer has 40 slots
+[2m[36m(func pid=1365800)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=1365800)[0m Create val stream : 4 tasks,  classes order [1, 0, 3, 7, 2, 5, 6, 4] 
+[2m[36m(func pid=1365800)[0m Input shape (L, D): (315, 3)
+[2m[36m(func pid=1365800)[0m Training set size: 722; Val set size: 84; Test set size: 90
+== Status ==
+Current time: 2024-05-10 09:31:34 (running for 00:01:50.73)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:31:39 (running for 00:01:55.73)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:31:44 (running for 00:02:00.74)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
+
+
+== Status ==
+Current time: 2024-05-10 09:31:47 (running for 00:02:04.25)
+Memory usage on this node: 10.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 0/32 CPUs, 0/2 GPUs, 0.0/63.85 GiB heap, 0.0/31.36 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/uwave/CNN_BN_ER
+Number of trials: 3/3 (3 TERMINATED)
+
+
+Best trial config: {'generic': {'lr': 0.001, 'lradj': 'step10', 'batch_size': 32, 'weight_decay': 0}, 'model': {'feature_dim': 128, 'n_layers': 4, 'dropout': 0}, 'agent': {}}
+Best trial metrics: {'end_avg_acc': 73.19166666666668, 'end_avg_fgt': 29.464444444444442, 'avg_cur_acc': 95.29, 'Acc_across_runs': array([[[100.  ,   0.  ,   0.  ,   0.  ],
+        [ 88.46, 100.  ,   0.  ,   0.  ],
+        [ 92.31,  88.89,  86.96,   0.  ],
+        [ 80.77,  66.67,  52.17, 100.  ]],
+
+       [[100.  ,   0.  ,   0.  ,   0.  ],
+        [ 92.31, 100.  ,   0.  ,   0.  ],
+        [ 84.62,  94.44,  73.91,   0.  ],
+        [ 73.08,  72.22,  56.52, 100.  ]],
+
+       [[100.  ,   0.  ,   0.  ,   0.  ],
+        [ 96.15, 100.  ,   0.  ,   0.  ],
+        [ 88.46,  94.44,  82.61,   0.  ],
+        [ 88.46,  66.67,  21.74, 100.  ]]]), 'time_this_iter_s': 76.51062512397766, 'done': True, 'timesteps_total': None, 'episodes_total': None, 'training_iteration': 1, 'trial_id': 'c7340_00001', 'experiment_id': '06b7e9ff23be4338968c9da7d39def39', 'date': '2024-05-10_09-31-03', 'timestamp': 1715304663, 'time_total_s': 76.51062512397766, 'pid': 1365802, 'hostname': 'rinc1080ti-PR4764GW', 'node_ip': '114.212.87.168', 'config': {'generic': {'lr': 0.001, 'lradj': 'step10', 'batch_size': 32, 'weight_decay': 0}, 'model': {'feature_dim': 128, 'n_layers': 4, 'dropout': 0}, 'agent': {}}, 'time_since_restore': 76.51062512397766, 'timesteps_since_restore': 0, 'iterations_since_restore': 1, 'warmup_time': 0.004507780075073242, 'experiment_tag': '1_lradj=step10'}
+namespace(data='uwave', encoder='CNN', agent='ER', norm='BN', scenario='class', runs=5, runs_val=3, seed=1234, verbose=True, path_prefix='/disk2/lihuajian/TSCIL/result/tune_and_exp', fix_order=False, reuse_best=False, tsne=True, tsne_g=False, cf_matrix=True, epochs=100, tune=False, ablation=False, teacher_eval=False, er_mode='task', buffer_tracker=False, early_stop=True, patience=20, input_norm='IN', mem_budget=0.05, head='Linear', criterion='CE', ncm_classifier=True, er_sub_type='balanced', device='cuda', exp_path='/disk2/lihuajian/TSCIL/result/tune_and_exp/CNN_uwave/ER_BN_May-10-09-17-20', run_id=4, stream_split='exp', feature_dim=128, n_layers=4, dropout=0, lr=0.001, lradj='step10', batch_size=32, weight_decay=0)
+Create exp stream : 4 tasks,  classes order [1, 0, 3, 7, 2, 5, 6, 4] 
+Input shape (L, D): (315, 3)
+[2m[36m(func pid=1365800)[0m -- Run_val 2 | 14.283822059631348 sec -- Test Acc: [ 73.08  72.22  17.39 100.  ] -- 
+Training set size: 722; Val set size: 84; Test set size: 3582
+buffer has 40 slots
+ER mode: task, NCM classifier: True
+
+--> Task 0: 2 classes in total
+Epoch 1/100: Accuracy = 81.9672131147541, Loss = 0.4165341556072235
+Epoch 2/100: Accuracy = 95.62841530054644, Loss = 0.13742674887180328
+Epoch 3/100: Accuracy = 99.4535519125683, Loss = 0.022673916071653366
+Epoch 4/100: Accuracy = 100.0, Loss = 0.01083873026072979
+Epoch 5/100: Accuracy = 100.0, Loss = 0.0048840707167983055
+Epoch 6/100: Accuracy = 99.4535519125683, Loss = 0.006820462644100189
+Epoch 7/100: Accuracy = 100.0, Loss = 0.0013514187885448337
+Epoch 8/100: Accuracy = 100.0, Loss = 0.0027673058211803436
+Epoch 9/100: Accuracy = 100.0, Loss = 0.0012374058132991195
+Epoch 10/100: Accuracy = 100.0, Loss = 0.00032839897903613746
+Epoch 11/100: Accuracy = 100.0, Loss = 0.00020548154134303331
+Epoch 12/100: Accuracy = 100.0, Loss = 0.002769698156043887
+Epoch 13/100: Accuracy = 100.0, Loss = 0.0007761220913380384
+Epoch 14/100: Accuracy = 100.0, Loss = 0.0010415075812488794
+Epoch 15/100: Accuracy = 100.0, Loss = 0.00021765251585748047
+Epoch 16/100: Accuracy = 100.0, Loss = 0.0011214630212634802
+Epoch 17/100: Accuracy = 100.0, Loss = 0.0005359448259696364
+Epoch 18/100: Accuracy = 100.0, Loss = 0.0003064412740059197
+Epoch 19/100: Accuracy = 100.0, Loss = 0.00047984987031668425
+Epoch 20/100: Accuracy = 100.0, Loss = 0.0001575330679770559
+Epoch 21/100: Accuracy = 100.0, Loss = 0.00023306556977331638
+Epoch 22/100: Accuracy = 100.0, Loss = 0.00023201594012789428
+Epoch 23/100: Accuracy = 100.0, Loss = 0.0011516616214066744
+Epoch 24/100: Accuracy = 100.0, Loss = 0.0005412662285380065
+Epoch 25/100: Accuracy = 100.0, Loss = 0.00032013881718739867
+Epoch 26/100: Accuracy = 100.0, Loss = 0.00013462378410622478
+Epoch 27/100: Accuracy = 100.0, Loss = 0.00018300639931112528
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 100.0, Test CE Loss == 0.011768873780965805 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 98.4251968503937, Test CE Loss == 0.056808821856975555 ;
+
+--> Task 1: 4 classes in total
+Epoch 1/100: Accuracy = 11.046511627906977, Loss = 2.7162528038024902
+Epoch 2/100: Accuracy = 38.95348837209303, Loss = 1.7401292324066162
+Epoch 3/100: Accuracy = 84.30232558139535, Loss = 0.8745853304862976
+Epoch 4/100: Accuracy = 95.34883720930233, Loss = 0.414715051651001
+Epoch 5/100: Accuracy = 98.25581395348837, Loss = 0.22049367427825928
+Epoch 6/100: Accuracy = 96.51162790697676, Loss = 0.1943877637386322
+Epoch 7/100: Accuracy = 98.25581395348837, Loss = 0.1247430294752121
+Epoch 8/100: Accuracy = 100.0, Loss = 0.060374196618795395
+Epoch 9/100: Accuracy = 100.0, Loss = 0.03903795778751373
+Epoch 10/100: Accuracy = 98.83720930232558, Loss = 0.047280654311180115
+Epoch 11/100: Accuracy = 100.0, Loss = 0.018110450357198715
+Epoch 12/100: Accuracy = 99.4186046511628, Loss = 0.03677691891789436
+Epoch 13/100: Accuracy = 100.0, Loss = 0.019337642937898636
+Epoch 14/100: Accuracy = 99.4186046511628, Loss = 0.024332866072654724
+Epoch 15/100: Accuracy = 100.0, Loss = 0.03301094472408295
+Epoch 16/100: Accuracy = 100.0, Loss = 0.02249293401837349
+Epoch 17/100: Accuracy = 100.0, Loss = 0.017598195001482964
+Epoch 18/100: Accuracy = 100.0, Loss = 0.014829284511506557
+Epoch 19/100: Accuracy = 99.4186046511628, Loss = 0.026111077517271042
+Epoch 20/100: Accuracy = 100.0, Loss = 0.012272591702640057
+Epoch 21/100: Accuracy = 100.0, Loss = 0.011511209420859814
+Epoch 22/100: Accuracy = 100.0, Loss = 0.019096743315458298
+Epoch 23/100: Accuracy = 100.0, Loss = 0.015572126023471355
+Epoch 24/100: Accuracy = 100.0, Loss = 0.01802842691540718
+Epoch 25/100: Accuracy = 100.0, Loss = 0.013643808662891388
+Epoch 26/100: Accuracy = 100.0, Loss = 0.015664804726839066
+Epoch 27/100: Accuracy = 100.0, Loss = 0.010648096911609173
+Epoch 28/100: Accuracy = 100.0, Loss = 0.010617626830935478
+Epoch 29/100: Accuracy = 99.4186046511628, Loss = 0.018954291939735413
+Epoch 30/100: Accuracy = 100.0, Loss = 0.017711997032165527
+Epoch 31/100: Accuracy = 100.0, Loss = 0.012041859328746796
+Epoch 32/100: Accuracy = 100.0, Loss = 0.008573315106332302
+Epoch 33/100: Accuracy = 100.0, Loss = 0.01679641753435135
+Epoch 34/100: Accuracy = 100.0, Loss = 0.012785648927092552
+Epoch 35/100: Accuracy = 100.0, Loss = 0.007263995241373777
+Epoch 36/100: Accuracy = 100.0, Loss = 0.007593445014208555
+Epoch 37/100: Accuracy = 100.0, Loss = 0.006625776644796133
+Epoch 38/100: Accuracy = 100.0, Loss = 0.013962123543024063
+Epoch 39/100: Accuracy = 100.0, Loss = 0.006670945789664984
+Epoch 40/100: Accuracy = 100.0, Loss = 0.007974348962306976
+Epoch 41/100: Accuracy = 100.0, Loss = 0.004799964837729931
+Epoch 42/100: Accuracy = 100.0, Loss = 0.007351891603320837
+Epoch 43/100: Accuracy = 100.0, Loss = 0.005769200623035431
+Epoch 44/100: Accuracy = 100.0, Loss = 0.01171395555138588
+Epoch 45/100: Accuracy = 100.0, Loss = 0.015446431934833527
+Epoch 46/100: Accuracy = 100.0, Loss = 0.005499777849763632
+Epoch 47/100: Accuracy = 100.0, Loss = 0.0061356364749372005
+Epoch 48/100: Accuracy = 100.0, Loss = 0.008400222286581993
+Epoch 49/100: Accuracy = 100.0, Loss = 0.004416851792484522
+Epoch 50/100: Accuracy = 100.0, Loss = 0.0038026226684451103
+Epoch 51/100: Accuracy = 100.0, Loss = 0.006739703938364983
+Epoch 52/100: Accuracy = 100.0, Loss = 0.010556679219007492
+Epoch 53/100: Accuracy = 100.0, Loss = 0.01974361203610897
+Epoch 54/100: Accuracy = 100.0, Loss = 0.008960435166954994
+Epoch 55/100: Accuracy = 100.0, Loss = 0.006144482642412186
+Epoch 56/100: Accuracy = 100.0, Loss = 0.003924539312720299
+Epoch 57/100: Accuracy = 100.0, Loss = 0.003345121629536152
+Epoch 58/100: Accuracy = 100.0, Loss = 0.003953157924115658
+Epoch 59/100: Accuracy = 100.0, Loss = 0.004568059463053942
+Epoch 60/100: Accuracy = 100.0, Loss = 0.00323975901119411
+Epoch 61/100: Accuracy = 100.0, Loss = 0.004360150080174208
+Epoch 62/100: Accuracy = 100.0, Loss = 0.00315974373370409
+Epoch 63/100: Accuracy = 100.0, Loss = 0.0037230688612908125
+Epoch 64/100: Accuracy = 100.0, Loss = 0.003616866422817111
+Epoch 65/100: Accuracy = 100.0, Loss = 0.004038188140839338
+Epoch 66/100: Accuracy = 100.0, Loss = 0.0029391241259872913
+Epoch 67/100: Accuracy = 100.0, Loss = 0.006524606607854366
+Epoch 68/100: Accuracy = 100.0, Loss = 0.013115081004798412
+Epoch 69/100: Accuracy = 100.0, Loss = 0.003449477953836322
+Epoch 70/100: Accuracy = 100.0, Loss = 0.003186339046806097
+Epoch 71/100: Accuracy = 100.0, Loss = 0.0023643362801522017
+Epoch 72/100: Accuracy = 100.0, Loss = 0.0024968336801975965
+Epoch 73/100: Accuracy = 100.0, Loss = 0.0031774952076375484
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 90.47619047619048, Test CE Loss == 0.3450571596622467 ;
+Task 1: Accuracy == 95.0, Test CE Loss == 0.03566508740186691 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 88.75140607424072, Test CE Loss == 0.38502874970436096 ;
+Task 1: Accuracy == 98.24175824175823, Test CE Loss == 0.04262780025601387 ;
+
+--> Task 2: 6 classes in total
+Epoch 1/100: Accuracy = 0.5747126436781609, Loss = 4.029973030090332
+Epoch 2/100: Accuracy = 18.39080459770115, Loss = 2.5955662727355957
+Epoch 3/100: Accuracy = 77.01149425287356, Loss = 1.1082760095596313
+Epoch 4/100: Accuracy = 85.63218390804597, Loss = 0.7169203758239746
+Epoch 5/100: Accuracy = 89.08045977011494, Loss = 0.5360677242279053
+Epoch 6/100: Accuracy = 91.95402298850574, Loss = 0.3994036614894867
+Epoch 7/100: Accuracy = 94.82758620689656, Loss = 0.30188629031181335
+Epoch 8/100: Accuracy = 97.12643678160919, Loss = 0.20543347299098969
+Epoch 9/100: Accuracy = 97.70114942528735, Loss = 0.1383894681930542
+Epoch 10/100: Accuracy = 98.85057471264368, Loss = 0.07627194374799728
+Epoch 11/100: Accuracy = 98.27586206896551, Loss = 0.07519540935754776
+Epoch 12/100: Accuracy = 99.42528735632183, Loss = 0.06567573547363281
+Epoch 13/100: Accuracy = 99.42528735632183, Loss = 0.0762561708688736
+Epoch 14/100: Accuracy = 100.0, Loss = 0.04448390752077103
+Epoch 15/100: Accuracy = 99.42528735632183, Loss = 0.07126937806606293
+Epoch 16/100: Accuracy = 100.0, Loss = 0.03308877348899841
+Epoch 17/100: Accuracy = 100.0, Loss = 0.03666611760854721
+Epoch 18/100: Accuracy = 100.0, Loss = 0.03416920825839043
+Epoch 19/100: Accuracy = 99.42528735632183, Loss = 0.0528404638171196
+Epoch 20/100: Accuracy = 100.0, Loss = 0.0337178111076355
+Epoch 21/100: Accuracy = 100.0, Loss = 0.04277407377958298
+Epoch 22/100: Accuracy = 100.0, Loss = 0.022744452580809593
+Epoch 23/100: Accuracy = 99.42528735632183, Loss = 0.04240652918815613
+Epoch 24/100: Accuracy = 100.0, Loss = 0.04195929318666458
+Epoch 25/100: Accuracy = 100.0, Loss = 0.02258014678955078
+Epoch 26/100: Accuracy = 100.0, Loss = 0.021226612851023674
+Epoch 27/100: Accuracy = 100.0, Loss = 0.023118427023291588
+Epoch 28/100: Accuracy = 100.0, Loss = 0.027697701007127762
+Epoch 29/100: Accuracy = 99.42528735632183, Loss = 0.03332936391234398
+Epoch 30/100: Accuracy = 100.0, Loss = 0.01821463368833065
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 90.47619047619048, Test CE Loss == 0.6617197394371033 ;
+Task 1: Accuracy == 95.0, Test CE Loss == 0.2418978214263916 ;
+Task 2: Accuracy == 90.0, Test CE Loss == 0.25519490242004395 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 86.38920134983127, Test CE Loss == 0.6924822330474854 ;
+Task 1: Accuracy == 96.26373626373626, Test CE Loss == 0.2729579210281372 ;
+Task 2: Accuracy == 89.25802879291251, Test CE Loss == 0.16952118277549744 ;
+
+--> Task 3: 8 classes in total
+Epoch 1/100: Accuracy = 0.5181347150259068, Loss = 3.748889207839966
+Epoch 2/100: Accuracy = 18.65284974093264, Loss = 2.519489288330078
+Epoch 3/100: Accuracy = 80.31088082901555, Loss = 1.3129795789718628
+Epoch 4/100: Accuracy = 94.81865284974094, Loss = 0.8245570659637451
+Epoch 5/100: Accuracy = 96.89119170984456, Loss = 0.6197153329849243
+Epoch 6/100: Accuracy = 98.96373056994818, Loss = 0.39890754222869873
+Epoch 7/100: Accuracy = 98.44559585492227, Loss = 0.35767099261283875
+Epoch 8/100: Accuracy = 97.92746113989638, Loss = 0.332634299993515
+Epoch 9/100: Accuracy = 100.0, Loss = 0.2370573878288269
+Epoch 10/100: Accuracy = 99.48186528497409, Loss = 0.19519013166427612
+Epoch 11/100: Accuracy = 100.0, Loss = 0.1506771743297577
+Epoch 12/100: Accuracy = 100.0, Loss = 0.15899580717086792
+Epoch 13/100: Accuracy = 100.0, Loss = 0.16257324814796448
+Epoch 14/100: Accuracy = 100.0, Loss = 0.15074853599071503
+Epoch 15/100: Accuracy = 99.48186528497409, Loss = 0.21593225002288818
+Epoch 16/100: Accuracy = 99.48186528497409, Loss = 0.1846105307340622
+Epoch 17/100: Accuracy = 99.48186528497409, Loss = 0.1412423700094223
+Epoch 18/100: Accuracy = 100.0, Loss = 0.18113496899604797
+Epoch 19/100: Accuracy = 100.0, Loss = 0.15499792993068695
+Epoch 20/100: Accuracy = 100.0, Loss = 0.13312280178070068
+Epoch 21/100: Accuracy = 100.0, Loss = 0.12147251516580582
+Epoch 22/100: Accuracy = 100.0, Loss = 0.1669771373271942
+Epoch 23/100: Accuracy = 100.0, Loss = 0.12782073020935059
+Epoch 24/100: Accuracy = 100.0, Loss = 0.13634327054023743
+Epoch 25/100: Accuracy = 100.0, Loss = 0.1509503424167633
+Epoch 26/100: Accuracy = 100.0, Loss = 0.13835875689983368
+Epoch 27/100: Accuracy = 100.0, Loss = 0.09174712002277374
+Epoch 28/100: Accuracy = 100.0, Loss = 0.13676010072231293
+Epoch 29/100: Accuracy = 100.0, Loss = 0.14340102672576904
+Epoch 30/100: Accuracy = 99.48186528497409, Loss = 0.17288939654827118
+Epoch 31/100: Accuracy = 99.48186528497409, Loss = 0.20294517278671265
+Epoch 32/100: Accuracy = 100.0, Loss = 0.104963518679142
+Epoch 33/100: Accuracy = 100.0, Loss = 0.12458491325378418
+Epoch 34/100: Accuracy = 99.48186528497409, Loss = 0.15393954515457153
+Epoch 35/100: Accuracy = 100.0, Loss = 0.09520092606544495
+Epoch 36/100: Accuracy = 99.48186528497409, Loss = 0.1390228271484375
+Epoch 37/100: Accuracy = 100.0, Loss = 0.16596876084804535
+Epoch 38/100: Accuracy = 100.0, Loss = 0.08620191365480423
+Epoch 39/100: Accuracy = 100.0, Loss = 0.13970910012722015
+Epoch 40/100: Accuracy = 100.0, Loss = 0.1482096016407013
+Epoch 41/100: Accuracy = 100.0, Loss = 0.08298082649707794
+Epoch 42/100: Accuracy = 100.0, Loss = 0.13976076245307922
+Epoch 43/100: Accuracy = 100.0, Loss = 0.10185027867555618
+Epoch 44/100: Accuracy = 100.0, Loss = 0.07511069625616074
+Epoch 45/100: Accuracy = 100.0, Loss = 0.11414696276187897
+Epoch 46/100: Accuracy = 100.0, Loss = 0.062399569898843765
+Epoch 47/100: Accuracy = 100.0, Loss = 0.08909868448972702
+Epoch 48/100: Accuracy = 100.0, Loss = 0.08962298184633255
+Epoch 49/100: Accuracy = 100.0, Loss = 0.11898668855428696
+Epoch 50/100: Accuracy = 99.48186528497409, Loss = 0.1519528329372406
+Epoch 51/100: Accuracy = 100.0, Loss = 0.08353063464164734
+Epoch 52/100: Accuracy = 100.0, Loss = 0.09249256551265717
+Epoch 53/100: Accuracy = 100.0, Loss = 0.11361359059810638
+Epoch 54/100: Accuracy = 100.0, Loss = 0.08662941306829453
+Epoch 55/100: Accuracy = 100.0, Loss = 0.10769208520650864
+Epoch 56/100: Accuracy = 99.48186528497409, Loss = 0.13289275765419006
+Epoch 57/100: Accuracy = 100.0, Loss = 0.13218200206756592
+Epoch 58/100: Accuracy = 100.0, Loss = 0.0924757793545723
+Epoch 59/100: Accuracy = 100.0, Loss = 0.0989832952618599
+Epoch 60/100: Accuracy = 100.0, Loss = 0.08439554274082184
+Epoch 61/100: Accuracy = 100.0, Loss = 0.09430082887411118
+Epoch 62/100: Accuracy = 100.0, Loss = 0.09388621151447296
+Epoch 63/100: Accuracy = 100.0, Loss = 0.1125839576125145
+Epoch 64/100: Accuracy = 100.0, Loss = 0.13212262094020844
+Epoch 65/100: Accuracy = 100.0, Loss = 0.05940653756260872
+Epoch 66/100: Accuracy = 100.0, Loss = 0.06560485810041428
+Epoch 67/100: Accuracy = 100.0, Loss = 0.06186259537935257
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 80.95238095238095, Test CE Loss == 1.003840684890747 ;
+Task 1: Accuracy == 90.0, Test CE Loss == 0.3859788775444031 ;
+Task 2: Accuracy == 60.0, Test CE Loss == 2.3743021488189697 ;
+Task 3: Accuracy == 100.0, Test CE Loss == 0.020845483988523483 ;
+Accuracy matrix of all tasks:
+[[100.     0.     0.     0.  ]
+ [ 90.48  95.     0.     0.  ]
+ [ 90.48  95.    90.     0.  ]
+ [ 80.95  90.    60.   100.  ]]
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 64.45444319460067, Test CE Loss == 1.1373766660690308 ;
+Task 1: Accuracy == 81.97802197802197, Test CE Loss == 0.5401079654693604 ;
+Task 2: Accuracy == 34.33001107419712, Test CE Loss == 2.2940473556518555 ;
+Task 3: Accuracy == 98.75, Test CE Loss == 0.04039084166288376 ;
+Accuracy matrix of all tasks:
+[[98.43  0.    0.    0.  ]
+ [88.75 98.24  0.    0.  ]
+ [86.39 96.26 89.26  0.  ]
+ [64.45 81.98 34.33 98.75]]
+
+ Finish Run 4: total 169.2175850868225 sec
+
+ All runs finish. Total running time: 912.1766202449799 sec
+Valid Set:
+ Avg_End_Acc [80.91  5.24] Avg_End_Fgt [20.75  9.62] Avg_Cur_Acc [96.47  2.61] Avg_Acc [[100.    91.47  84.57  80.91]
+ [  0.     6.4   11.11   5.24]] Avg_Bwtp [0. 0.] 
+
+Test Set:
+Avg_End_Acc [71.95  2.81] Avg_End_Fgt [31.87  3.02] Avg_Cur_Acc [95.85  2.4 ] Avg_Acc [[98.81 91.9  84.62 71.95]
+ [ 1.6   3.73  7.04  2.81]] Avg_Bwtp [0. 0.]

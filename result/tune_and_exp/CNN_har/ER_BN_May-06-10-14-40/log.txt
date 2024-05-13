@@ -1,0 +1,183 @@
+
+ ######## Run 0, cls_order :[2, 1, 5, 0, 4, 3] ########
+== Status ==
+Current time: 2024-05-06 10:14:44 (running for 00:00:00.15)
+Memory usage on this node: 16.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/56.66 GiB heap, 0.0/28.28 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 675c5_00000  | RUNNING  | 114.212.87.168:3016403 | TST             |
+| 675c5_00001  | PENDING  |                        | step10          |
+| 675c5_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+[2m[36m(func pid=3016403)[0m buffer has 366 slots
+[2m[36m(func pid=3016403)[0m ER mode: task, NCM classifier: False
+[2m[36m(func pid=3016403)[0m Create val stream : 3 tasks,  classes order [2, 1, 5, 0, 4, 3] 
+[2m[36m(func pid=3016403)[0m Input shape (L, D): (128, 9)
+[2m[36m(func pid=3016403)[0m Training set size: 5952; Val set size: 664; Test set size: 736
+== Status ==
+Current time: 2024-05-06 10:14:54 (running for 00:00:09.96)
+Memory usage on this node: 19.0/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/56.66 GiB heap, 0.0/28.28 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 675c5_00000  | RUNNING  | 114.212.87.168:3016403 | TST             |
+| 675c5_00001  | PENDING  |                        | step10          |
+| 675c5_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 10:14:59 (running for 00:00:14.97)
+Memory usage on this node: 19.1/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/56.66 GiB heap, 0.0/28.28 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 675c5_00000  | RUNNING  | 114.212.87.168:3016403 | TST             |
+| 675c5_00001  | PENDING  |                        | step10          |
+| 675c5_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 10:15:04 (running for 00:00:19.97)
+Memory usage on this node: 19.1/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/56.66 GiB heap, 0.0/28.28 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 675c5_00000  | RUNNING  | 114.212.87.168:3016403 | TST             |
+| 675c5_00001  | PENDING  |                        | step10          |
+| 675c5_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 10:15:09 (running for 00:00:24.97)
+Memory usage on this node: 19.1/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/56.66 GiB heap, 0.0/28.28 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 675c5_00000  | RUNNING  | 114.212.87.168:3016403 | TST             |
+| 675c5_00001  | PENDING  |                        | step10          |
+| 675c5_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 10:15:14 (running for 00:00:29.98)
+Memory usage on this node: 19.1/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/56.66 GiB heap, 0.0/28.28 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 675c5_00000  | RUNNING  | 114.212.87.168:3016403 | TST             |
+| 675c5_00001  | PENDING  |                        | step10          |
+| 675c5_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 10:15:19 (running for 00:00:34.98)
+Memory usage on this node: 19.1/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/56.66 GiB heap, 0.0/28.28 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 675c5_00000  | RUNNING  | 114.212.87.168:3016403 | TST             |
+| 675c5_00001  | PENDING  |                        | step10          |
+| 675c5_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 10:15:24 (running for 00:00:39.98)
+Memory usage on this node: 19.1/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/56.66 GiB heap, 0.0/28.28 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 675c5_00000  | RUNNING  | 114.212.87.168:3016403 | TST             |
+| 675c5_00001  | PENDING  |                        | step10          |
+| 675c5_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 10:15:29 (running for 00:00:44.99)
+Memory usage on this node: 19.1/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/56.66 GiB heap, 0.0/28.28 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 675c5_00000  | RUNNING  | 114.212.87.168:3016403 | TST             |
+| 675c5_00001  | PENDING  |                        | step10          |
+| 675c5_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 10:15:34 (running for 00:00:49.99)
+Memory usage on this node: 19.1/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/56.66 GiB heap, 0.0/28.28 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 675c5_00000  | RUNNING  | 114.212.87.168:3016403 | TST             |
+| 675c5_00001  | PENDING  |                        | step10          |
+| 675c5_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 10:15:34 (running for 00:00:50.00)
+Memory usage on this node: 19.1/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/56.66 GiB heap, 0.0/28.28 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 675c5_00000  | RUNNING  | 114.212.87.168:3016403 | TST             |
+| 675c5_00001  | PENDING  |                        | step10          |
+| 675c5_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+

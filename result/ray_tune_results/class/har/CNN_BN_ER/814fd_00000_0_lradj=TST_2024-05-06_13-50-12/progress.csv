@@ -1,0 +1,8 @@
+end_avg_acc,end_avg_fgt,avg_cur_acc,Acc_across_runs,time_this_iter_s,done,timesteps_total,episodes_total,training_iteration,trial_id,experiment_id,date,timestamp,time_total_s,pid,hostname,node_ip,time_since_restore,timesteps_since_restore,iterations_since_restore,warmup_time
+80.50166666666667,26.564999999999998,98.21166666666667,"[[[100.     0.     0.  ]
+  [ 99.56 100.     0.  ]
+  [100.    92.    92.27]]
+
+ [[100.     0.     0.  ]
+  [ 84.65 100.     0.  ]
+  [ 99.56   2.18  97.  ]]]",421.79422068595886,False,,,1,814fd_00000,f3d6647395e640fc967083ccb4df7442,2024-05-06_13-57-18,1714975038,421.79422068595886,3248893,rinc1080ti-PR4764GW,114.212.87.168,421.79422068595886,0,1,0.004939079284667969

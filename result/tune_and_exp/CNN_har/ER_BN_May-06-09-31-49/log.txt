@@ -1,0 +1,2644 @@
+
+ ######## Run 0, cls_order :[2, 1, 5, 0, 4, 3] ########
+== Status ==
+Current time: 2024-05-06 09:31:54 (running for 00:00:00.14)
+Memory usage on this node: 7.5/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+[2m[36m(func pid=2968586)[0m buffer has 366 slots
+[2m[36m(func pid=2968586)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=2968586)[0m Create val stream : 3 tasks,  classes order [2, 1, 5, 0, 4, 3] 
+[2m[36m(func pid=2968586)[0m Input shape (L, D): (128, 9)
+[2m[36m(func pid=2968586)[0m Training set size: 5952; Val set size: 664; Test set size: 736
+== Status ==
+Current time: 2024-05-06 09:32:04 (running for 00:00:09.77)
+Memory usage on this node: 9.6/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:32:09 (running for 00:00:14.78)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:32:14 (running for 00:00:19.78)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:32:19 (running for 00:00:24.79)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:32:24 (running for 00:00:29.79)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:32:29 (running for 00:00:34.79)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:32:34 (running for 00:00:39.80)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:32:39 (running for 00:00:44.80)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:32:44 (running for 00:00:49.81)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:32:49 (running for 00:00:54.81)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:32:54 (running for 00:00:59.82)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:32:59 (running for 00:01:04.82)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:33:04 (running for 00:01:09.82)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:33:09 (running for 00:01:14.83)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:33:14 (running for 00:01:19.83)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:33:19 (running for 00:01:24.84)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:33:24 (running for 00:01:29.84)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:33:29 (running for 00:01:34.85)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:33:34 (running for 00:01:39.85)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+[2m[36m(func pid=2968586)[0m -- Run_val 0 | 97.96910810470581 sec -- Test Acc: [100.   100.    67.03] -- 
+[2m[36m(func pid=2968586)[0m buffer has 366 slots
+[2m[36m(func pid=2968586)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=2968586)[0m Create val stream : 3 tasks,  classes order [2, 1, 5, 0, 4, 3] 
+[2m[36m(func pid=2968586)[0m Input shape (L, D): (128, 9)
+[2m[36m(func pid=2968586)[0m Training set size: 5952; Val set size: 664; Test set size: 736
+== Status ==
+Current time: 2024-05-06 09:33:39 (running for 00:01:44.86)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:33:44 (running for 00:01:49.86)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:33:49 (running for 00:01:54.87)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:33:54 (running for 00:01:59.87)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:33:59 (running for 00:02:04.88)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:34:04 (running for 00:02:09.88)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:34:09 (running for 00:02:14.88)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:34:14 (running for 00:02:19.89)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:34:19 (running for 00:02:24.89)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:34:24 (running for 00:02:29.90)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:34:29 (running for 00:02:34.90)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:34:34 (running for 00:02:39.90)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:34:39 (running for 00:02:44.91)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:34:44 (running for 00:02:49.91)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:34:49 (running for 00:02:54.92)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:34:54 (running for 00:02:59.92)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:34:59 (running for 00:03:04.93)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:35:04 (running for 00:03:09.93)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:35:09 (running for 00:03:14.94)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:35:14 (running for 00:03:19.94)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:35:19 (running for 00:03:24.95)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:35:24 (running for 00:03:29.95)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:35:29 (running for 00:03:34.95)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:35:34 (running for 00:03:39.96)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:35:39 (running for 00:03:44.97)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:35:44 (running for 00:03:49.97)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:35:49 (running for 00:03:54.98)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:35:54 (running for 00:03:59.98)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:35:59 (running for 00:04:04.98)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:36:04 (running for 00:04:09.99)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:36:09 (running for 00:04:14.99)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:36:14 (running for 00:04:20.00)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:36:19 (running for 00:04:25.00)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:36:24 (running for 00:04:30.01)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:36:29 (running for 00:04:35.01)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:36:34 (running for 00:04:40.01)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (2 PENDING, 1 RUNNING)
++--------------+----------+------------------------+-----------------+
+| Trial name   | status   | loc                    | generic/lradj   |
+|--------------+----------+------------------------+-----------------|
+| 6bbed_00000  | RUNNING  | 114.212.87.168:2968586 | TST             |
+| 6bbed_00001  | PENDING  |                        | step10          |
+| 6bbed_00002  | PENDING  |                        | step15          |
++--------------+----------+------------------------+-----------------+
+
+
+[2m[36m(func pid=2968586)[0m -- Run_val 1 | 180.99699592590332 sec -- Test Acc: [99.5  55.64 86.74] -- 
+[2m[36m(func pid=2968586)[0m buffer has 366 slots
+[2m[36m(func pid=2968586)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=2968586)[0m Create val stream : 3 tasks,  classes order [2, 1, 5, 0, 4, 3] 
+[2m[36m(func pid=2968586)[0m Input shape (L, D): (128, 9)
+[2m[36m(func pid=2968586)[0m Training set size: 5952; Val set size: 664; Test set size: 736
+== Status ==
+Current time: 2024-05-06 09:36:43 (running for 00:04:48.82)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:36:48 (running for 00:04:53.82)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:36:53 (running for 00:04:58.83)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:36:58 (running for 00:05:03.83)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:37:03 (running for 00:05:08.83)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:37:08 (running for 00:05:13.84)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:37:13 (running for 00:05:18.84)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:37:18 (running for 00:05:23.85)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:37:23 (running for 00:05:28.85)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:37:28 (running for 00:05:33.86)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:37:33 (running for 00:05:38.86)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:37:38 (running for 00:05:43.87)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:37:43 (running for 00:05:48.87)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:37:48 (running for 00:05:53.87)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:37:53 (running for 00:05:58.88)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:37:58 (running for 00:06:03.88)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:38:03 (running for 00:06:08.89)
+Memory usage on this node: 9.7/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:38:08 (running for 00:06:13.89)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:38:13 (running for 00:06:18.90)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+[2m[36m(func pid=2968586)[0m -- Run_val 0 | 95.94375538825989 sec -- Test Acc: [99.5  90.66  1.08] -- 
+[2m[36m(func pid=2968586)[0m buffer has 366 slots
+[2m[36m(func pid=2968586)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=2968586)[0m Create val stream : 3 tasks,  classes order [2, 1, 5, 0, 4, 3] 
+[2m[36m(func pid=2968586)[0m Input shape (L, D): (128, 9)
+[2m[36m(func pid=2968586)[0m Training set size: 5952; Val set size: 664; Test set size: 736
+== Status ==
+Current time: 2024-05-06 09:38:18 (running for 00:06:23.90)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:38:23 (running for 00:06:28.91)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:38:28 (running for 00:06:33.91)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:38:33 (running for 00:06:38.92)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:38:38 (running for 00:06:43.92)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:38:43 (running for 00:06:48.93)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:38:48 (running for 00:06:53.93)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:38:53 (running for 00:06:58.94)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:38:58 (running for 00:07:03.94)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:39:03 (running for 00:07:08.95)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:39:08 (running for 00:07:13.95)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:39:13 (running for 00:07:18.96)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:39:18 (running for 00:07:23.96)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:39:23 (running for 00:07:28.97)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:39:28 (running for 00:07:33.97)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:39:33 (running for 00:07:38.98)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:39:38 (running for 00:07:43.98)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:39:43 (running for 00:07:48.99)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:39:48 (running for 00:07:53.99)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:39:53 (running for 00:07:58.99)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:39:58 (running for 00:08:04.00)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:40:03 (running for 00:08:09.00)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:40:08 (running for 00:08:14.01)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 PENDING, 1 RUNNING, 1 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00001  | RUNNING    | 114.212.87.168:2968586 | step10          |               |               |
+| 6bbed_00002  | PENDING    |                        | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |        11.215 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+[2m[36m(func pid=2968586)[0m -- Run_val 1 | 116.91443872451782 sec -- Test Acc: [94.5  57.59 78.85] -- 
+[2m[36m(func pid=2968586)[0m buffer has 366 slots
+[2m[36m(func pid=2968586)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=2968586)[0m Create val stream : 3 tasks,  classes order [2, 1, 5, 0, 4, 3] 
+[2m[36m(func pid=2968586)[0m Input shape (L, D): (128, 9)
+[2m[36m(func pid=2968586)[0m Training set size: 5952; Val set size: 664; Test set size: 736
+== Status ==
+Current time: 2024-05-06 09:40:16 (running for 00:08:21.74)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:40:21 (running for 00:08:26.74)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:40:26 (running for 00:08:31.75)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:40:31 (running for 00:08:36.75)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:40:36 (running for 00:08:41.76)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:40:41 (running for 00:08:46.76)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:40:46 (running for 00:08:51.77)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:40:51 (running for 00:08:56.77)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:40:56 (running for 00:09:01.78)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:41:01 (running for 00:09:06.78)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:41:06 (running for 00:09:11.78)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:41:11 (running for 00:09:16.79)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:41:16 (running for 00:09:21.79)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:41:21 (running for 00:09:26.80)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:41:26 (running for 00:09:31.80)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:41:31 (running for 00:09:36.81)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:41:36 (running for 00:09:41.81)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:41:41 (running for 00:09:46.82)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:41:46 (running for 00:09:51.82)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:41:51 (running for 00:09:56.83)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:41:56 (running for 00:10:02.02)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:42:01 (running for 00:10:07.03)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:42:06 (running for 00:10:12.03)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:42:11 (running for 00:10:17.04)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:42:16 (running for 00:10:22.04)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:42:21 (running for 00:10:27.05)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:42:26 (running for 00:10:32.05)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:42:31 (running for 00:10:37.05)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+[2m[36m(func pid=2968586)[0m -- Run_val 0 | 142.11749482154846 sec -- Test Acc: [99.5  97.28 37.28] -- 
+[2m[36m(func pid=2968586)[0m buffer has 366 slots
+[2m[36m(func pid=2968586)[0m ER mode: task, NCM classifier: True
+[2m[36m(func pid=2968586)[0m Create val stream : 3 tasks,  classes order [2, 1, 5, 0, 4, 3] 
+[2m[36m(func pid=2968586)[0m Input shape (L, D): (128, 9)
+[2m[36m(func pid=2968586)[0m Training set size: 5952; Val set size: 664; Test set size: 736
+== Status ==
+Current time: 2024-05-06 09:42:36 (running for 00:10:42.06)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:42:41 (running for 00:10:47.06)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:42:46 (running for 00:10:52.07)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:42:51 (running for 00:10:57.07)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:42:56 (running for 00:11:02.08)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:43:01 (running for 00:11:07.08)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:43:06 (running for 00:11:12.09)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:43:11 (running for 00:11:17.09)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:43:16 (running for 00:11:22.10)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:43:21 (running for 00:11:27.10)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:43:26 (running for 00:11:32.11)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:43:31 (running for 00:11:37.11)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:43:36 (running for 00:11:42.12)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:43:41 (running for 00:11:47.12)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:43:46 (running for 00:11:52.13)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:43:51 (running for 00:11:57.13)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:43:56 (running for 00:12:02.14)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:44:01 (running for 00:12:07.14)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:44:06 (running for 00:12:12.15)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:44:11 (running for 00:12:17.15)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:44:16 (running for 00:12:22.15)
+Memory usage on this node: 9.9/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 4.0/32 CPUs, 1.0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (1 RUNNING, 2 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00002  | RUNNING    | 114.212.87.168:2968586 | step15          |               |               |
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+== Status ==
+Current time: 2024-05-06 09:44:20 (running for 00:12:26.14)
+Memory usage on this node: 9.8/125.8 GiB 
+Using FIFO scheduling algorithm.
+Resources requested: 0/32 CPUs, 0/1 GPUs, 0.0/62.91 GiB heap, 0.0/30.95 GiB objects
+Result logdir: /disk2/lihuajian/TSCIL/result/ray_tune_results/class/har/CNN_BN_ER
+Number of trials: 3/3 (3 TERMINATED)
++--------------+------------+------------------------+-----------------+---------------+---------------+
+| Trial name   | status     | loc                    | generic/lradj   |   end_avg_acc |   end_avg_fgt |
+|--------------+------------+------------------------+-----------------+---------------+---------------|
+| 6bbed_00000  | TERMINATED | 114.212.87.168:2968586 | TST             |       84.8183 |       11.215  |
+| 6bbed_00001  | TERMINATED | 114.212.87.168:2968586 | step10          |       70.3633 |       14.4375 |
+| 6bbed_00002  | TERMINATED | 114.212.87.168:2968586 | step15          |       79.1733 |        4.89   |
++--------------+------------+------------------------+-----------------+---------------+---------------+
+
+
+Best trial config: {'generic': {'lr': 0.001, 'lradj': 'TST', 'batch_size': 32, 'weight_decay': 0}, 'model': {'feature_dim': 128, 'n_layers': 4, 'dropout': 0}, 'agent': {}}
+Best trial metrics: {'end_avg_acc': 84.81833333333333, 'end_avg_fgt': 11.215, 'avg_cur_acc': 92.29499999999999, 'Acc_across_runs': array([[[100.  ,   0.  ,   0.  ],
+        [100.  , 100.  ,   0.  ],
+        [100.  , 100.  ,  67.03]],
+
+       [[100.  ,   0.  ,   0.  ],
+        [ 96.5 , 100.  ,   0.  ],
+        [ 99.5 ,  55.64,  86.74]]]), 'time_this_iter_s': 278.9840087890625, 'done': True, 'timesteps_total': None, 'episodes_total': None, 'training_iteration': 1, 'trial_id': '6bbed_00000', 'experiment_id': '853ac3cb687a4b7791b306e74a947412', 'date': '2024-05-06_09-36-38', 'timestamp': 1714959398, 'time_total_s': 278.9840087890625, 'pid': 2968586, 'hostname': 'rinc1080ti-PR4764GW', 'node_ip': '114.212.87.168', 'config': {'generic': {'lr': 0.001, 'lradj': 'TST', 'batch_size': 32, 'weight_decay': 0}, 'model': {'feature_dim': 128, 'n_layers': 4, 'dropout': 0}, 'agent': {}}, 'time_since_restore': 278.9840087890625, 'timesteps_since_restore': 0, 'iterations_since_restore': 1, 'warmup_time': 0.00466465950012207, 'experiment_tag': '0_lradj=TST'}
+namespace(data='har', encoder='CNN', agent='ER', norm='BN', scenario='class', runs=1, runs_val=2, seed=1234, verbose=True, path_prefix='/disk2/lihuajian/TSCIL/result/tune_and_exp', fix_order=False, reuse_best=False, tsne=True, tsne_g=False, cf_matrix=True, epochs=100, tune=False, ablation=False, teacher_eval=False, er_mode='task', buffer_tracker=False, early_stop=True, patience=20, input_norm='LN', mem_budget=0.05, head='Linear', criterion='CE', ncm_classifier=True, er_sub_type='balanced', device='cuda', exp_path='/disk2/lihuajian/TSCIL/result/tune_and_exp/CNN_har/ER_BN_May-06-09-31-49', run_id=0, stream_split='exp', feature_dim=128, n_layers=4, dropout=0, lr=0.001, lradj='TST', batch_size=32, weight_decay=0)
+Create exp stream : 3 tasks,  classes order [2, 1, 5, 0, 4, 3] 
+Input shape (L, D): (128, 9)
+[2m[36m(func pid=2968586)[0m -- Run_val 1 | 107.25350856781006 sec -- Test Acc: [96.5  86.77 57.71] -- 
+Training set size: 5952; Val set size: 664; Test set size: 2947
+buffer has 366 slots
+ER mode: task, NCM classifier: True
+
+--> Task 0: 2 classes in total
+Epoch 1/100: Accuracy = 90.9090909090909, Loss = 0.20211458206176758
+Epoch 2/100: Accuracy = 99.52153110047847, Loss = 0.02044263482093811
+Epoch 3/100: Accuracy = 100.0, Loss = 0.0064112842082977295
+Epoch 4/100: Accuracy = 100.0, Loss = 0.0018216446042060852
+Epoch 5/100: Accuracy = 100.0, Loss = 0.0017579933628439903
+Epoch 6/100: Accuracy = 100.0, Loss = 0.000933544710278511
+Epoch 7/100: Accuracy = 100.0, Loss = 0.0014637238346040249
+Epoch 8/100: Accuracy = 100.0, Loss = 0.0008012470207177103
+Epoch 9/100: Accuracy = 100.0, Loss = 0.0007675685919821262
+Epoch 10/100: Accuracy = 99.88038277511961, Loss = 0.004304815083742142
+Epoch 11/100: Accuracy = 99.82057416267942, Loss = 0.00755685567855835
+Epoch 12/100: Accuracy = 99.9401913875598, Loss = 0.002011385979130864
+Epoch 13/100: Accuracy = 99.9401913875598, Loss = 0.002737120958045125
+Epoch 14/100: Accuracy = 99.88038277511961, Loss = 0.005151874851435423
+Epoch 15/100: Accuracy = 99.9401913875598, Loss = 0.004557489883154631
+Epoch 16/100: Accuracy = 99.88038277511961, Loss = 0.0036058928817510605
+Epoch 17/100: Accuracy = 99.9401913875598, Loss = 0.0016427680384367704
+Epoch 18/100: Accuracy = 100.0, Loss = 0.00012906159099657089
+Epoch 19/100: Accuracy = 100.0, Loss = 3.234901305404492e-05
+Epoch 20/100: Accuracy = 100.0, Loss = 0.00012819821131415665
+Epoch 21/100: Accuracy = 100.0, Loss = 5.900353062315844e-05
+Epoch 22/100: Accuracy = 100.0, Loss = 6.577125896001235e-05
+Epoch 23/100: Accuracy = 100.0, Loss = 6.150927220005542e-06
+Epoch 24/100: Accuracy = 100.0, Loss = 1.3533072888094466e-05
+Epoch 25/100: Accuracy = 100.0, Loss = 8.738591532164719e-06
+Epoch 26/100: Accuracy = 100.0, Loss = 1.6065672753029503e-05
+Epoch 27/100: Accuracy = 100.0, Loss = 5.770895222667605e-05
+Epoch 28/100: Accuracy = 99.88038277511961, Loss = 0.002581789391115308
+Epoch 29/100: Accuracy = 99.46172248803828, Loss = 0.014202754944562912
+Epoch 30/100: Accuracy = 99.82057416267942, Loss = 0.005838755052536726
+Epoch 31/100: Accuracy = 100.0, Loss = 6.815074448240921e-05
+Epoch 32/100: Accuracy = 100.0, Loss = 0.0005826315027661622
+Epoch 33/100: Accuracy = 99.9401913875598, Loss = 0.0021217085886746645
+Epoch 34/100: Accuracy = 99.88038277511961, Loss = 0.004165127407759428
+Epoch 35/100: Accuracy = 99.9401913875598, Loss = 0.0035298860166221857
+Epoch 36/100: Accuracy = 100.0, Loss = 0.0002791157166939229
+Epoch 37/100: Accuracy = 100.0, Loss = 1.1389338396838866e-05
+Epoch 38/100: Accuracy = 100.0, Loss = 5.2495037380140275e-05
+Epoch 39/100: Accuracy = 100.0, Loss = 6.0482525441329926e-05
+Epoch 40/100: Accuracy = 100.0, Loss = 6.081841092964169e-06
+Epoch 41/100: Accuracy = 100.0, Loss = 2.00462181965122e-05
+Epoch 42/100: Accuracy = 100.0, Loss = 6.488824510597624e-06
+Epoch 43/100: Accuracy = 100.0, Loss = 3.4277438771823654e-06
+Epoch 44/100: Accuracy = 100.0, Loss = 1.0623571142787114e-05
+Epoch 45/100: Accuracy = 100.0, Loss = 0.00015549395175185055
+Epoch 46/100: Accuracy = 100.0, Loss = 4.215630906401202e-05
+Epoch 47/100: Accuracy = 100.0, Loss = 3.998228203272447e-05
+Epoch 48/100: Accuracy = 100.0, Loss = 1.2075078302586917e-05
+Epoch 49/100: Accuracy = 100.0, Loss = 2.1980933524901047e-05
+Epoch 50/100: Accuracy = 100.0, Loss = 4.66494748252444e-06
+Epoch 51/100: Accuracy = 100.0, Loss = 1.9438923573034117e-06
+Epoch 52/100: Accuracy = 100.0, Loss = 4.2293515434721485e-05
+Epoch 53/100: Accuracy = 100.0, Loss = 1.6622177554381778e-06
+Epoch 54/100: Accuracy = 100.0, Loss = 2.256088009744417e-06
+Epoch 55/100: Accuracy = 100.0, Loss = 2.9511775210266933e-06
+Epoch 56/100: Accuracy = 99.9401913875598, Loss = 0.003887796774506569
+Epoch 57/100: Accuracy = 99.9401913875598, Loss = 0.0019359961152076721
+Epoch 58/100: Accuracy = 99.88038277511961, Loss = 0.0027554414700716734
+Epoch 59/100: Accuracy = 100.0, Loss = 0.000515031861141324
+Epoch 60/100: Accuracy = 100.0, Loss = 0.00013930756540503353
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 100.0, Test CE Loss == 5.237682216829853e-07 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 96.96969696969697, Test CE Loss == 0.10619961470365524 ;
+
+--> Task 1: 4 classes in total
+Epoch 1/100: Accuracy = 37.79232927970065, Loss = 2.8699018955230713
+Epoch 2/100: Accuracy = 95.65014031805426, Loss = 0.1651584506034851
+Epoch 3/100: Accuracy = 99.9532273152479, Loss = 0.013581434264779091
+Epoch 4/100: Accuracy = 100.0, Loss = 0.006744167767465115
+Epoch 5/100: Accuracy = 100.0, Loss = 0.006394182797521353
+Epoch 6/100: Accuracy = 100.0, Loss = 0.003669043304398656
+Epoch 7/100: Accuracy = 99.9532273152479, Loss = 0.003910072147846222
+Epoch 8/100: Accuracy = 100.0, Loss = 0.0023227676283568144
+Epoch 9/100: Accuracy = 100.0, Loss = 0.0017746863886713982
+Epoch 10/100: Accuracy = 100.0, Loss = 0.001153220422565937
+Epoch 11/100: Accuracy = 100.0, Loss = 0.0016619364032521844
+Epoch 12/100: Accuracy = 99.9532273152479, Loss = 0.0019101669313386083
+Epoch 13/100: Accuracy = 100.0, Loss = 0.0007759928703308105
+Epoch 14/100: Accuracy = 100.0, Loss = 0.0009568159002810717
+Epoch 15/100: Accuracy = 100.0, Loss = 0.0006351457559503615
+Epoch 16/100: Accuracy = 100.0, Loss = 0.0007060736534185708
+Epoch 17/100: Accuracy = 99.90645463049579, Loss = 0.0034373956732451916
+Epoch 18/100: Accuracy = 100.0, Loss = 0.00035442630178295076
+Epoch 19/100: Accuracy = 100.0, Loss = 0.00024384459538850933
+Epoch 20/100: Accuracy = 100.0, Loss = 0.00015636792522855103
+Epoch 21/100: Accuracy = 100.0, Loss = 9.98594332486391e-05
+Epoch 22/100: Accuracy = 100.0, Loss = 0.00016431850963272154
+Epoch 23/100: Accuracy = 100.0, Loss = 9.54980423557572e-05
+Epoch 24/100: Accuracy = 100.0, Loss = 8.979255653684959e-05
+Epoch 25/100: Accuracy = 100.0, Loss = 9.092674736166373e-05
+Epoch 26/100: Accuracy = 100.0, Loss = 6.03928419877775e-05
+Epoch 27/100: Accuracy = 99.90645463049579, Loss = 0.002061861101537943
+Epoch 28/100: Accuracy = 99.9532273152479, Loss = 0.005763873923569918
+Epoch 29/100: Accuracy = 100.0, Loss = 0.00048575448454357684
+Epoch 30/100: Accuracy = 100.0, Loss = 0.00019428515224717557
+Epoch 31/100: Accuracy = 100.0, Loss = 9.783057612366974e-05
+Epoch 32/100: Accuracy = 100.0, Loss = 0.000122313475003466
+Epoch 33/100: Accuracy = 100.0, Loss = 8.36588442325592e-05
+Epoch 34/100: Accuracy = 100.0, Loss = 9.724932897370309e-05
+Epoch 35/100: Accuracy = 100.0, Loss = 0.00010825764911714941
+Epoch 36/100: Accuracy = 100.0, Loss = 4.980290032108314e-05
+Epoch 37/100: Accuracy = 100.0, Loss = 2.551598663558252e-05
+Epoch 38/100: Accuracy = 100.0, Loss = 3.4360913559794426e-05
+Epoch 39/100: Accuracy = 100.0, Loss = 3.6742767406394705e-05
+Epoch 40/100: Accuracy = 100.0, Loss = 2.5326551622129045e-05
+Epoch 41/100: Accuracy = 100.0, Loss = 3.71990172425285e-05
+Epoch 42/100: Accuracy = 100.0, Loss = 2.369318281125743e-05
+Epoch 43/100: Accuracy = 100.0, Loss = 3.4673554182518274e-05
+Epoch 44/100: Accuracy = 100.0, Loss = 1.7813525118981488e-05
+Epoch 45/100: Accuracy = 100.0, Loss = 1.6787527783890255e-05
+Epoch 46/100: Accuracy = 100.0, Loss = 1.5795907529536635e-05
+Epoch 47/100: Accuracy = 100.0, Loss = 0.00010117937199538574
+Epoch 48/100: Accuracy = 100.0, Loss = 4.246720709488727e-05
+Epoch 49/100: Accuracy = 100.0, Loss = 1.8935465050162748e-05
+Epoch 50/100: Accuracy = 100.0, Loss = 1.6687927200109698e-05
+Epoch 51/100: Accuracy = 100.0, Loss = 1.5830710253794678e-05
+Epoch 52/100: Accuracy = 100.0, Loss = 0.0001926273835124448
+Epoch 53/100: Accuracy = 100.0, Loss = 0.0001073060484486632
+Epoch 54/100: Accuracy = 100.0, Loss = 6.790884799556807e-05
+Epoch 55/100: Accuracy = 100.0, Loss = 3.169388946844265e-05
+Epoch 56/100: Accuracy = 100.0, Loss = 3.153030411340296e-05
+Epoch 57/100: Accuracy = 99.90645463049579, Loss = 0.00372882978990674
+Epoch 58/100: Accuracy = 100.0, Loss = 0.00032500564702786505
+Epoch 59/100: Accuracy = 100.0, Loss = 0.00025918736355379224
+Epoch 60/100: Accuracy = 100.0, Loss = 0.00013768344069831073
+Epoch 61/100: Accuracy = 100.0, Loss = 0.0010070622665807605
+Epoch 62/100: Accuracy = 100.0, Loss = 0.00021057447884231806
+Epoch 63/100: Accuracy = 100.0, Loss = 0.000106399180367589
+Epoch 64/100: Accuracy = 100.0, Loss = 5.646017598337494e-05
+Epoch 65/100: Accuracy = 100.0, Loss = 2.0201898223604076e-05
+Epoch 66/100: Accuracy = 100.0, Loss = 5.91843381698709e-05
+Epoch 67/100: Accuracy = 100.0, Loss = 5.324729499989189e-05
+Epoch 68/100: Accuracy = 100.0, Loss = 2.070225491479505e-05
+Epoch 69/100: Accuracy = 100.0, Loss = 2.2893689674674533e-05
+Epoch 70/100: Accuracy = 100.0, Loss = 3.018586357939057e-05
+Epoch 71/100: Accuracy = 100.0, Loss = 2.6326466468162835e-05
+Epoch 72/100: Accuracy = 100.0, Loss = 1.2957601938978769e-05
+Epoch 73/100: Accuracy = 100.0, Loss = 1.3769203178526368e-05
+Epoch 74/100: Accuracy = 100.0, Loss = 1.2327181138971355e-05
+Epoch 75/100: Accuracy = 100.0, Loss = 1.9729157429537736e-05
+Epoch 76/100: Accuracy = 100.0, Loss = 1.09555203380296e-05
+Epoch 77/100: Accuracy = 100.0, Loss = 2.267606760142371e-05
+Epoch 78/100: Accuracy = 100.0, Loss = 9.51262245507678e-06
+Epoch 79/100: Accuracy = 100.0, Loss = 1.1168307537445799e-05
+Epoch 80/100: Accuracy = 100.0, Loss = 9.134688298217952e-06
+Epoch 81/100: Accuracy = 100.0, Loss = 8.317162610183004e-06
+Epoch 82/100: Accuracy = 100.0, Loss = 1.040798997564707e-05
+Epoch 83/100: Accuracy = 100.0, Loss = 8.415596312261187e-06
+Epoch 84/100: Accuracy = 100.0, Loss = 5.53407107872772e-06
+Epoch 85/100: Accuracy = 100.0, Loss = 1.567331128171645e-05
+Epoch 86/100: Accuracy = 100.0, Loss = 1.0156335520150606e-05
+Epoch 87/100: Accuracy = 100.0, Loss = 1.1858172911161091e-05
+Epoch 88/100: Accuracy = 100.0, Loss = 7.804231245245319e-06
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 91.97860962566845, Test CE Loss == 6.705462455749512 ;
+Task 1: Accuracy == 100.0, Test CE Loss == 0.0002654553682077676 ;
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 71.60493827160494, Test CE Loss == 7.497441291809082 ;
+Task 1: Accuracy == 99.70958373668925, Test CE Loss == 0.0003020229050889611 ;
+
+--> Task 2: 6 classes in total
+Epoch 1/100: Accuracy = 0.2334267040149393, Loss = 8.286911964416504
+Epoch 2/100: Accuracy = 18.30065359477124, Loss = 3.961319923400879
+Epoch 3/100: Accuracy = 70.96171802054155, Loss = 1.4826606512069702
+Epoch 4/100: Accuracy = 83.94024276377218, Loss = 0.8166447281837463
+Epoch 5/100: Accuracy = 85.66760037348273, Loss = 0.6060895919799805
+Epoch 6/100: Accuracy = 86.32119514472456, Loss = 0.5188663005828857
+Epoch 7/100: Accuracy = 87.20821661998133, Loss = 0.43304234743118286
+Epoch 8/100: Accuracy = 87.44164332399626, Loss = 0.40083539485931396
+Epoch 9/100: Accuracy = 88.51540616246498, Loss = 0.3484923839569092
+Epoch 10/100: Accuracy = 88.42203548085901, Loss = 0.33866623044013977
+Epoch 11/100: Accuracy = 89.86928104575163, Loss = 0.2650270462036133
+Epoch 12/100: Accuracy = 90.33613445378151, Loss = 0.2647417485713959
+Epoch 13/100: Accuracy = 90.05602240896359, Loss = 0.2636784315109253
+Epoch 14/100: Accuracy = 90.33613445378151, Loss = 0.27055132389068604
+Epoch 15/100: Accuracy = 91.03641456582633, Loss = 0.2305304855108261
+Epoch 16/100: Accuracy = 91.31652661064426, Loss = 0.21421685814857483
+Epoch 17/100: Accuracy = 90.05602240896359, Loss = 0.24108900129795074
+Epoch 18/100: Accuracy = 92.01680672268907, Loss = 0.1984616219997406
+Epoch 19/100: Accuracy = 91.22315592903828, Loss = 0.2126653492450714
+Epoch 20/100: Accuracy = 91.54995331465919, Loss = 0.22371600568294525
+Epoch 21/100: Accuracy = 92.43697478991596, Loss = 0.18704651296138763
+Epoch 22/100: Accuracy = 90.47619047619048, Loss = 0.23180773854255676
+Epoch 23/100: Accuracy = 92.34360410830999, Loss = 0.20050176978111267
+Epoch 24/100: Accuracy = 93.37068160597572, Loss = 0.17664706707000732
+Epoch 25/100: Accuracy = 92.06349206349206, Loss = 0.21559792757034302
+Epoch 26/100: Accuracy = 92.99719887955182, Loss = 0.19958505034446716
+Early stopping
+
+ ======== Evaluate on valid set ========
+Task 0: Accuracy == 99.46524064171123, Test CE Loss == 0.009074609726667404 ;
+Task 1: Accuracy == 100.0, Test CE Loss == 0.15588024258613586 ;
+Task 2: Accuracy == 86.19246861924687, Test CE Loss == 1.298736572265625 ;
+Accuracy matrix of all tasks:
+[[100.     0.     0.  ]
+ [ 91.98 100.     0.  ]
+ [ 99.47 100.    86.19]]
+
+ ======== Evaluate on test set ========
+Task 0: Accuracy == 93.82716049382715, Test CE Loss == 0.40723827481269836 ;
+Task 1: Accuracy == 98.25750242013552, Test CE Loss == 0.22083428502082825 ;
+Task 2: Accuracy == 54.252199413489734, Test CE Loss == 1.7218095064163208 ;
+Accuracy matrix of all tasks:
+[[96.97  0.    0.  ]
+ [71.6  99.71  0.  ]
+ [93.83 98.26 54.25]]
+
+ Finish Run 0: total 926.1688351631165 sec
+
+ All runs finish. Total running time: 926.1885159015656 sec
+Valid Set:
+ Avg_End_Acc [95.22] Avg_End_Fgt [0.27] Avg_Cur_Acc [95.4] Avg_Acc [[100.    95.99  95.22]] Avg_Bwtp [0.] 
+
+Test Set:
+Avg_End_Acc [82.11] Avg_End_Fgt [2.29] Avg_Cur_Acc [83.64] Avg_Acc [[96.97 85.66 82.11]] Avg_Bwtp [0.]
